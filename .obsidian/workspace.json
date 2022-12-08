@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4053deeb9eca9d8a",
+        "id": "05accf0255f19ffe",
         "type": "tabs",
         "children": [
           {
-            "id": "024b34ec0fa6ec71",
+            "id": "4d78f86db5e48244",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_PARA/Projects/Test Project/Scratchpad.md",
+                "file": "_PARA/Archive/Archived Project/Archived Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_PARA/Projects/Test Project/Scratchpad.md",
+                "file": "_PARA/Archive/Archived Project/Archived Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_PARA/Projects/Test Project/Scratchpad.md",
+                "file": "_PARA/Archive/Archived Project/Archived Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_PARA/Projects/Test Project/Scratchpad.md"
+                "file": "_PARA/Archive/Archived Project/Archived Project.md"
               }
             }
           },
@@ -164,17 +164,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "024b34ec0fa6ec71",
+  "active": "4d78f86db5e48244",
   "lastOpenFiles": [
+    "_PARA/Archive/Archived Project/Scratchpad.md",
+    "_PARA/Archive/Archived Project/Kanban.md",
+    "_PARA/Archive/Archived Project/Archived Project.md",
+    "_PARA/Projects/building a shed/building a shed.md",
+    "_PARA/Projects/building a shed/Scratchpad.md",
+    "_PARA/Projects/building a shed/Kanban.md",
+    "_PARA/Projects/Test Project/Scratchpad.md",
     "_PARA/Projects/Test Project 2/Scratchpad.md",
     "_PARA/Projects/Test Project 2/Kanban.md",
-    "_PARA/Projects/ferg/ferg.md",
-    "_PARA/Projects/ferg/Scratchpad.md",
-    "_PARA/Projects/ferg/Kanban.md",
-    "_PARA/Projects/Test Project/Scratchpad.md",
-    "Tests/Private.md",
-    "Daily/2022-12-08.md",
-    "Tests/Tests.md",
-    "_PARA/Projects/new proj/new proj.md"
+    "_PARA/Projects/ferg/ferg.md"
   ]
 }
