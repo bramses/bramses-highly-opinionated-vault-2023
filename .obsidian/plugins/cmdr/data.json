@@ -1,0 +1,43 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:7b164c2a-2d52-47cd-8785-7084c4b085f6",
+      "icon": "bookmark-plus",
+      "name": "QuickAdd: Add to Project Scratchpad",
+      "mode": "any",
+      "color": "#bababa"
+    },
+    {
+      "id": "quickadd:choice:ac457949-03eb-4bdb-b6c2-b79781d35a8a",
+      "icon": "sprout",
+      "name": "QuickAdd: Create New Project",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

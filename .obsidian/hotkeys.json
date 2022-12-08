@@ -1,0 +1,11 @@
+{
+  "obsidian-projects:show-projects": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}

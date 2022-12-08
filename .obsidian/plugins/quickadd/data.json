@@ -1,0 +1,96 @@
+{
+  "choices": [
+    {
+      "id": "7b164c2a-2d52-47cd-8785-7084c4b085f6",
+      "name": "Add to Project Scratchpad",
+      "type": "Macro",
+      "command": true,
+      "macroId": "1a5a9861-b1b8-49dc-8d31-54735fa12c29"
+    },
+    {
+      "id": "ac457949-03eb-4bdb-b6c2-b79781d35a8a",
+      "name": "Create New Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b53688cc-61d5-4e31-906a-66915bec0925"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add to Project Scratchpad",
+      "id": "1a5a9861-b1b8-49dc-8d31-54735fa12c29",
+      "commands": [
+        {
+          "name": "quick-add-projects-folder-variables",
+          "type": "UserScript",
+          "id": "14bc73f8-8b77-4b89-837d-df4829da8c5d",
+          "path": "_scripts/quick-add-projects-folder-variables.js",
+          "settings": {}
+        },
+        {
+          "name": "quick-add-file-filter",
+          "type": "UserScript",
+          "id": "877ba274-dc6e-4539-a980-604a29ee5163",
+          "path": "_scripts/quick-add-file-filter.js",
+          "settings": {}
+        },
+        {
+          "name": "Capture - Add to Scratchpad",
+          "type": "NestedChoice",
+          "id": "4c65d716-1b43-4341-888c-82380e98c55b",
+          "choice": {
+            "id": "9a56d0cc-132b-44f6-89c9-b62a00bf824c",
+            "name": "Capture - Add to Scratchpad",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "{{VALUE:notes}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "{{date}} - {{value}} "
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create New Project",
+      "id": "b53688cc-61d5-4e31-906a-66915bec0925",
+      "commands": [
+        {
+          "name": "quick-add-create-project-folder",
+          "type": "UserScript",
+          "id": "b9f1c2c3-3951-44dc-beb8-751eee444e0c",
+          "path": "_scripts/quick-add-create-project-folder.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false
+}

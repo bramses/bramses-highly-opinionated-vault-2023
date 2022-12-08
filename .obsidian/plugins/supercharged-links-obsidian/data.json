@@ -1,0 +1,40 @@
+{
+  "targetAttributes": [
+    "icon"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "path",
+      "name": "icon",
+      "value": "Private",
+      "matchCaseSensitive": false,
+      "match": "startswith",
+      "uid": "47a2-a9f2",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "icon",
+      "value": "Daily",
+      "matchCaseSensitive": false,
+      "match": "startswith",
+      "uid": "c6f7-01e7",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "f2da537d38fa6643",
+    "type": "split",
+    "children": [
+      {
+        "id": "4053deeb9eca9d8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "024b34ec0fa6ec71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tests/Private.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "adc4fd916987898c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e1fc648f46914c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdbe46f476d5c797",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "615cd7309793c2a1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a15781b0c4634342",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b2837026535a9eaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d1a900f5bead1b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6b1d00458e0be0c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tests/Private.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee82127d04d5085f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tests/Private.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e5fe5bc3d2c62bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "adac87bf000fcff8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tests/Private.md"
+              }
+            }
+          },
+          {
+            "id": "b6f8141af5bfec88",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "024b34ec0fa6ec71",
+  "lastOpenFiles": [
+    "Daily/2022-12-08.md",
+    "Tests/Private.md",
+    "Tests/Tests.md",
+    "_PARA/Projects/new proj/new proj.md",
+    "Untitled Kanban.md",
+    "_PARA/Projects/new proj/Kanban.md",
+    "_PARA/Projects/new proj/Scratchpad.md",
+    "_PARA/Projects/whitechapel/whitechapel.md",
+    "z/z.md",
+    "z/Scratchpad.md"
+  ]
+}
