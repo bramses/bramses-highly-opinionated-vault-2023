@@ -25,9 +25,36 @@ module.exports = async function createProject(params) {
     await params.app.vault.create(`${absolutePath}/Scratchpad.md`, "# Scratchpad\n\n");
 
     // // Create a Kanban file in the new folder
-    await params.app.vault.create(`${absolutePath}/Kanban.md`, `# Kanban\n\n## To Do\n\n## Doing\n\n## Done`);
+    await params.app.vault.create(`${absolutePath}/Kanban.md`, `---
+
+kanban-plugin: basic
+
+---
+
+## To Do
 
 
-    // Open the new file
-    await params.app.workspace.activeLeaf.openFile(newFile);
+
+## In Progress
+
+
+
+## Done
+
+**Complete**
+
+
+## Waiting On
+
+
+
+
+
+%% kanban:settings
+\`\`\`
+{"kanban-plugin":"basic"}
+\`\`\`
+%%`);
+
+
 }

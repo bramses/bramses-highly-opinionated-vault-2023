@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tests/Private.md",
+                "file": "_PARA/Projects/Test Project/Scratchpad.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "a15781b0c4634342",
+            "id": "885911e69901227d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tests/Private.md",
+                "file": "_PARA/Projects/Test Project/Scratchpad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tests/Private.md",
+                "file": "_PARA/Projects/Test Project/Scratchpad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tests/Private.md"
+                "file": "_PARA/Projects/Test Project/Scratchpad.md"
               }
             }
           },
@@ -137,13 +137,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "c102a50492c64997",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,15 +166,15 @@
   },
   "active": "024b34ec0fa6ec71",
   "lastOpenFiles": [
-    "Daily/2022-12-08.md",
+    "_PARA/Projects/Test Project 2/Scratchpad.md",
+    "_PARA/Projects/Test Project 2/Kanban.md",
+    "_PARA/Projects/ferg/ferg.md",
+    "_PARA/Projects/ferg/Scratchpad.md",
+    "_PARA/Projects/ferg/Kanban.md",
+    "_PARA/Projects/Test Project/Scratchpad.md",
     "Tests/Private.md",
+    "Daily/2022-12-08.md",
     "Tests/Tests.md",
-    "_PARA/Projects/new proj/new proj.md",
-    "Untitled Kanban.md",
-    "_PARA/Projects/new proj/Kanban.md",
-    "_PARA/Projects/new proj/Scratchpad.md",
-    "_PARA/Projects/whitechapel/whitechapel.md",
-    "z/z.md",
-    "z/Scratchpad.md"
+    "_PARA/Projects/new proj/new proj.md"
   ]
 }
