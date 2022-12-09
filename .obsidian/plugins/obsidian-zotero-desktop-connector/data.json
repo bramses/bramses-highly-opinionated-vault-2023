@@ -1,0 +1,16 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Chicago",
+      "format": "formatted-citation",
+      "cslStyle": "chicago-fullnote-bibliography-short-title-subsequent"
+    }
+  ],
+  "exportFormats": [],
+  "shouldShowCiteSuggest": false
+}

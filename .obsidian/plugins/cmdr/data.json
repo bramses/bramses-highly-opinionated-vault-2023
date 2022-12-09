@@ -17,6 +17,12 @@
       "icon": "sprout",
       "name": "QuickAdd: Create New Project",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:3b57f446-784e-41ce-9a02-381074bfa525",
+      "icon": "box-select",
+      "name": "QuickAdd: Add to Project Kanban",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

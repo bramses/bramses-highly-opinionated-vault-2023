@@ -4,70 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f274f0d27bfb552f",
+        "id": "e0cb195f85aeaffb",
         "type": "tabs",
         "children": [
           {
-            "id": "ae7e8989390facfc",
+            "id": "5b35ae2562686366",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tests/Project Management.md",
+                "file": "_PARA/Projects/2023 vault/2023 vault.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "28464c2ed0a27503",
+            "id": "331d0b33eee0230b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+                "file": "README.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1bf5e61bd0e37de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tests/External/iOS Shortcuts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c5b4304b1c5069d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tests/External/Alfred.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca5ff70e5ec9eca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tests/Project Management.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tests/Project Management.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tests/Project Management.md"
+                "file": "README.md"
               }
             }
           },
@@ -199,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,23 +172,25 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "publish:Publish changes": false,
+      "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
-      "omnisearch:Omnisearch": false
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "ae7e8989390facfc",
+  "active": "331d0b33eee0230b",
   "lastOpenFiles": [
-    "_tests/Private.md",
-    "_tests/Paste URL into Selection.md",
-    "_tests/External/GitHub.md",
-    "_tests/_tests.md",
-    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
-    "_tests/Hotkeys.md",
-    "_PARA/Projects/yo/yo.md",
-    "_PARA/Projects/yo2/Kanban.md",
-    "_PARA/Projects/yo2/yo2.md",
-    "_PARA/Projects/yo/Kanban.md"
+    "_PARA/Projects/2023 vault/2023 vault.md",
+    "_PARA/Projects/2023 vault/Scratchpad.md",
+    "_PARA/Projects/2023 vault/Kanban.md",
+    "_PARA/Archive/Archived Project/Scratchpad.md",
+    "_PARA/Archive/Archived Project/Kanban.md",
+    "_PARA/Archive/Archived Project/Archived Project.md",
+    "202212090136.md",
+    "202212090137.md",
+    "Private/CRM/CRM.md",
+    "Private/CRM/Jane Doe.md"
   ]
 }

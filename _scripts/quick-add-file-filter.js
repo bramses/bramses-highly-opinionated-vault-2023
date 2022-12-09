@@ -25,10 +25,19 @@ module.exports = async function listFiles(params) {
         //then sort the files in the inner folder
 
 
+    const ROOT = "_PARA/Projects/";
+    const Kanban = "Kanban.md";
+    const Scratchpad = "Scratchpad.md";
+
 
     // Display files to select
     const notesDisplay = await params.quickAddApi.suggester(
-        (files) => files.path.replace(".md", ""),
+        (files) => files.path
+        .replace(ROOT, "")
+        .replace(Kanban, "")
+        .replace(Scratchpad, "")
+        .replace(".md", "")
+        .replace("/", ""),
         files
     );
 

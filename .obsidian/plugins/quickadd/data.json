@@ -13,6 +13,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "b53688cc-61d5-4e31-906a-66915bec0925"
+    },
+    {
+      "id": "3b57f446-784e-41ce-9a02-381074bfa525",
+      "name": "Add to Project Kanban",
+      "type": "Macro",
+      "command": true,
+      "macroId": "84ef441e-4dd5-4349-a811-be48fe49ab9f"
     }
   ],
   "macros": [
@@ -86,6 +93,66 @@
           "id": "b9f1c2c3-3951-44dc-beb8-751eee444e0c",
           "path": "_scripts/quick-add-create-project-folder.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add to Project Kanban",
+      "id": "84ef441e-4dd5-4349-a811-be48fe49ab9f",
+      "commands": [
+        {
+          "name": "quick-add-projects-folder-kanban-variables",
+          "type": "UserScript",
+          "id": "3446b88d-28b8-49b3-baa3-abea6891be53",
+          "path": "_scripts/quick-add-projects-folder-kanban-variables.js",
+          "settings": {}
+        },
+        {
+          "name": "quick-add-file-filter",
+          "type": "UserScript",
+          "id": "c4e72220-c315-4a83-979d-363da357ca61",
+          "path": "_scripts/quick-add-file-filter.js",
+          "settings": {}
+        },
+        {
+          "name": "Capture",
+          "type": "NestedChoice",
+          "id": "9b5ab62c-8ca9-416d-87a3-4a2dfe4c80a1",
+          "choice": {
+            "id": "9233a927-0f0d-492b-a516-a046d33aadb3",
+            "name": "Capture",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "{{VALUE:notes}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "{{date}} - {{value}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## To Do",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         }
       ],
       "runOnStartup": false

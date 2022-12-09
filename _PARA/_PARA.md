@@ -1,0 +1,3 @@
+>[!warning]
+>where are `Areas` and `Resources`? personally i cant frame those as clearly as projects so...
+

@@ -6,11 +6,12 @@
   "supercharged-links-obsidian",
   "obsidian-auto-link-title",
   "quickadd",
-  "cmdr",
   "obsidian-kanban",
   "periodic-notes",
   "calendar",
   "dataview",
   "omnisearch",
-  "obsidian-footnotes"
+  "obsidian-footnotes",
+  "cmdr",
+  "obsidian-zotero-desktop-connector"
 ]

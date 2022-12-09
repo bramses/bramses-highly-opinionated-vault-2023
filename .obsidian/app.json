@@ -2,5 +2,7 @@
   "newLinkFormat": "shortest",
   "userIgnoreFilters": [
     "Private/"
-  ]
+  ],
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": true
 }
