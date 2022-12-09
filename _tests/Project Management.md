@@ -8,3 +8,6 @@ This vault follows the PARA methodology:
 	1. When a link is found on the internet, it should be trivial to add it to the list of resources in a project
 	2. Notes should also be easily made, following the tenets of progressive summarization
 
+
+On the left ribbon, the "sprout" creates a new project, and the "ribbon plus" appends to a Project's Scratchpad
+

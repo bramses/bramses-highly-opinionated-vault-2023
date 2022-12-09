@@ -4,17 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "05accf0255f19ffe",
+        "id": "f274f0d27bfb552f",
         "type": "tabs",
         "children": [
           {
-            "id": "4d78f86db5e48244",
+            "id": "ae7e8989390facfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_PARA/Archive/Archived Project/Archived Project.md",
+                "file": "_tests/Project Management.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28464c2ed0a27503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1bf5e61bd0e37de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tests/External/iOS Shortcuts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c5b4304b1c5069d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tests/External/Alfred.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca5ff70e5ec9eca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_PARA/Archive/Archived Project/Archived Project.md",
+                "file": "_tests/Project Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_PARA/Archive/Archived Project/Archived Project.md",
+                "file": "_tests/Project Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_PARA/Archive/Archived Project/Archived Project.md"
+                "file": "_tests/Project Management.md"
               }
             }
           },
@@ -151,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,20 +210,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "4d78f86db5e48244",
+  "active": "ae7e8989390facfc",
   "lastOpenFiles": [
-    "_PARA/Archive/Archived Project/Scratchpad.md",
-    "_PARA/Archive/Archived Project/Kanban.md",
-    "_PARA/Archive/Archived Project/Archived Project.md",
-    "_PARA/Projects/building a shed/building a shed.md",
-    "_PARA/Projects/building a shed/Scratchpad.md",
-    "_PARA/Projects/building a shed/Kanban.md",
-    "_PARA/Projects/Test Project/Scratchpad.md",
-    "_PARA/Projects/Test Project 2/Scratchpad.md",
-    "_PARA/Projects/Test Project 2/Kanban.md",
-    "_PARA/Projects/ferg/ferg.md"
+    "_tests/Private.md",
+    "_tests/Paste URL into Selection.md",
+    "_tests/External/GitHub.md",
+    "_tests/_tests.md",
+    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+    "_tests/Hotkeys.md",
+    "_PARA/Projects/yo/yo.md",
+    "_PARA/Projects/yo2/Kanban.md",
+    "_PARA/Projects/yo2/yo2.md",
+    "_PARA/Projects/yo/Kanban.md"
   ]
 }

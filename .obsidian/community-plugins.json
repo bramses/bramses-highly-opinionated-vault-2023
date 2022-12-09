@@ -1,7 +1,6 @@
 [
   "folder-note-plugin",
   "obsidian-git",
-  "readwise-official",
   "url-into-selection",
   "obsidian-style-settings",
   "supercharged-links-obsidian",
@@ -10,5 +9,8 @@
   "cmdr",
   "obsidian-kanban",
   "periodic-notes",
-  "calendar"
+  "calendar",
+  "dataview",
+  "omnisearch",
+  "obsidian-footnotes"
 ]

@@ -1,0 +1,53 @@
+.omnisearch-modal {
+}
+
+.omnisearch-result {
+  white-space: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.omnisearch-result__title {
+}
+
+.omnisearch-result__counter {
+  font-size: 0.7rem;
+}
+
+.omnisearch-result__body {
+  white-space: normal;
+  font-size: small;
+  word-wrap: normal;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  color: var(--text-muted);
+}
+
+.omnisearch-highlight {
+}
+
+.omnisearch-default-highlight {
+  color: var(--text-normal);
+  background-color: var(--text-highlight-bg);
+}
+
+.omnisearch-input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .omnisearch-input-container {
+    flex-direction: column;
+  }
+}
+
+.omnisearch-input-field {
+  position: relative;
+  flex-grow: 1;
+}
