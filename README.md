@@ -31,4 +31,9 @@ Philosophies we'll encounter along the way:
 - Atticus Finch is the same in the house as he is on the public streets (To Kill a Mockingbird)
 - Large Language Models and Transformers (Machine Learning)
 - Automation and Scripting (Software Development)
+- Content management systems (Software Development)
+- Antifragility (Nassim Taleb)
+- GTD (David Allen)
+- Version Control Systems (Software Development)
+- Causa Sui (Ernst Becker)
 
