@@ -69,6 +69,10 @@ The PARA framework is a structure that can be used as buckets to capture differe
 
 Footers serve two very important roles: citation and non destructive updates. Citation is used in the [Zettelkasten](#Zettelkasten), to help link a note to its source material.
 
+Footers also make for great **non destructive updates** to notes. This means you can revisit an old note, and instead of altering it directly, you can append a footnote to the end of a thought, without changing the structural meaning of the original file. Think of it as sedimentary rock, or a really lightweight [VCS](#version-control-system). 
+
+Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
+
 
 ## Folder Structure
 
@@ -111,9 +115,9 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 - \_tests/\*
 - Readwise/ (if you're not using the service)
 - \_tutorial/\*
-- \_PARA/Archive/Archived Project (!Note: do not delete the Archive folder itself, just the example folder)
-- \_PARA/Projects/Test Project (!Note: do not delete the Projects folder itself, just the example folder)
-- \_PARA/Projects/Test Project 2 (!Note: do not delete the Projects folder itself, just the example folder)
+- \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
+- \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
+- \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
 
 ## "Required" Plugins
 
@@ -132,6 +136,7 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - Omnisearch
 - Periodic Notes
 - QuickAdd
+- Random Note
 - Readwise (*look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault derives from Readwise, so don't use it at your own risk*)
 - Style Settings
 - Supercharged Links
@@ -148,7 +153,7 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
 
 
-## Special Case: Staurday or Sunday
+## Special Case: Saturday or Sunday
 
 Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
 
@@ -156,3 +161,5 @@ Reflection is a critical component to the value of this vault, and so one day a 
 # Final Word
 
 `todo`
+
+[^1]: [[2022-12-09]]: see what I mean?
