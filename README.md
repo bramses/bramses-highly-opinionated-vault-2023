@@ -2,7 +2,7 @@
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
 
-What you'll see in this repo is a **highly opinionated and unapologetic** way to use Obsidian. 
+What you'll see in this repo is a **highly opinionated and unapologetic** way to use Obsidian.  Note this is not the *only* way to use Obsidian, nor is it the *correct* way. But it is a way that works really well, especially once you understand the [philosophies](#Philosophies) behind it.
 
 Some of these techniques may be familiar to you, others may be novel due to the *idiosyncracies* about how my own mind works. I'll do my best to explain all of my philosophies and lived experience in the creation of this vault. You'll see things that may suprise you, and other concepts you may be deeply familiar with. Some techniques are built in to the platform. Other techniques leverage powerful external softwares to greatly enhance the Obsidian experience. I'll argue for those as they come as well as provide potential alternatives.
 
@@ -37,3 +37,89 @@ Philosophies we'll encounter along the way:
 - Version Control Systems (Software Development)
 - Causa Sui (Ernst Becker)
 
+
+## Deep Work
+
+To do deep work is to be able to focus on a significant problem for an uninterrupted block of time. As a software engineer and writer, I am dependant on the flow state to create my best work and cut through the noise of digital and physical distraction.
+
+To enhance the likliehood of entering the flow state, and enhancing the quality of the flow state while it's engaged, this vault has tools to help you cut through the mud and focus on what needs to get done.
+
+Processes:
+- Zettelkasten Harvesting
+- Keeping relevant project info in one spot
+- Vault wide task management protocols
+
+Plugins:
+- QuickAdd
+- Tasks
+
+## PARA
+
+The PARA framework is a structure that can be used as buckets to capture different ideas. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to stay in sync with th
+
+
+# Implementation
+
+`todo`
+
+## Folder Structure
+
+`todo`
+
+## Tests
+
+`todo`
+
+# External Tools
+
+**Bramses' Highly Opinionated Vault 2023** uses *a lot* of external tools and technologies. I firmly believe that each of these technologies plays a significant role in making Obsidian an ecosystem instead of a stand alone application. These tools serve as scouts, fetching information from different places and returning the goods to "home base". That being said, some/most/all have some form of financial component as well as their own learning curves, so I wouldn't be dissapointed if you don't want to use them. That said **Bramses' Highly Opinionated Vault 2023**, works a lot better as a holistic system if you do.
+
+### Tools Used
+
+- Readwise ($)
+- Alfred (Mac only) ($)
+- Shortcuts (iOS only)
+- Zotero
+- GitHub
+- Sync ($)
+- Publish ($)
+
+
+# Installation
+
+Great! Now that that's out of the way, we can finally get to running the vault, *phew*! 
+
+1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`
+2. Download into your local machine
+3. Open the vault and rename it to whatever you want and open it in Obsidian
+
+## "Required" Plugins
+
+Truly nothing in this vault is *required*, but if you want the full experience, these plugins are quote-unquote mandatory:
+
+- Auto Link Title
+- Calendar
+- Commander
+- Dataview
+- Folder Note
+- Footnote Shortcut
+- Kanban
+- Obsidian Git
+- Omnisearch
+- Periodic Notes
+- QuickAdd
+- Readwise (*look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault derives from Readwise, so don't use it at your own risk*)
+- Style Settings
+- Supercharged Links
+
+## Optional Plugins
+
+These plugins aren't needed, as some are QoL and others have a steep price tag attached (some even have both!). But these apps are no less critical to my workflow than the "Required" apps above, so I need to include them.
+
+
+
+
+
+# Final Word
+
+`todo`
