@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tests/Hotkeys.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tests/Hotkeys.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tests/Hotkeys.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tests/Hotkeys.md"
+                "file": "README.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "5b35ae2562686366",
   "lastOpenFiles": [
+    "_tests/Hotkeys.md",
     "README.md",
     "_PARA/Projects/ayp/ayp.md",
     "_PARA/Projects/ayp/Readwise Resources.md",
@@ -178,7 +179,6 @@
     "_PARA/Projects/2023 vault/2023 vault.md",
     "_PARA.md",
     "_PARA/Projects/francis/francis.md",
-    "_PARA/Projects/francis/Readwise Resources.md",
-    "_tests/External/Readwise.md"
+    "_PARA/Projects/francis/Readwise Resources.md"
   ]
 }

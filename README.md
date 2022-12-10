@@ -55,20 +55,21 @@ Plugins:
 - QuickAdd
 - Tasks
 
+Related Philosophies:
+- [Time Block Planning](#time-block-planning)
+
 
 ## Time Block Planning
 
 *Time Block Planning* is the intentional process of giving every hour a "job". This intentional workflow allows for the creator to get a bird's eye view of their active commitments. This methodology bubbles up from daily commitments to a **weekly view** and a **quarterly view**. These views allow for enough space for projects to finish, while being short enough to see realistic change.
 
-Pairs well with [Deep Work](#deep-work) and [Agile Planning](#agile).
-
 In BHOV-2023, I don't functionally time block that much. This is because I usually get a late start to the day (more on this later), and I don't like using calendars that much. I've found writing the time next to notes in my daily page works just fine, e.g.:
 ```
 1-3p coding
-330-5 meeting with \[\[blah\]\]
+330-5 meeting with [[blah]]
 ...
 ```
-
+*if I need a notification for a meeting, I'm most likely gonna be late regardless...*
 
 If you *are* planning on using a daily calendar, I'd recommend the [Full Calendar plugin](obsidian://show-plugin?id=obsidian-full-calendar). I hear good things!
 
@@ -79,9 +80,13 @@ Plugins:
 - Periodic Notes
 - Full Calendar (optional)
 
+Related Philosophies:
+ - [Deep Work](#deep-work) 
+ - [Agile Planning](#agile)
+
 ## PARA
 
-The PARA framework is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects. 
+The *PARA framework* is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects. 
 
 If you look in the PARA directory (`/_PARA`), you'll notice a distinct lack of and Areas and Resources folder. That is because in **Bramses' Highly Opinionated Vault 2023** (BHOV-2023), I've offloaded a lot of the value those folders provide to other tools and techniques that will be discussed later. If you have well defined areas in your life and prefer to keep non-project related resources in a centralized place, feel free to recreate the folders!
 
@@ -94,7 +99,15 @@ Scripts:
 Plugins:
 - QuickAdd
 - Kanban
-- Shimmering Obsidian
+- Shimmering Obsidian (optional)
+
+Related philosophies:
+- [CODE](#code)
+
+## CODE
+
+CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a main goal of BHOV-2023, because you never know when and where inspiration will strike. 
+
 
 # Implementation
 
