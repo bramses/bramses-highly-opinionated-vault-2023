@@ -18,35 +18,36 @@ I've been using Obsidian for well over a year and have developed many experiment
 Before we get into anything practical we **need** to discuss the underlying philosophies powering this vault, or none of the implementations will make any sense. Most of these philosophies I've learned or adapted from great contemporary and erstwhile authors and thinkers -- the following is a reflection of both my value structure as well as my take on the works of others.
 
 Philosophies we'll encounter along the way:
-- Deep Work (Cal Newport)
-- Time Block Planning (Cal Newport)
-- PARA (Tiago Forte)
-- CODE (Tiago Forte)
-- Progressive Summarization (Tiago Forte)
-- Zettelkasten (Luhmann)
-- Published Zettelkasten (Andy Matuschack)
-- An unexamined life is not worth living (Socrates)
+- Deep Work ([Cal Newport](https://www.calnewport.com/))
+- Time Block Planning ([Cal Newpor](https://www.calnewport.com/)t)
+- PARA ([Tiago Forte](https://fortelabs.com/))
+- CODE ([Tiago Forte](https://fortelabs.com/))
+- Progressive Summarization ([Tiago Forte](https://fortelabs.com/))
+- Zettelkasten ([Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann))
+- Digital Garden ([Andy Matuschack](https://andymatuschak.org/))
+- An unexamined life is not worth living ([Socrates](https://en.wikipedia.org/wiki/Socrates))
 - Jamming (Music Production)
 - AGILE (Software Development Project Management)
 - Metcalfe's Law (Computer Science)
-- Atticus Finch is the same in the house as he is on the public streets (To Kill a Mockingbird)
+- Atticus Finch is the same in the house as he is on the public streets ([To Kill a Mockingbird](https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird))
 - Large Language Models and Transformers (Machine Learning)
 - Automation and Scripting (Software Development)
 - Content management systems (Software Development)
-- Antifragility (Nassim Taleb)
-- GTD (David Allen)
+- Antifragility ([Nassim Taleb](https://www.fooledbyrandomness.com/))
+- GTD ([David Allen](https://gettingthingsdone.com/))
 - Version Control Systems (Software Development)
-- Causa Sui (Ernst Becker)
+- Causa Sui ([Ernest Becker](https://en.wikipedia.org/wiki/Ernest_Becker))
+- LYT + Maps of Content ([Nick Milo](https://www.linkingyourthinking.com/))
 
 
 ## Deep Work
 
-To do deep work is to be able to focus on a significant problem for an uninterrupted block of time. As a software engineer and writer, I am dependant on the flow state to create my best work and cut through the noise of digital and physical distraction.
+To do *deep work* is to be able to focus on a significant problem for an uninterrupted block of time. As a software engineer and writer, I am dependant on the flow state to create my best work and cut through the noise of digital and physical distraction.
 
 To enhance the likliehood of entering the flow state, and enhancing the quality of the flow state while it's engaged, this vault has tools to help you cut through the mud and focus on what needs to get done.
 
 Processes:
-- Zettelkasten Harvesting
+- Intra-Vault Research
 - Keeping relevant project info in one spot
 - Vault wide task management protocols
 
@@ -54,10 +55,46 @@ Plugins:
 - QuickAdd
 - Tasks
 
+
+## Time Block Planning
+
+*Time Block Planning* is the intentional process of giving every hour a "job". This intentional workflow allows for the creator to get a bird's eye view of their active commitments. This methodology bubbles up from daily commitments to a **weekly view** and a **quarterly view**. These views allow for enough space for projects to finish, while being short enough to see realistic change.
+
+Pairs well with [Deep Work](#deep-work) and [Agile Planning](#agile).
+
+In BHOV-2023, I don't functionally time block that much. This is because I usually get a late start to the day (more on this later), and I don't like using calendars that much. I've found writing the time next to notes in my daily page works just fine, e.g.:
+```
+1-3p coding
+330-5 meeting with \[\[blah\]\]
+...
+```
+
+
+If you *are* planning on using a daily calendar, I'd recommend the [Full Calendar plugin](obsidian://show-plugin?id=obsidian-full-calendar). I hear good things!
+
+The Time Block Planning is great for weekly planning and quarterly planning as well. When combined with Templater (plugin) and Periodic Notes (plugin), Time Block Planning gives a great weekly review to look forward to.
+
+Plugins:
+- Templater
+- Periodic Notes
+- Full Calendar (optional)
+
 ## PARA
 
-The PARA framework is a structure that can be used as buckets to capture different ideas. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to stay in sync with th
+The PARA framework is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects. 
 
+If you look in the PARA directory (`/_PARA`), you'll notice a distinct lack of and Areas and Resources folder. That is because in **Bramses' Highly Opinionated Vault 2023** (BHOV-2023), I've offloaded a lot of the value those folders provide to other tools and techniques that will be discussed later. If you have well defined areas in your life and prefer to keep non-project related resources in a centralized place, feel free to recreate the folders!
+
+Scripts:
+- `quick-add-create-project-folder.js`
+- `quick-add-file-filter.js`
+- `quick-add-projects-folder-kanban-variables.js`
+- `quick-add-projects-folder-variables.js`
+
+Plugins:
+- QuickAdd
+- Kanban
+- Shimmering Obsidian
 
 # Implementation
 
@@ -140,11 +177,18 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - Readwise (*look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault derives from Readwise, so don't use it at your own risk*)
 - Style Settings
 - Supercharged Links
+- Templater
+- Waypoint
 
 ## Optional Plugins
 
 These plugins aren't needed, as some are QoL and others have a steep price tag attached (some even have both!). But these apps are no less critical to my workflow than the "Required" apps above, so I need to include them.
 
+- Open in VSCode
+- Map View
+- [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
+- Full Calendar
+- GPT-3 Summarizer
 
 # A Day in the Life - Real World Use
 

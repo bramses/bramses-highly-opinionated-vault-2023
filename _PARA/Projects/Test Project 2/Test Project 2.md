@@ -1,2 +1,0 @@
-# Test Project 2
-

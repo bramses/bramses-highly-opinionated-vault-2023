@@ -11,8 +11,8 @@
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "",
-    "enabled": false
+    "folder": "Weekly",
+    "enabled": true
   },
   "monthly": {
     "format": "",
@@ -22,7 +22,8 @@
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "Quarterly",
+    "enabled": true
   },
   "yearly": {
     "format": "",

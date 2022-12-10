@@ -26,7 +26,7 @@ module.exports = async function createProject(params) {
   // // Create a new file in the new folder
   const newFile = await params.app.vault.create(
     `${absolutePath}/${userInput}.md`, 
-    `> [!info]\n> Project Description Here\n\n`
+    `> [!info]\n> Project Description Here\n\n%% Waypoint %%\n\n`
   );
 
   // // Create a scratchpad file in the new folder
@@ -36,10 +36,10 @@ module.exports = async function createProject(params) {
 
   if (settings.includes("Add Readwise Dataview")) {
     await params.app.vault.create(
-      `${absolutePath}/Readwise Resources.md`, `# Readwise Resources\n\n\`\`\`dataview
+      `${absolutePath}/Readwise Resources.md`, `\`\`\`dataview
 list from "Readwise" 
-where project = "${userInput}"
-\`\`\``
+where contains(projects, "${userInput}")
+\`\`\`\n\n`
     )
     }
 

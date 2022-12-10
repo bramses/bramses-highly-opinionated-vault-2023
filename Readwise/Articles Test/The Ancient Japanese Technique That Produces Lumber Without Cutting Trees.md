@@ -3,7 +3,7 @@ author: DSF Antique Jewelry
 fullTitle: The Ancient Japanese Technique That Produces Lumber Without Cutting Trees
 category: #articles
 url: "https://dsfantiquejewelry.com/blogs/interesting-facts/the-ancient-japanese-technique-that-produces-lumber-without-cutting-trees"
-project: Test Project
+projects: [Test Project]
 ---
 
 

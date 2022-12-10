@@ -3,3 +3,6 @@
 `ctrl-click` a folder name -> create a [folder note](obsidian://show-plugin?id=folder-note-plugin)
 `ctrl-shift-f` -> [omnisearch](obsidian://show-plugin?id=omnisearch) vault search
 `alt-shift-f` -> [footnote](obsidian://show-plugin?id=obsidian-footnotes) insertion
+`alt-shift-d` -> open daily note
+`alt-shift-w` -> open weekly note
+`alt-shift-q` -> open quarterly note

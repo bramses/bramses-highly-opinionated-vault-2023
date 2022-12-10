@@ -3,7 +3,7 @@ If you use Readwise, you'll be able to have resources auto sync from Kindle + th
 ## Dataview Test (should have one item)
 ```dataview
 list from "Readwise" 
-where project = "Test Project"
+where contains(projects, "Test Project")
 ```
 
 ## Page Metadata Formatting
@@ -28,7 +28,7 @@ documentTags: {% for tag in document_tags %}#{{tag}} {% endfor %}
 {% if url -%}
 url: {{url}}
 {% endif -%}
-project: -
+projects: []
 ---
 ```
 

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_PARA/Projects/2023 vault/2023 vault.md",
+                "file": "_tests/Hotkeys.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "331d0b33eee0230b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_tests/Hotkeys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_tests/Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_tests/Hotkeys.md"
               }
             }
           },
@@ -177,20 +164,21 @@
       "periodic-notes:Open today": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "331d0b33eee0230b",
+  "active": "5b35ae2562686366",
   "lastOpenFiles": [
-    "_tests/_tests.md",
-    "_tests/External/Readwise.md",
-    "_tests/External/iOS Shortcuts.md",
-    "_tests/External/GitHub.md",
-    "_tests/External/Alfred.md",
     "README.md",
-    "_PARA/Projects/2023 vault/2023 vault.md",
-    "_PARA/Projects/2023 vault/Scratchpad.md",
+    "_PARA/Projects/ayp/ayp.md",
+    "_PARA/Projects/ayp/Readwise Resources.md",
+    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
     "_PARA/Projects/2023 vault/Kanban.md",
-    "_PARA/Archive/Archived Project/Scratchpad.md"
+    "_PARA/Projects/2023 vault/2023 vault.md",
+    "_PARA.md",
+    "_PARA/Projects/francis/francis.md",
+    "_PARA/Projects/francis/Readwise Resources.md",
+    "_tests/External/Readwise.md"
   ]
 }
