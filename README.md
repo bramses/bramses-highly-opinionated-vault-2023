@@ -141,13 +141,17 @@ Related Philosophies:
 Highlighted from [source](https://www.livescience.com/11011-marathons-26-2-miles-long.html):
 
 > ...
+> 
 > In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) to some anxious Athenians. Not quite in mid-season shape, he delivered the message "Niki!" (Victory!) then keeled over and died.
+> 
 > ...
 
 Second pass:
 
 > ...
-> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, **Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) **to some anxious Athenians. Not quite in mid-season shape, he delivered the message **"Niki!" (Victory!) then keeled over and died**.
+> 
+> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, **Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians)** to some anxious Athenians. Not quite in mid-season shape, he delivered the message **"Niki!" (Victory!) then keeled over and died**.
+> 
 > ...
 
 Third pass:
