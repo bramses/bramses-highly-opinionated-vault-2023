@@ -6,9 +6,9 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Chicago",
-      "format": "formatted-citation",
-      "cslStyle": "chicago-fullnote-bibliography-short-title-subsequent"
+      "name": "citeKey",
+      "format": "pandoc",
+      "cslStyle": "university-of-york-apa"
     }
   ],
   "exportFormats": [],

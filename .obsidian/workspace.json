@@ -158,7 +158,6 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false,
       "publish:Publish changes": false,
       "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
@@ -170,15 +169,15 @@
   },
   "active": "5b35ae2562686366",
   "lastOpenFiles": [
-    "_tests/External/Readwise.md",
+    "Inbox/Computer Capture/Computer Capture.md",
+    "Inbox/Smartphone Capture/Smartphone Capture.md",
+    "Inbox/Scratchpad.md",
     "README.md",
-    "Weekly/2022-W50.md",
-    "Quarterly/2022-Q4.md",
-    "_tests/Hotkeys.md",
-    "_PARA/Projects/ayp/ayp.md",
-    "_PARA/Projects/ayp/Readwise Resources.md",
-    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
-    "_PARA/Projects/2023 vault/Kanban.md",
-    "_PARA/Projects/2023 vault/2023 vault.md"
+    "202212101656.md",
+    "Templates/Zettelkasten Note.md",
+    "202212101652.md",
+    "202212101648.md",
+    "Untitled.md",
+    "202212090136.md"
   ]
 }

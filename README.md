@@ -2,7 +2,7 @@
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
 
-What you'll see in this repo is a **highly opinionated and unapologetic** way to use Obsidian. Note that  this is not the *only* way to use Obsidian, nor is it the *correct* way. But it is a way that works really well, especially once you understand the [philosophies](#Philosophies) behind it.
+What you'll see in this repo is a **highly opinionated, unapologetic** way to use Obsidian. Note that this is not the *only* way to use Obsidian, nor is it the *correct* way. But it is a way that works well, especially once you understand the [philosophies](#Philosophies) behind it.
 
 Some of these techniques may be familiar to you, others may be novel due to the *idiosyncracies about how my own mind works*. I'll do my best to explain all of my philosophies and lived experience in the creation of this vault. Some techniques, processes and plugins are built into the platform. Other techniques leverage powerful external softwares to greatly enhance the Obsidian experience. I'll argue for those as they come as well as provide potential alternatives.
 
@@ -36,7 +36,6 @@ Philosophies we'll encounter along the way:
 - Automation and Scripting (Software Development)
 - Content management systems (Software Development)
 - Antifragility ([Nassim Taleb](https://www.fooledbyrandomness.com/))
-- GTD ([David Allen](https://gettingthingsdone.com/))
 - Version Control Systems (Software Development)
 - Causa Sui ([Ernest Becker](https://en.wikipedia.org/wiki/Ernest_Becker))
 - LYT + Maps of Content ([Nick Milo](https://www.linkingyourthinking.com/))
@@ -102,6 +101,7 @@ Plugins:
 - QuickAdd
 - Kanban
 - Shimmering Obsidian (optional)
+- Waypoint
 
 Related philosophies:
 - [CODE](#code)
@@ -110,13 +110,22 @@ Related philosophies:
 
 CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a priority goal of BHOV-2023, because you never know when and where inspiration will strike. 
 
-To do quick capture on my computer, I leverage Shimmering Obsidian and custom written shortcuts. This plugin is powerful because Alfred can be evoked anywhere on your Mac (while watching a video, browsing the web, etc.). This helps avoid the [Doorway effect](https://en.wikipedia.org/wiki/Doorway_effect#:~:text=The%20doorway%20effect%20is%20a,remained%20in%20the%20same%20place.). The plugin then puts the thought in our `Inbox/` for future processing. The important part is that we can **trust that our ideas will land in a place where we can process them later**. A similar process is done on my mobile device leveraging iOS shortcuts and Obsidian Sync.
+To do quick **capture** on my computer, I leverage Shimmering Obsidian and custom written shortcuts. This plugin is powerful because Alfred can be evoked anywhere on your Mac (while watching a video, browsing the web, etc.). This helps avoid the [Doorway effect](https://en.wikipedia.org/wiki/Doorway_effect#:~:text=The%20doorway%20effect%20is%20a,remained%20in%20the%20same%20place.). The plugin then puts the thought in our `Inbox/` for future processing. The important part is that we can **trust that our ideas will land in a place where we can process them later**. A similar process is done on my mobile device leveraging iOS shortcuts and Obsidian Sync.
 
 These apps and plugins serve as scouts, running the long distance of time and space to place ideas in your trusted vault from anywhere in the world.
 
 > In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) to some anxious Athenians. Not quite in mid-season shape, he delivered the message "Niki!" (Victory!) then keeled over and died.
 
-Organize and Distill will be discussed in the Progressive Summarization section, and Express in the Digital Garden and CMS sections.
+In BHOV-2023, **Organization** is accomplished using plugins like Dataview and Tasks to surface relevant data from across the entire vault. For example, tasks captured from your mobile device on the go anywhere in your vault will show up in the same place with this Tasks filter:
+
+```\tasks
+not done
+heading includes todo/mobile
+```
+
+This is a great way to de-stress about open tasks getting buried in some previous 
+
+**Distill** will be discussed in the Progressive Summarization section, and **Express** in the Digital Garden and CMS sections.
 
 Plugins:
 - Shimmering Obsidian
@@ -156,7 +165,9 @@ Second pass:
 
 Third pass:
 
-The first marathon was run not for fun, but for duty. The messenger Pheidippides made the 25 mile trek on foot to pronounce victory (Niki!) to the Athenian citizens. He then promptly died.
+The first marathon was run not for fun or to push one's body for exercise, but for duty. The messenger Pheidippides made the 25 mile trek on foot to pronounce victory (Niki!) to the Athenian citizens. He then promptly died.
+
+---
 
 To facilitate this process BHOV-2023 leverages Readwise and Note Refactor to do the three passes. Readwise is pass one, pass two is to exract salience and a title and tags (this can be done with AI thanks to GPT-3 Summarizer!), but a lot of the times I do it by hand. Finally, the tird pass is setting the note into it's final Zettelkasten state, and assigning to a PARA project, or leaving it in the root directory.
 
@@ -169,6 +180,69 @@ Related Philosophies:
 - Large Language Models
 - Zettlekasten
 - PARA
+
+## Zettelkasten
+
+*Zettelkasten*, German for slip box, is the metaphorical glue that holds ideas together. Zettelkasten is a loose but exteremely powerful structure, and a system with few [hard and fast rules that can scale magnificently](https://zettelkasten.de/introduction/).
+
+These rules are:
+1. Unique Identifier as filenames
+2. Atomic content -- one note roughly equals one coherent thought
+3. Links, tags, and citations > including the knowledge in the note itself
+
+Fortunately for us, Zettelkasten is a core feature of the Obsidian workflow. The core plugin Unique Note Creator will take care of creating IDs. Plugins like Footnote Shortcut and Zotero Plugin make citing external resources breeze. This allows you as the author to focus on two things:
+
+1. Is this note atomic? 
+2. What will I link it to?
+
+In BHOV-2023, Zettlekasten is responsible for ideas and notes that don't fit cleanly into the `Projects` or `Archive` folders of [PARA](#para). In other words, evergreen knowledge that forms your lattice of thinking, but doesn't have specific utility. In BHOV-2023, the goal of the Zettelkasten is to serve as puzzle pieces to help us Express (the E in [CODE](#code)) ourselves.
+
+Notes like [[202212090137]] and [[202212090136]] live in the root directory, but have tags that serve as "buckets". The page preview plugin allows us to hover over the notes and see what's inside (if you're reading this in Obsidian, go ahead and give it a try!)
+
+When creating a new file in BHOV-2023, by default it will automatically create it to the Zettelkasten spec. A single Zettelkasten is referred to as a Zettel, so each note is tagged with #zettel by default in BHOV-2023.
+
+Plugins:
+- Templater
+- Unique Note Creator
+- Omnisearch
+- Local Graph
+- Backlinks
+- Note Refactor
+
+Related Philosophies:
+- Large Language Models
+- Digital Gardening
+
+## Digital Gardening
+
+If Zettelkasten is the planting of the seed of a single idea, *Digital Gardening* is the maintnence of the whole. It is the work of groundskeeping the entire vault, and finding utility in the edges. 
+
+We can ease the "writers' block" of deciding which notes to upkeep by leveraging **Random Note Review**, which will surface three notes to review in our Daily Note.
+
+```
+<%* const files = app.vault.getFiles(); const random = Math.floor(Math.random() * (files.length - 1)); const random2 = Math.floor(Math.random() * (files.length - 1)); const random3 = Math.floor(Math.random() * (files.length - 1)); const randomNote = files[random]; const randomNote2 = files[random2]; const randomNote3 = files[random3] -%>
+
+- [ ] [[<% randomNote.basename %>]]
+- [ ] [[<% randomNote2.basename %>]]
+- [ ] [[<% randomNote3.basename %>]]
+
+<%* const todayIs = tp.date.now("YYYY-MM-DD") %>
+```
+
+The side benfit of all this work is that it publishable! Since a garden is a collection of linked and curated thoughts, a published garden serves as a public utility similar to maintained gardens in the real world. Visitors can meander around your thought garden, stopping to marvel at the hydraengeas, or beelining straight for the mini pagoda and water feature in the corner. 
+
+Later, we'll address how to seperate private and public, but for now, assume any note that you do the work to Zettelkasten, will eventually have some sort of public value.
+
+Plugins:
+- Publish
+- Templater
+- Footnote Shortcut
+
+Related philosophies:
+- Zettelkasten
+
+...
+
 
 # Implementation
 
@@ -184,6 +258,7 @@ Footers also make for great **non destructive updates** to notes. This means you
 
 Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
 
+...
 
 ## Folder Structure
 
@@ -208,6 +283,7 @@ Footnote Shortcut combined with Natural Landguage Dates allows for super easy no
 - Sync ($)
 - Publish ($)
 
+...
 
 # Installation
 
@@ -229,6 +305,8 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 - \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
 - \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
 - \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
+
+...
 
 ## "Required" Plugins
 
@@ -254,6 +332,8 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - Templater
 - Waypoint
 
+...
+
 ## Optional Plugins
 
 These plugins aren't needed, as some are QoL and others have a steep price tag attached (some even have both!). But these apps are no less critical to my workflow than the "Required" apps above, so I need to include them.
@@ -264,6 +344,14 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 - Full Calendar
 - GPT-3 Summarizer
 - Obsidian Linter
+- Tag Wrangler
+- Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
+
+...
+
+## Migration Guide for Current Obsidian Users
+
+...
 
 # A Day in the Life - Real World Use
 
@@ -271,11 +359,13 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 
 Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
 
+...
 
 ## Special Case: Saturday or Sunday
 
 Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
 
+...
 
 # Final Word
 
