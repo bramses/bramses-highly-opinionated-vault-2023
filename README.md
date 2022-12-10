@@ -12,6 +12,8 @@ By following this guide and leveraging this template, I can promise that you'll 
 
 I've been using Obsidian for well over a year and have developed many experiments, some of which succeeded and many others that have failed. I have tried to compile all the lessons from these experiences and create a vault that mirrors my up to date thinking on how Obsidian can be maximally utilized.
 
+**Bramses' Highly Opinionated Vault 2023** (BHOV-2023) will tread the line of practicality and theory. Let's dive in!
+
 
 # Philosophies
 
@@ -88,7 +90,7 @@ Related Philosophies:
 
 The *PARA framework* is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects. 
 
-If you look in the PARA directory (`/_PARA`), you'll notice a distinct lack of and Areas and Resources folder. That is because in **Bramses' Highly Opinionated Vault 2023** (BHOV-2023), I've offloaded a lot of the value those folders provide to other tools and techniques that will be discussed later. If you have well defined areas in your life and prefer to keep non-project related resources in a centralized place, feel free to recreate the folders!
+If you look in the PARA directory (`/_PARA`), you'll notice a distinct lack of and Areas and Resources folder. That is because in BHOV-2023, I've offloaded a lot of the value those folders provide to other tools and techniques that will be discussed later. If you have well defined areas in your life and prefer to keep non-project related resources in a centralized place, feel free to recreate the folders!
 
 Scripts:
 - `quick-add-create-project-folder.js`
@@ -106,8 +108,63 @@ Related philosophies:
 
 ## CODE
 
-CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a main goal of BHOV-2023, because you never know when and where inspiration will strike. 
+CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a priority goal of BHOV-2023, because you never know when and where inspiration will strike. 
 
+To do quick capture on my computer, I leverage Shimmering Obsidian and custom written shortcuts. This plugin is powerful because Alfred can be evoked anywhere on your Mac (while watching a video, browsing the web, etc.). This helps avoid the [Doorway effect](https://en.wikipedia.org/wiki/Doorway_effect#:~:text=The%20doorway%20effect%20is%20a,remained%20in%20the%20same%20place.). The plugin then puts the thought in our `Inbox/` for future processing. The important part is that we can **trust that our ideas will land in a place where we can process them later**. A similar process is done on my mobile device leveraging iOS shortcuts and Obsidian Sync.
+
+These apps and plugins serve as scouts, running the long distance of time and space to place ideas in your trusted vault from anywhere in the world.
+
+> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) to some anxious Athenians. Not quite in mid-season shape, he delivered the message "Niki!" (Victory!) then keeled over and died.
+
+Organize and Distill will be discussed in the Progressive Summarization section, and Express in the Digital Garden and CMS sections.
+
+Plugins:
+- Shimmering Obsidian
+- Sync
+- iOS shortcuts
+- Readwise
+
+Scripts:
+- `quick-add-file-filter.js`
+- `quick-add-projects-folder-kanban-variables.js`
+- `quick-add-projects-folder-variables.js`
+
+Related Philosophies:
+- Progressive Summarization
+- Digital Garden
+- CMS
+
+## Progressive Summarization
+
+*Progressive Summarization* is a research/reading technique developed by Tiago Forte. In short, the goal is to read something, look for salient and helpful material, and highlight it. Then a second pass is applied, doubly emphasizing the important bits **you find important**. Finally, a third pass is done to rewrite the concept in **your own words**. Let's use the paragraph from above as an example:
+
+Highlighted from [source](https://www.livescience.com/11011-marathons-26-2-miles-long.html):
+
+> ...
+> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) to some anxious Athenians. Not quite in mid-season shape, he delivered the message "Niki!" (Victory!) then keeled over and died.
+> ...
+
+Second pass:
+
+> ...
+> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, ==Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) ==to some anxious Athenians. Not quite in mid-season shape, he delivered the message =="Niki!" (Victory!) then keeled over and died==.
+> ...
+
+Third pass:
+
+The first marathon was run not for fun, but for duty. The messenger Pheidippides made the 25 mile trek on foot to pronounce victory (Niki!) to the Athenian citizens. He then promptly died.
+
+To facilitate this process BHOV-2023 leverages Readwise and Note Refactor to do the three passes. Readwise is pass one, pass two is to exract salience and a title and tags (this can be done with AI thanks to GPT-3 Summarizer!), but a lot of the times I do it by hand. Finally, the tird pass is setting the note into it's final Zettelkasten state, and assigning to a PARA project, or leaving it in the root directory.
+
+Plugins:
+- Note Refactor
+- Readwise
+- GPT-3 Summarizer (optional)
+
+Related Philosophies:
+- Large Language Models
+- Zettlekasten
+- PARA
 
 # Implementation
 

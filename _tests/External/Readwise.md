@@ -6,12 +6,15 @@ list from "Readwise"
 where contains(projects, "Test Project")
 ```
 
+The following settings can be set in the [Obsidian Export Settings in Readwise](https://readwise.io/export/obsidian/preferences)
+
 ## Page Metadata Formatting
 
 ```
 ---
 author: {% if author %}{{author}}{% endif %}
 fullTitle: {{full_title}}
+progressiveSummarizationComplete: false
 category: #{{category}}
 source: {{source}}
 date: [[{{date}}]]
