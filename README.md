@@ -147,7 +147,7 @@ Highlighted from [source](https://www.livescience.com/11011-marathons-26-2-miles
 Second pass:
 
 > ...
-> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, ==Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) ==to some anxious Athenians. Not quite in mid-season shape, he delivered the message =="Niki!" (Victory!) then keeled over and died==.
+> In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, **Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) **to some anxious Athenians. Not quite in mid-season shape, he delivered the message **"Niki!" (Victory!) then keeled over and died**.
 > ...
 
 Third pass:
@@ -259,6 +259,7 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
 - Full Calendar
 - GPT-3 Summarizer
+- Obsidian Linter
 
 # A Day in the Life - Real World Use
 
