@@ -74,7 +74,7 @@ In BHOV-2023, I don't functionally time block that much. This is because I usual
 
 If you *are* planning on using a daily calendar, I'd recommend the [Full Calendar plugin](obsidian://show-plugin?id=obsidian-full-calendar). I hear good things!
 
-The Time Block Planning is great for weekly planning and quarterly planning as well. When combined with Templater (plugin) and Periodic Notes (plugin), Time Block Planning gives a great weekly review to look forward to.
+The Time Block Planning is great for weekly planning and quarterly planning as well. **The goal is to use the weekly plan to inform the daily plan and the quarterly plan to inform the weekly plan.** When combined with Templater (plugin) and Periodic Notes (plugin), Time Block Planning gives a great weekly review to look forward to.
 
 Plugins:
 - Templater
@@ -291,6 +291,54 @@ Plugins:
 - Templater
 - Kanban
 
+## Metcalfe's Law 
+
+**Metcalfe's Law** is a concept that says that the value of a network is the square of the number of nodes in the network. In the parlance of Zettelkasten, the more connected notes you have, the higher the value of the overall system.
+
+Processing notes from Readwise and Daily Notes will automatically put you into Metcalfe Law category, over a long period of time. The goal is to keep showing up, and to keep expanding your network whenever possible.
+
+## Atticus Finch is the same in the house as he is on the public streets
+
+Being a **local device first application**, Obsidian is "private by default" (well, at least as private as everything else on your laptop). 
+
+Obsidian also has tools for publishing public notes that we saw in the Digital Garden section above, namely the Publish plugin. 
+
+BHOV-2023 acknowledges the need to keep certain things private and has a Private folder that uses Supercharged Links and Style Settings to visually warn you if you are linking to a private note in your shared section. In addition, in `.gitignore` there are a selection of files you may want to consider keeping Private and not committing to version control software (discussed later)
+
+Plugins:
+- Supercharged Links
+- Style Settings
+- Obsidian Git
+- Publish
+- Sync
+
+## Large Language Models and Transformers
+
+AI has been taking over the news lately, particularly **Large Language Models** (LLMs). These models serve as transformers, meaning that they can embed any type of data (code, text, images, etc.) and use a strategy called *attention* and a slew of parameters to extract semantic meaning from data, allowing relationships to surface that wouldn't be obviously apparent to a lax observer. 
+
+How and why this works is beyond the scope of this README, but know that we can use LLMs to our benefit.
+
+Thanks to Zettelkasten, we have perfectly lined up atomic thoughts that can be embedded for semantic search. Semantic search is a powerful type of search that indexes across meaning instead of full text searching. For example, I might be able to search singer and retireve "taylor Swift", but if I were using full text search, singer and Taylor Swift have no letters in common so I would return zero results.
+
+Plugins:
+- GPT-3 Summarizer
+
+Related Philosophies:
+- Zettelkasten
+
+## Automation and Scripting
+
+**Automation** is useful because it prevents the creative from having to do repeat work. By abstracting away a problem, we can simply press a button that will fire a bunch of processes in the background to do work. 
+
+Automation provides **leverage**, which is desperately needed if one is to get serious work done. In BHOV-2023, automation can be found everywhere, from the templates to the commands, each automation is meant to save you time and to allow you to put your energy where it really matters.
+
+Plugins:
+- `/_scripts`
+- Templater
+- DataviewJS
+- QuickAdd
+
+## Content management systems
 
 # Implementation
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_PARA/Archive/Archived Project/Archived Project.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Quarterly.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Quarterly.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Quarterly.md"
+                "file": "README.md"
               }
             }
           },
@@ -204,17 +204,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b903b7cd0086d222",
+  "active": "9f2c5b6d909d99cb",
   "lastOpenFiles": [
-    "_PARA/Archive/Archived Project/Archived Project.md",
     "Templates/Quarterly.md",
     "Templates/Weekly.md",
+    "README.md",
+    "_PARA/Archive/Archived Project/Archived Project.md",
     "Templates/Daily.md",
     "_PARA/Projects/Projects.md",
     "_PARA/Archive/Archive.md",
     "_PARA/_PARA.md",
     "_PARA/Projects/Test Project 2/Test Project 2.md",
-    "README.md",
     "_tests/Private.md"
   ]
 }
