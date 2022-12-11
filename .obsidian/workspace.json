@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Computed/Computed.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Computed/Computed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Computed/Computed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Computed/Computed.md"
               }
             }
           },
@@ -169,10 +169,10 @@
   },
   "active": "5b35ae2562686366",
   "lastOpenFiles": [
+    "README.md",
     "Inbox/Computer Capture/Computer Capture.md",
     "Inbox/Smartphone Capture/Smartphone Capture.md",
     "Inbox/Scratchpad.md",
-    "README.md",
     "202212101656.md",
     "Templates/Zettelkasten Note.md",
     "202212101652.md",
