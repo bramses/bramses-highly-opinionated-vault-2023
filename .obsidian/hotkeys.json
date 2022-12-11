@@ -70,5 +70,14 @@
       ],
       "key": "."
     }
+  ],
+  "luhman:open-zettel": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Z"
+    }
   ]
 }

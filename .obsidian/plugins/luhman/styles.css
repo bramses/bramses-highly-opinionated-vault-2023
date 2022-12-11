@@ -1,0 +1,31 @@
+.zettel-modal-container {
+  display: flex;
+}
+
+.zettel-modal-textbox {
+  flex-grow: 100;
+  margin-right: 10px;
+}
+
+.zettel-modal-container.zettel-options-container {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.zettel-modal-container.zettel-options-container .zettel-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zettel-modal-container.zettel-options-container .labelText {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+  
+.zettel-modal-container.zettel-options-container input[type=checkbox] {
+  width: 2em;
+  height: 2em;
+}

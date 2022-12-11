@@ -26,7 +26,7 @@ module.exports = async function createProject(params) {
   // // Create a new file in the new folder
   const newFile = await params.app.vault.create(
     `${absolutePath}/${userInput}.md`, 
-    `> [!info]\n> Project Description Here\n\n%% Waypoint %%\n\n`
+    `> [!info] Project Description\n> [What is my purpose?](https://youtu.be/X7HmltUWXgs)\n\n%% Waypoint %%\n\n`
   );
 
   // // Create a scratchpad file in the new folder

@@ -197,7 +197,7 @@ Fortunately for us, Zettelkasten is a core feature of the Obsidian workflow. The
 
 In BHOV-2023, Zettlekasten is responsible for ideas and notes that don't fit cleanly into the `Projects` or `Archive` folders of [PARA](#para). In other words, evergreen knowledge that forms your lattice of thinking, but doesn't have specific utility. In BHOV-2023, the goal of the Zettelkasten is to serve as puzzle pieces to help us Express (the E in [CODE](#code)) ourselves.
 
-Notes like [[202212090137]] and [[202212090136]] live in the root directory, but have tags that serve as "buckets". The page preview plugin allows us to hover over the notes and see what's inside (if you're reading this in Obsidian, go ahead and give it a try!)
+Notes like [[202212090137]] and [[202212090136]] live in the root directory, but have tags that serve as "buckets". The page preview plugin allows us to hover over the notes and see what's inside (if you're reading this in Obsidian, go ahead and give it a try!). **Make sure to give context to links when you link them for future reference.**
 
 When creating a new file in BHOV-2023, by default it will automatically create it to the Zettelkasten spec. A single Zettelkasten is referred to as a Zettel, so each note is tagged with #zettel by default in BHOV-2023.
 
@@ -314,11 +314,11 @@ Plugins:
 
 ## Large Language Models and Transformers
 
-AI has been taking over the news lately, particularly **Large Language Models** (LLMs). These models serve as transformers, meaning that they can embed any type of data (code, text, images, etc.) and use a strategy called *attention* and a slew of parameters to extract semantic meaning from data, allowing relationships to surface that wouldn't be obviously apparent to a lax observer. 
+AI has been taking over the news lately, particularly **Large Language Models** (LLMs). These models serve as transformers, meaning that they can embed any type of data (code, text, images, etc.) and use a strategy called *attention* and a *bunch of data* to predict the next token using probability.
 
-How and why this works is beyond the scope of this README, but know that we can use LLMs to our benefit.
+[How and why this works is beyond the scope of this README](https://dugas.ch/artificial_curiosity/GPT_architecture.html), but know that we can use LLMs to our benefit.
 
-Thanks to Zettelkasten, we have perfectly lined up atomic thoughts that can be embedded for semantic search. Semantic search is a powerful type of search that indexes across meaning instead of full text searching. For example, I might be able to search singer and retireve "taylor Swift", but if I were using full text search, singer and Taylor Swift have no letters in common so I would return zero results.
+Thanks to Zettelkasten, we have perfectly cordoned off atomic thoughts that can be embedded for semantic search. Semantic search is a powerful type of search that indexes across meaning instead of full text searching. For example, I might be able to search singer and retireve "Taylor Swift", but if I were using full text search, singer and Taylor Swift have no letters in common so I would return zero results.
 
 Plugins:
 - GPT-3 Summarizer
@@ -340,11 +340,40 @@ Plugins:
 
 ## Content management systems
 
+`todo`
+
+## Antifragility
+
+*Antifragility* is a concept by Nassim Taleb that states that certain systems can get **stronger** in response to minor crises. Antifragile systems don't just recover or rebound from stressors, they thrive. Examples of antifragile systems include animal muscles that get stronger when put under stress. The immune system is another example of an Antifragile system.
+
+In BHOV-2023, Antifragility means that as your vault evolves you shouldn't feel ashamed or embarassed if a project fails, or an experiment with a new structure backfires. One of the top priorites of BHOV-2023 is to be flexible and adapt to **your system**. Remember, many/all of the items I'm suggesting are optional, but the stress of trying to make them adapt into your world view wiill make you and BHOV-2023 a stronger system. Fight what you see, be skeptical, make it better!
+
+> **Absorb what is useful, reject what is useless, add what is essentially your own**
+> - Bruce Lee
+
+
+## Version Control Systems
+
+`todo`
+
+## Causa Sui
+
+In the Denial of Death, philosopher Ernest Becker discusses the idea that we all knowingly or unknowingly undergo *Causa Sui projects*, or immortality projects. An immortality project is the desire for one to create meaning past their own life span, using their work, genetic progeny, or cultural beliefs of an afterlife.
+
+As a daily journal system as well as a project managment system, BHOV-2023 atttempts to help spark and foster creativity, allowing the Causa Sui project to emerge organically through your thoughts, daily goings on, and work.
+
+Related Philosophies:
+- Zettelkasten
+
+## Linking Your Thinking
+
+`todo`
+
 # Implementation
 
 `todo`
 
-## Elements of Markdown
+## Elements of Markdown Important to BHOV-2023
 
 ### Footers
 
@@ -354,16 +383,75 @@ Footers also make for great **non destructive updates** to notes. This means you
 
 Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
 
-...
+### YAML
+
+YAML, or frontmatter, serves as a way to get computed values or track over time. For example, if you are looking to establish a daily reading habit, you may desire to put that habit in a YAML and then track it.
+
+```
+/Daily/2023-01-01
+
+---
+read: 0
+---
+
+// /Computed/Trackers.md
+
+\`\`\`tracker
+searchType: frontmatter
+searchTarget: read
+fixedScale: 1.0
+fitPanelWidth: true
+folder: Daily
+datasetName: Read 20 mins or more
+month:
+\`\`\`
+
+```
+
+## Tags
+
+`todo`
 
 ## Folder Structure
 
-`todo`
+The following is the folder structure used by BHOV-2023, along with short descriptions as to why each exists.
+
+- \_PARA
+	- Projects (*active projects*)
+		- Test Project
+			- Kanban
+			- Scratchpad
+	- Archive
+- \_tests
+- \_tutorial
+	- Hotkeys
+	- Attachments
+- Attachments
+- Computed
+	- Trackers
+- Daily
+- Weekly
+- Quarterly
+- Inbox
+	- Computer Capture
+	- Smartphone Capture
+- Private
+	- CRM
+	- Attachments
+- Readwise
+- Templates
+- Canvases
+- Excalidraw
 
 ## Tests
 
 `todo`
 
+## CRM
+
+# Tips and Tricks
+
+`todo`
 
 # External Tools
 
@@ -379,7 +467,42 @@ Footnote Shortcut combined with Natural Landguage Dates allows for super easy no
 - Sync ($)
 - Publish ($)
 
-...
+## Readwise
+
+`todo`
+
+## Alfred
+
+`todo`
+
+## Shortcuts
+
+`todo`
+
+## Zotero
+
+`todo`
+
+## GitHub
+
+`todo`
+
+## Sync
+
+`todo`
+
+## Publish
+
+`todo`
+
+## Shortcuts (iOS)
+
+`todo`
+
+## Mobile Integration
+
+`todo`
+
 
 # Installation
 
@@ -401,6 +524,7 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 - \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
 - \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
 - \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
+- /Computed/Trackers (if you're not using the Tracker Plugin)
 
 ...
 
@@ -441,25 +565,25 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 -  New Tab Default Page
 - GPT-3 Summarizer
 - Obsidian Linter
+- Ozan's Image in Editor Plugin
+- Simple Embeds
 - Tag Wrangler
 - Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
+- Tracker
 
 ...
-
-### New Tab Default Page
-
-[New Tab Default Page](obsidian://show-plugin?id=new-tab-default-page)...
 
 
 ## Migration Guide for Current Obsidian Users
 
-...
+`todo`
 
 # A Day in the Life - Real World Use
 
 **Bramses' Highly Opinionated Vault 2023** is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
 
 Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
+
 
 ...
 
@@ -473,4 +597,4 @@ Reflection is a critical component to the value of this vault, and so one day a 
 
 `todo`
 
-[^1]: [[2022-12-09]]: see what I mean?
+[^1]: hello from the future!

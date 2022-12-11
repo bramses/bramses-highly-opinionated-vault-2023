@@ -3,9 +3,9 @@
 > Private notes should have a icon in front of them to show they will not propogate to [Obsidian Publish](https://obsidian.md/publish)
 
 You should see the shh emoji (🤫) to the left of this private note -> [[Secret Note]][^1]
-You should **not** see the shh emoji (🤫) next to this public note -> [[Hello World]]
+You should **not** see the shh emoji (🤫) next to this public note -> [[README]]
 
-Daily Notes should also be kept private imo, but this is optional -- you should see a  calendar emoji (📆) before a daily note -> [[2022-12-08]]
+Daily Notes should also be kept private imo, but this is optional -- you should see a  calendar emoji (📆) before a daily note -> [[2022-12-11]]
 
 ## Resources
 

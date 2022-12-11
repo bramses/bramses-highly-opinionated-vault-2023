@@ -10,53 +10,18 @@
           {
             "id": "5b35ae2562686366",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Templates/Daily.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9d5599b6c43cf899",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Weekly.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f2c5b6d909d99cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b903b7cd0086d222",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Quarterly.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Templates/Daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Templates/Daily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Templates/Daily.md"
               }
             }
           },
@@ -197,24 +162,26 @@
       "canvas:Create new canvas": false,
       "publish:Publish changes": false,
       "omnisearch:Omnisearch": false,
-      "periodic-notes:Open today": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9f2c5b6d909d99cb",
+  "active": "5b35ae2562686366",
   "lastOpenFiles": [
-    "Templates/Quarterly.md",
-    "Templates/Weekly.md",
-    "README.md",
-    "_PARA/Archive/Archived Project/Archived Project.md",
+    "_PARA/Projects/2023 vault/2023 vault.md",
+    "_tests/Private.md",
+    "Daily/2022-01-01.md",
+    "Daily/2022-12-11.md",
+    "_PARA/Projects/2023 vault/Kanban.md",
     "Templates/Daily.md",
-    "_PARA/Projects/Projects.md",
-    "_PARA/Archive/Archive.md",
-    "_PARA/_PARA.md",
-    "_PARA/Projects/Test Project 2/Test Project 2.md",
-    "_tests/Private.md"
+    "Weekly/2022-W51.md",
+    "Quarterly/2022-Q4.md",
+    "Weekly/2022-W50.md",
+    "_tutorial/Hotkeys.md"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "simple-embeds",
+  "name": "Simple Embeds",
+  "version": "1.14.0",
+  "minAppVersion": "0.15.0",
+  "description": "Replaces links, like Twitter and YouTube, with embeds when previewing a file.",
+  "author": "Sam Warnick",
+  "authorUrl": "https://github.com/samwarnick",
+  "isDesktopOnly": false
+}

@@ -7,3 +7,4 @@
 `alt-shift-w` -> open weekly note
 `alt-shift-q` -> open quarterly note
 `ctrl-.` -> toggle pin note
+`alt-shift-z` -> search Zettelkasten notes by H1
