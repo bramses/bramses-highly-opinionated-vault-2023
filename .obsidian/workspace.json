@@ -4,24 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e0cb195f85aeaffb",
+        "id": "dcc80a27ea4590a7",
         "type": "tabs",
         "children": [
           {
-            "id": "5b35ae2562686366",
+            "id": "33d5c3aca2b45c94",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Inbox/Computer Capture/Computer Capture.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
+            }
+          },
+          {
+            "id": "92999966033f987d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Computer Capture/2022-12-11--12-00-00.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e6aa12e062214b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c506f9614f5c12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily.md"
+                "file": "README.md"
               }
             }
           },
@@ -171,17 +206,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b35ae2562686366",
+  "active": "00c506f9614f5c12",
   "lastOpenFiles": [
-    "_PARA/Projects/2023 vault/2023 vault.md",
-    "_tests/Private.md",
-    "Daily/2022-01-01.md",
+    "Templates/Weekly.md",
+    "Templates/Quarterly.md",
     "Daily/2022-12-11.md",
-    "_PARA/Projects/2023 vault/Kanban.md",
-    "Templates/Daily.md",
-    "Weekly/2022-W51.md",
-    "Quarterly/2022-Q4.md",
-    "Weekly/2022-W50.md",
-    "_tutorial/Hotkeys.md"
+    "Inbox/Smartphone Capture/2022-12-11--11-59-30.md",
+    "Inbox/Computer Capture/2022-12-11--12-00-00.md",
+    "Inbox/Computer Capture/Computer Capture.md",
+    "_tests/External/iOS Shortcuts.md",
+    "_tests/External/GitHub.md",
+    "_tests/External/Alfred.md",
+    "Templates/Daily.md"
   ]
 }

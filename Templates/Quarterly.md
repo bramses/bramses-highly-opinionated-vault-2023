@@ -1,3 +1,5 @@
+#quarterly
+
 # What are your overall goals for this quarter?
 
 # How do these goals affect your life?

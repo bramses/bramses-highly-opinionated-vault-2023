@@ -1,3 +1,5 @@
+#weekly
+
 << [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") - -1%>]] | [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") - -3 %>]] >>
 
 Quarterly:  [[<% tp.date.now('yyyy') %>-Q<% Math.floor(tp.date.now('MM') / 4) + 1 %>]]
