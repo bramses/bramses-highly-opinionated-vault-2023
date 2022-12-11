@@ -6,3 +6,4 @@
 `alt-shift-d` -> open daily note
 `alt-shift-w` -> open weekly note
 `alt-shift-q` -> open quarterly note
+`ctrl-.` -> toggle pin note

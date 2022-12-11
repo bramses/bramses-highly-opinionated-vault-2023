@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computed/Computed.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d5599b6c43cf899",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Weekly.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f2c5b6d909d99cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_PARA/Archive/Archived Project/Archived Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b903b7cd0086d222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Quarterly.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computed/Computed.md",
+                "file": "Templates/Quarterly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computed/Computed.md",
+                "file": "Templates/Quarterly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computed/Computed.md"
+                "file": "Templates/Quarterly.md"
               }
             }
           },
@@ -167,17 +204,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5b35ae2562686366",
+  "active": "b903b7cd0086d222",
   "lastOpenFiles": [
+    "_PARA/Archive/Archived Project/Archived Project.md",
+    "Templates/Quarterly.md",
+    "Templates/Weekly.md",
+    "Templates/Daily.md",
+    "_PARA/Projects/Projects.md",
+    "_PARA/Archive/Archive.md",
+    "_PARA/_PARA.md",
+    "_PARA/Projects/Test Project 2/Test Project 2.md",
     "README.md",
-    "Inbox/Computer Capture/Computer Capture.md",
-    "Inbox/Smartphone Capture/Smartphone Capture.md",
-    "Inbox/Scratchpad.md",
-    "202212101656.md",
-    "Templates/Zettelkasten Note.md",
-    "202212101652.md",
-    "202212101648.md",
-    "Untitled.md",
-    "202212090136.md"
+    "_tests/Private.md"
   ]
 }

@@ -62,5 +62,13 @@
       ],
       "key": "N"
     }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }

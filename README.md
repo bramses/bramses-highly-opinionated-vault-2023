@@ -231,7 +231,7 @@ We can ease the "writers' block" of deciding which notes to upkeep by leveraging
 
 The side benfit of all this work is that it publishable! Since a garden is a collection of linked and curated thoughts, a published garden serves as a public utility similar to maintained gardens in the real world. Visitors can meander around your thought garden, stopping to marvel at the hydraengeas, or beelining straight for the mini pagoda and water feature in the corner. 
 
-Later, we'll address how to seperate private and public, but for now, assume any note that you do the work to Zettelkasten, will eventually have some sort of public value.
+Later, we'll address how to seperate private and public, but for now, assume any note that you do the work to Zettelkasten-ize, will eventually have some sort of public value.
 
 Plugins:
 - Publish
@@ -240,8 +240,56 @@ Plugins:
 
 Related philosophies:
 - Zettelkasten
+- Content Management Systems
 
-...
+## An unexamined life is not worth living
+
+**Daily journaling** is a *meta habit*, a habit that anyone can apply to their existing life at any point for an improved experience. 
+
+Journaling allows for reflection and revisitation of past thoughts and events, planning and decomposing future desires into attainable goals, and most importantly, journaling serves as a conduit for thought in the present.
+
+The  self-Socratic method undertaken by a journaling exercise is both a form of catharsis and a tool for unabated growth.
+
+In BHOV-2023, **the dashboard is the daily note**. The daily note is the reflection of the driver, a trusted sidekick in the goings on of the day. In addition, thanks to Time Block Planning, BHOV-2023 has weekly and Quarterly notes as well, which are linked to the evolving daily note.
+
+Leveleraging Templater and Periodic Notes, BHOV-2023 creates a flexible daily note template that can easily adapt to the owner's life.
+
+Plugins:
+- Templater
+- Periodic Notes
+- Dataview
+- Tasks (optional)
+- Map View (optional)
+- iOS Shortcuts (optional)
+- Default New Tab Page (optional)
+
+## Jamming
+
+In music production, **jamming** is getting together with some like minded individuals to create a creative output. The goal is to have fun and find a riff that everyone can groove to, and bring out the best in their instrument.
+
+Obsidian is first and foremost a single player experience. There are ways to engage publicly, but many of these techniques are readonly.
+
+Indeed, the best jamming sessions in Obsidian come from the notes that already exist in the vault. We can use random notes to surface and inspire thought, to break exisiting thought patterns and introduce new concepts into our line of thinking. 
+
+Plugins:
+- Random Note
+- Canvas
+- Pinned Notes 
+
+## AGILE
+
+In technology, **AGILE** is the process of splitting software development work into two week sprints. 
+
+The AGILE methodology pairs well with PARA and Time Block Planning because it forces us to prioritize elements of a project that can be delivered in two weeks.
+
+In BHOV-2023, Weekly Notes highlight active projects, as well as when they were started to give a high level grasp of management. In the projects themselves, there is a `QuickAdd: Add to Project Kanban` option, allowing you to quickly add new to-do items to the project.
+
+Quarterly notes track the opposite. The quarterly note tracks **how much was achieved in the quarter**.
+
+Plugins:
+- Dataview
+- Templater
+- Kanban
 
 
 # Implementation
@@ -342,12 +390,18 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 - Map View
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
 - Full Calendar
+-  New Tab Default Page
 - GPT-3 Summarizer
 - Obsidian Linter
 - Tag Wrangler
 - Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
 
 ...
+
+### New Tab Default Page
+
+[New Tab Default Page](obsidian://show-plugin?id=new-tab-default-page)...
+
 
 ## Migration Guide for Current Obsidian Users
 
