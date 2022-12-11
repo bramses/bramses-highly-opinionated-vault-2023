@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Computer Capture/Computer Capture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92999966033f987d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Computer Capture/2022-12-11--12-00-00.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e6aa12e062214b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md",
+                "file": "202212090136.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_PARA/Archive/Archived Project/Scratchpad.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_PARA/Archive/Archived Project/Scratchpad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_PARA/Archive/Archived Project/Scratchpad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_PARA/Archive/Archived Project/Scratchpad.md"
               }
             }
           },
@@ -200,7 +176,6 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
-      "templater-obsidian:Templater": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "periodic-notes:Open today": false
@@ -208,15 +183,15 @@
   },
   "active": "00c506f9614f5c12",
   "lastOpenFiles": [
+    "_PARA/Archive/Archived Project/Kanban.md",
     "Templates/Weekly.md",
     "Templates/Quarterly.md",
-    "Daily/2022-12-11.md",
-    "Inbox/Smartphone Capture/2022-12-11--11-59-30.md",
-    "Inbox/Computer Capture/2022-12-11--12-00-00.md",
-    "Inbox/Computer Capture/Computer Capture.md",
-    "_tests/External/iOS Shortcuts.md",
-    "_tests/External/GitHub.md",
-    "_tests/External/Alfred.md",
-    "Templates/Daily.md"
+    "Templates/Daily.md",
+    "Quarterly/2022-Q4.md",
+    "_PARA/Projects/Test Project/Resources.md",
+    "_PARA/Projects/Test Project/Test Project.md",
+    "_PARA/Projects/Test Project 2/Test Project 2.md",
+    "_PARA/Projects/Test Project/Resources Resources.md",
+    "_PARA/Projects/Test Project/Kanban.md"
   ]
 }

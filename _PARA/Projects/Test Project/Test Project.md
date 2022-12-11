@@ -3,7 +3,7 @@
 
 %% Begin Waypoint %%
 - [[Kanban]]
-- [[Readwise Resources]]
+- [[Resources]]
 - [[Scratchpad]]
 
 %% End Waypoint %%

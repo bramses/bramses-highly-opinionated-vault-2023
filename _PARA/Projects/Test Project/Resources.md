@@ -1,5 +1,5 @@
 ```dataview
-list from "Readwise" 
+list 
 where contains(projects, "Test Project")
 ```
 

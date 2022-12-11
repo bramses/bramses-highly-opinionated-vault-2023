@@ -16,7 +16,7 @@ where date(completed) >= (date(this.file.ctime) - dur(84 days))
 where file.name != "Scratchpad"
 where file.name != "Kanban"
 where file.name != "Archive"
-where file.name != "Readwise Resources"
+where file.name != "Resources"
 ```
 
 

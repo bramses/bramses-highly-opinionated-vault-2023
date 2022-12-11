@@ -13,8 +13,8 @@ module.exports = async function createProject(params) {
 
   // add a checkbox prompt to see if for optional settings
   const settings = await params.quickAddApi.checkboxPrompt(
-    ["Create a Kanban", "Create a Scratchpad", "Add Readwise Dataview"],
-    ["Create a Kanban", "Create a Scratchpad", "Add Readwise Dataview"]
+    ["Create a Kanban", "Create a Scratchpad", "Add Resources Dataview"],
+    ["Create a Kanban", "Create a Scratchpad", "Add Resources Dataview"]
   );
 
   // Get the project name
@@ -34,10 +34,10 @@ module.exports = async function createProject(params) {
     await params.app.vault.create(`${absolutePath}/Scratchpad.md`, "");
   }
 
-  if (settings.includes("Add Readwise Dataview")) {
+  if (settings.includes("Add Resources Dataview")) {
     await params.app.vault.create(
-      `${absolutePath}/Readwise Resources.md`, `\`\`\`dataview
-list from "Readwise" 
+      `${absolutePath}/Resources.md`, `\`\`\`dataview
+list 
 where contains(projects, "${userInput}")
 \`\`\`\n\n`
     )

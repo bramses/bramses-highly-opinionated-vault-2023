@@ -1,3 +1,7 @@
+---
+projects: []
+---
+
 # Lorem ipsum
 
 > [!abstract]- Tags

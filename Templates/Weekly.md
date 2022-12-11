@@ -25,5 +25,5 @@ from "_PARA/Projects"
 where file.name != "Scratchpad"
 where file.name != "Kanban"
 where file.name != "Projects"
-where file.name != "Readwise Resources"
+where file.name != "Resources"
 ```
