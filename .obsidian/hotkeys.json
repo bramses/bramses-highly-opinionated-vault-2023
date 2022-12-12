@@ -79,5 +79,14 @@
       ],
       "key": "Z"
     }
+  ],
+  "obsidian-hotkeys-for-templates:templater:Note Refactor Zettelkasten Template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "V"
+    }
   ]
 }

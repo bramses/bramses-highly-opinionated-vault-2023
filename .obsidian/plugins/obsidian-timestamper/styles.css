@@ -1,0 +1,33 @@
+.timestamper-modal .modal-content .row {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+
+.timestamper-modal .modal-content .row .input-label {
+    display: flex;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.timestamper-modal .modal-content .row .input-wrapper {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+
+.timestamper-modal .modal-content .row .input-wrapper input {
+	width: 100%;
+}
+
+
+.timestamper-modal .modal-content .button-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 24px;
+}

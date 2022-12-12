@@ -213,6 +213,15 @@ Related Philosophies:
 - Large Language Models
 - Digital Gardening
 
+Workflows:
+
+New file (`ctrl-n`) automatically creates a Zettelkasten note to spec, you just need to replace the Lorem Ipsum.
+
+If you have content you want to extract from an existing note into a Zettel, you can highlight the text you want to convert, press `alt-shift-v`  to convert it into Zettelkasten spec, and then `ctrl-shift-n` to trigger the Note Refactor plugin to move it to it's own note.
+
+You can use `alt-shift-z` to search Zettelkasten notes by their human readable titles.
+
+
 ## Digital Gardening
 
 If Zettelkasten is the planting of the seed of a single idea, *Digital Gardening* is the maintnence of the whole. It is the work of groundskeeping the entire vault, and finding utility in the edges. 
@@ -388,7 +397,7 @@ Footnote Shortcut combined with Natural Landguage Dates allows for super easy no
 YAML, or frontmatter, serves as a way to get computed values or track over time. For example, if you are looking to establish a daily reading habit, you may desire to put that habit in a YAML and then track it.
 
 ```
-/Daily/2023-01-01
+// /Daily/2023-01-01
 
 ---
 read: 0
@@ -539,6 +548,7 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - Excalidraw
 - Folder Note
 - Footnote Shortcut
+- Hotkeys for Templates
 - Kanban
 - Natural Language Dates
 - Obsidian Git
@@ -550,6 +560,7 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - Style Settings
 - Supercharged Links
 - Templater
+- Timestamper
 - Waypoint
 
 ...
@@ -575,6 +586,10 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 
 
 ## Migration Guide for Current Obsidian Users
+
+`todo`
+
+## Settings
 
 `todo`
 

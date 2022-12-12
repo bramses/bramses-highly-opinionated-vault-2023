@@ -1,0 +1,11 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": true,
+  "headingFormat": "#",
+  "newFileLocation": 0,
+  "customFolder": "",
+  "fileNamePrefix": "",
+  "transcludeByDefault": false,
+  "noteLinkTemplate": "",
+  "refactoredNoteTemplate": ""
+}

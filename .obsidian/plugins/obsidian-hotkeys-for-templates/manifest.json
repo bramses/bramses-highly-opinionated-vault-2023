@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-hotkeys-for-templates",
+  "name": "Hotkeys for templates",
+  "description": "Add hotkeys to insert specific templates",
+  "version": "1.4.3",
+  "author": "Vinzent03",
+  "authorUrl": "https://github.com/Vinzent03",
+  "isDesktopOnly": false
+}

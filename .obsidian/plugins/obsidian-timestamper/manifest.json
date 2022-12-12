@@ -1,0 +1,10 @@
+{
+	"author": "Martin Eder",
+	"authorUrl": "https://www.gruware.org",
+	"description": "Insert customized time/date stamp.",
+	"id": "obsidian-timestamper",
+	"isDesktopOnly": false,
+	"minAppVersion": "0.12.17",
+	"name": "TimeStamper",
+	"version": "1.3.0"
+}

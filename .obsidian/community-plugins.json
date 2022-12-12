@@ -13,7 +13,6 @@
   "omnisearch",
   "obsidian-footnotes",
   "cmdr",
-  "obsidian-zotero-desktop-connector",
   "nldates-obsidian",
   "obsidian-tasks-plugin",
   "waypoint",
@@ -24,5 +23,7 @@
   "new-tab-default-page",
   "obsidian-excalidraw-plugin",
   "simple-embeds",
-  "luhman"
+  "luhman",
+  "obsidian-timestamper",
+  "obsidian-hotkeys-for-templates"
 ]

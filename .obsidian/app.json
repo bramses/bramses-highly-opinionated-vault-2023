@@ -4,5 +4,8 @@
     "Private/"
   ],
   "alwaysUpdateLinks": true,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "spellcheck": true
 }

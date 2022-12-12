@@ -15,6 +15,13 @@ projects: [Test Project]
 ---
 ---
 
-> The shoots are carefully and gently pruned by hand every two years leaving only the top boughs, allowing them to grow straight. Harvesting takes 20 years and old 'tree stock' can grow up to a hundred shoots at a time ([View Highlight](https://read.readwise.io/read/01gkm5n9a625vhyfqca6xaak1t))
+
+> The shoots are carefully and gently pruned by hand every two years leaving only the top boughs, allowing them to grow straight. Harvesting takes 20 years and old 'tree stock' can grow up to a hundred shoots at a time ([View Highlight](https://read.readwise.io/read/01gkm5n9a625vhyfqca6xaak1t))[^1]
 
 ---
+
+[[202212120002]][^2]
+
+
+[^1]: an example of a raw highlight passed in from Readwise 
+[^2]: the same example converted into a Zettelkasten using Progressive Summarization leveraging the Templater (Note Refactor Zettelkasten Template) + Note Refactor combo 

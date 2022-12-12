@@ -1,13 +1,14 @@
 #quarterly
 
-# What are your overall goals for this quarter?
+# Retro
 
-# How do these goals affect your life?
+## What did I finish this quarter? (finished writings, finished art pieces, etc.)
 
-# What projects do you plan on completing?
+## What lessons did I learn?
 
+## What still puzzles me?
 
-# Finished Projects
+## Archived Projects Last Quarter
 
 ```dataview
 table file.ctime as "finished"
@@ -20,5 +21,10 @@ where file.name != "Resources"
 ```
 
 
+# Upcoming
 
+## What are your overall goals for this quarter?
 
+## How do these goals affect your life?
+
+## What projects do you plan on completing?

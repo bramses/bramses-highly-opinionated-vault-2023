@@ -8,3 +8,5 @@
 `alt-shift-q` -> open quarterly note
 `ctrl-.` -> toggle pin note
 `alt-shift-z` -> search Zettelkasten notes by H1
+`alt-shift-v` -> use highlightted selection to create a new Zettelekasten note template in the current file
+	`ctrl-shift-n`	- note refactor it to a new file

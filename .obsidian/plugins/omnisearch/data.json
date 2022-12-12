@@ -5,7 +5,7 @@
   "PDFIndexing": false,
   "imagesIndexing": false,
   "showShortName": false,
-  "ribbonIcon": true,
+  "ribbonIcon": false,
   "showExcerpt": true,
   "renderLineReturnInExcerpts": true,
   "showCreateButton": false,
