@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202212090136.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d824060a7ca705fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/People.md",
+                "file": "202212120002.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,6 +31,7 @@
       {
         "id": "3e1fc648f46914c4",
         "type": "tabs",
+        "dimension": 70.0925925925926,
         "children": [
           {
             "id": "cdbe46f476d5c797",
@@ -80,6 +68,21 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "4af83666f6f49517",
+        "type": "tabs",
+        "dimension": 29.907407407407405,
+        "children": [
+          {
+            "id": "d51c28db626a700f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/People.md",
+                "file": "202212120002.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/People.md",
+                "file": "202212120002.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/People.md"
+                "file": "202212120002.md"
               }
             }
           },
@@ -180,17 +183,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "4b2d9504cca5ea7f",
   "lastOpenFiles": [
+    "README.md",
+    "Templates/People.md",
     "Templates/Quarterly.md",
     "Templates/Weekly.md",
     "202212090136.md",
-    "Templates/People.md",
     "Templates/Daily.md",
     "202212120002.md",
     "202212090137.md",
     "Daily/2022-12-12.md",
-    "README.md",
     "_tutorial/Hotkeys.md"
   ]
 }

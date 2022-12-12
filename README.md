@@ -557,6 +557,7 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 - QuickAdd
 - Random Note
 - Readwise (*look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault derives from Readwise, so don't use it at your own risk*)
+- Recent Files
 - Style Settings
 - Supercharged Links
 - Templater
@@ -578,6 +579,7 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 - Obsidian Linter
 - Ozan's Image in Editor Plugin
 - Simple Embeds
+- Settings Search
 - Tag Wrangler
 - Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
 - Tracker
