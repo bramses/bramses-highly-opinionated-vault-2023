@@ -20,14 +20,14 @@ I've been using Obsidian for well over a year and have developed many experiment
 Before we get into anything practical we **need** to discuss the underlying philosophies powering this vault, or none of the implementations will make any sense. Most of these philosophies I've learned or adapted from great contemporary and erstwhile authors and thinkers -- the following is a reflection of both my value structure as well as my take on the works of others.
 
 Philosophies we'll encounter along the way:
-- Deep Work ([Cal Newport](https://www.calnewport.com/))
-- Time Block Planning ([Cal Newpor](https://www.calnewport.com/)t)
-- PARA ([Tiago Forte](https://fortelabs.com/))
-- CODE ([Tiago Forte](https://fortelabs.com/))
-- Progressive Summarization ([Tiago Forte](https://fortelabs.com/))
-- Zettelkasten ([Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann))
-- Digital Garden ([Andy Matuschack](https://andymatuschak.org/))
-- An unexamined life is not worth living ([Socrates](https://en.wikipedia.org/wiki/Socrates))
+- [Deep Work](#deep%20work) ([Cal Newport](https://www.calnewport.com/))
+- [Time Block Planning](#time%20block%20planning) ([Cal Newport](https://www.calnewport.com/))
+- [PARA](#para) ([Tiago Forte](https://fortelabs.com/))
+- [CODE](#code) ([Tiago Forte](https://fortelabs.com/))
+- [Progressive Summarization](#progressive%20summarization) ([Tiago Forte](https://fortelabs.com/))
+- [Zettelkasten](#zettelkasten) ([Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann))
+- [Digital Garden](#digital%20garden) ([Andy Matuschack](https://andymatuschak.org/))
+- [An unexamined life is not worth living](An%20unexamined%20life%20is%20not%20worth%20living) ([Socrates](https://en.wikipedia.org/wiki/Socrates))
 - Jamming (Music Production)
 - AGILE (Software Development Project Management)
 - Metcalfe's Law (Computer Science)
@@ -464,20 +464,21 @@ The following is the folder structure used by BHOV-2023, along with short descri
 - \_PARA
 	- Projects (*active projects*)
 		- Test Project
-			- Kanban
-			- Scratchpad
-	- Archive
+			- Kanban (*project board*)
+			- Scratchpad (*back of the napkin thoughts to a specific project*)
+			- Test Project (*every folder has a file of the same name -- this is looked for by Dataview and in Waypoint*)
+	- Archive (*finished projects*)
 - \_tests
 - \_tutorial
-	- Hotkeys
-	- Attachments
+	- Hotkeys (*hotkeys used by BHOV-2023*)
 - Attachments
 - Computed (*dataviews of information computed across your vault*)
 	- Trackers (*trackers like habit trackers, reminders etc*)
 	- Tasks (*open tasks found using - \[ \] all across the vault*)
-- Daily
-- Weekly
-- Quarterly
+- Calendar (*collection of time-bound notes: daily, weekly, quarterly*)
+	- Daily
+	- Weekly
+	- Quarterly
 - Inbox
 	- Computer Capture
 	- Smartphone Capture
@@ -486,8 +487,14 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Attachments (*images will automatically be placed into this folder*)
 - Readwise
 - Templates
-- Canvases
-- Excalidraw
+	- Daily
+	- Weekly
+	- Quarterly
+	- People
+	- Zettelkasten Note
+	- Note Refactor Zettelkasten Note (*slightly different than the Zettelkasten note template -- will automagically trigger on highlighted text and convert it into a valid Zettelkasten note*)
+- Canvases (optional) (*a list of Obsidian Canvases*)
+- Excalidraw (optional) (*a list of Excalidraw items*)
 
 ## Tests
 
@@ -583,6 +590,7 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why they create the fabric of the system.
 
 - Auto Link Title
+	- Auto Link Title is a simple but powerful time saving plugin,  
 - Calendar
 - Commander
 - Dataview
@@ -605,7 +613,6 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - Timestamper
 - Waypoint
 
-...
 
 ## Optional Plugins
 
@@ -628,8 +635,6 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - Tag Wrangler
 - Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
 - Tracker
-
-...
 
 
 ## Migration Guide for Current Obsidian Users

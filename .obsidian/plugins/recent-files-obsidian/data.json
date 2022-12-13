@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2022-Q4",
-      "path": "Calendar/Quarterly/2022-Q4.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "2022-W51",
       "path": "Calendar/Weekly/2022-W51.md"
     },
     {
-      "basename": "2022-12-11",
-      "path": "Calendar/Daily/2022-12-11.md"
+      "basename": "2022-Q4",
+      "path": "Calendar/Quarterly/2022-Q4.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Scratchpad",
+      "path": "Inbox/Scratchpad.md"
+    },
+    {
+      "basename": "Smartphone Capture",
+      "path": "Inbox/Smartphone Capture/Smartphone Capture.md"
+    },
+    {
+      "basename": "Computer Capture",
+      "path": "Inbox/Computer Capture/Computer Capture.md"
+    },
+    {
+      "basename": "Computed",
+      "path": "Computed/Computed.md"
+    },
+    {
+      "basename": "Trackers",
+      "path": "Computed/Trackers.md"
     },
     {
       "basename": "Tasks",
       "path": "Computed/Tasks.md"
+    },
+    {
+      "basename": "2022-12-11",
+      "path": "Calendar/Daily/2022-12-11.md"
     },
     {
       "basename": "2022-12-12",
@@ -65,20 +85,12 @@
       "path": "_PARA/Projects/Test Project/Kanban.md"
     },
     {
-      "basename": "Computer Capture",
-      "path": "Inbox/Computer Capture/Computer Capture.md"
-    },
-    {
       "basename": "Kanban",
       "path": "_PARA/Projects/Test Project 2/Kanban.md"
     },
     {
       "basename": "2022-12-11--11-59-30",
       "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
-    },
-    {
-      "basename": "Computed",
-      "path": "Computed/Computed.md"
     },
     {
       "basename": "2022-12-11--12-00-00",

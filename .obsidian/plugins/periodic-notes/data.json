@@ -5,13 +5,13 @@
   "daily": {
     "format": "",
     "template": "Templates/Daily.md",
-    "folder": "Daily",
+    "folder": "Calendar/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "Templates/Weekly.md",
-    "folder": "Weekly",
+    "folder": "Calendar/Weekly",
     "enabled": true
   },
   "monthly": {
@@ -22,7 +22,7 @@
   "quarterly": {
     "format": "",
     "template": "Templates/Quarterly.md",
-    "folder": "Quarterly",
+    "folder": "Calendar/Quarterly",
     "enabled": true
   },
   "yearly": {
