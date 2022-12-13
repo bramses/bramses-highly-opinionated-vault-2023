@@ -7,5 +7,6 @@
   "showFrontmatter": false,
   "defaultViewMode": "preview",
   "showLineNumber": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "attachmentFolderPath": "Private/Attachments"
 }

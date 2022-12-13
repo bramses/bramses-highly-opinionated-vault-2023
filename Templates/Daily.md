@@ -10,10 +10,13 @@ location: [48.8584, 2.2945]
 Week: [[<% tp.date.now('yyyy') %>-W<% tp.date.now('ww') %>]]
 
 
+# Things I Need To Do
+
+## todo/daily
+
 # Events That Happened Today
 
 # Thoughts I Had Today
-
 
 # Random Note Review
 <%* const files = app.vault.getFiles().filter(f => f.path.includes(".md")); const random = Math.floor(Math.random() * (files.length - 1)); const random2 = Math.floor(Math.random() * (files.length - 1)); const random3 = Math.floor(Math.random() * (files.length - 1)); const randomNote = files[random]; const randomNote2 = files[random2]; const randomNote3 = files[random3] -%>
@@ -24,7 +27,7 @@ Week: [[<% tp.date.now('yyyy') %>-W<% tp.date.now('ww') %>]]
 
 <%* const todayIs = tp.date.now("YYYY-MM-DD") %>
 
-# Capture Notes
+# Capture Notes From Today
 
 ```dataview
 LIST FROM "Inbox"

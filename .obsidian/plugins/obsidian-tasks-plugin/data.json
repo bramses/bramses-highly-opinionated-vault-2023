@@ -2,7 +2,7 @@
   "globalFilter": "",
   "removeGlobalFilter": false,
   "setDoneDate": true,
-  "autoSuggestInEditor": true,
+  "autoSuggestInEditor": false,
   "autoSuggestMinMatch": 0,
   "autoSuggestMaxItems": 6,
   "provideAccessKeys": true,

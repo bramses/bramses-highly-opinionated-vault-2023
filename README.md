@@ -349,7 +349,20 @@ Plugins:
 
 ## Content management systems
 
-`todo`
+Posting content on the internet has become a very normalized thing to do -- whether you post on your own domain or a large website like Twitter. Sharing coherent and well structured thought is becoming a necessary skill. Fortunately for us, we have a whole databank of really good thoughts to pull from! With structured data sourcing from PARA and "unstructured" data emerging from our Zettelkasten, creating long form content is more about stitching together existing raw material than creating from scratch.
+
+A **content management system** makes the process of posting easier taking care of boilerplate, formatting, serving to readers, etc. The most popular example is Wordpress, though many tools like Ghost/Substack serve similar roles these days.
+
+Obsidian can also be used as a full e2e CMS. I know because I built one into Obsidian! The plugins required to make a full CMS are outside the scope of BHOV-2023, but if you'd like to see the code that powers my Obsidian backed CMS you can click [here](https://github.com/bramses/kaneki) and [here](https://github.com/bramses/kaneki-obsidian), or if you want a deep dive on the process of building a CMS into Obsidian, click [here](https://www.bramadams.dev/projects/how-to-kaneki).
+
+Plugins:
+- Kanban
+
+Related philosophies:
+- PARA
+- Zettelkasten
+- Deep Work
+
 
 ## Antifragility
 
@@ -363,7 +376,19 @@ In BHOV-2023, Antifragility means that as your vault evolves you shouldn't feel 
 
 ## Version Control Systems
 
-`todo`
+*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: -> [I BROKE THE DAM](https://www.youtube.com/watch?v=3aX8ZdgNVRY&ab_channel=SouthParkClips). <- 
+
+These changes are particularly useful to software engineering teams who need to trace the history of a working block of code. For our case in BHOV-2023, Git is mainly used for two things: file versioning and light publishing capability. 
+
+Git very easily can monitor the **state** of the vault at any period of time, creating a snapshot of connections, notes, and plugins at a given moment in time. This means that we can update our files without fear that we'll delete something important.
+
+Git(Hub) also serves as a light publishing tool because you can have a public repository and GitHub has a Markdown renderer which means that when people visit files they will render in Markdown -- [example](https://github.com/bramses/bramses-highly-opinionated-vault-2023/blob/main/Readwise/Articles%20Test/The%20Ancient%20Japanese%20Technique%20That%20Produces%20Lumber%20Without%20Cutting%20Trees.md).
+
+Plugins:
+- Obsidian Git
+
+External Software:
+- GitHub
 
 ## Causa Sui
 
@@ -376,7 +401,17 @@ Related Philosophies:
 
 ## Linking Your Thinking
 
-`todo`
+**Linking your Thinking** by Nick Milo is the concept of using emergence to discover relationships between your notes.
+
+I think of MoCs as directionally flexible Table of Contents. You can gather togther a case from across your notes and link them in one space.
+
+Automatically, Folder Notes include the Waypoint plugin which will keep a live version of all children in a folder. This is great for Parent level folders like `Projects` and `Archive`.
+
+Manually, you may also look to create your own Maps of Content (MOCs) from a particular tag, or create a Zettelkasten note that is a map of other Zettelkasten Notes. Meta!
+
+Plugins:
+- Luhmann
+- Note Refactor
 
 # Implementation
 
@@ -421,6 +456,7 @@ month:
 
 `todo`
 
+
 ## Folder Structure
 
 The following is the folder structure used by BHOV-2023, along with short descriptions as to why each exists.
@@ -436,8 +472,9 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Hotkeys
 	- Attachments
 - Attachments
-- Computed
-	- Trackers
+- Computed (*dataviews of information computed across your vault*)
+	- Trackers (*trackers like habit trackers, reminders etc*)
+	- Tasks (*open tasks found using - \[ \] all across the vault*)
 - Daily
 - Weekly
 - Quarterly
@@ -446,7 +483,7 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Smartphone Capture
 - Private
 	- CRM
-	- Attachments
+	- Attachments (*images will automatically be placed into this folder*)
 - Readwise
 - Templates
 - Canvases
@@ -457,6 +494,10 @@ The following is the folder structure used by BHOV-2023, along with short descri
 `todo`
 
 ## CRM
+
+Another private but universal trait of humans is our relationships to others. Knowing this BHOV-2023 includes a private CRM (`Private/CRM/CRM`) that can help keep track of the important people in your life. 
+
+I use my CRM to keep track of important days like birthdays as well as items discussed (adult relationships can go months without speaking).
 
 # Tips and Tricks
 
@@ -484,10 +525,6 @@ The following is the folder structure used by BHOV-2023, along with short descri
 
 `todo`
 
-## Shortcuts
-
-`todo`
-
 ## Zotero
 
 `todo`
@@ -508,7 +545,7 @@ The following is the folder structure used by BHOV-2023, along with short descri
 
 `todo`
 
-## Mobile Integration
+## Mobile Integration (General)
 
 `todo`
 
@@ -520,6 +557,7 @@ Great! Now that that's out of the way, we can finally get to running the vault, 
 1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`
 2. Download into your local machine
 3. Open the vault and rename it to whatever you want and open it in Obsidian
+4. Before you commit anything to GitHub, make sure you edit `.gitignore` to match what you want to publish. Doing this early will save you headaches down the road if you decide to publish (*part*) of your vault
 
 
 ## After You're Up and Running
@@ -541,15 +579,17 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 
 Truly nothing in this vault is *required*, but if you want the full experience, these community plugins are quote-unquote mandatory:
 
+The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why they create the fabric of the system.
+
 - Auto Link Title
 - Calendar
 - Commander
 - Dataview
-- Excalidraw
 - Folder Note
 - Footnote Shortcut
 - Hotkeys for Templates
 - Kanban
+- Luhmann
 - Natural Language Dates
 - Obsidian Git
 - Omnisearch
@@ -570,11 +610,15 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 
 These plugins aren't needed, as some are QoL and others have a steep price tag attached (some even have both!). But these apps are no less critical to my workflow than the "Required" apps above, so I need to include them.
 
+The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why you may be interested.
+
 - Open in VSCode
 - Map View
+- Excalidraw
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
 - Full Calendar
 -  New Tab Default Page
+- Plugin Update Tracker
 - GPT-3 Summarizer
 - Obsidian Linter
 - Ozan's Image in Editor Plugin

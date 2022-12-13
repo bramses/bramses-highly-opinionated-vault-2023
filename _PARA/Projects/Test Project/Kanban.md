@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To Do
 
+- [ ] a task for test project!
 
 
 ## In Progress
