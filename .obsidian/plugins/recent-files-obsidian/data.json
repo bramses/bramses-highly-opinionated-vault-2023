@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "2022-12-12",
+      "path": "Calendar/Daily/2022-12-12.md"
+    },
+    {
       "basename": "2022-W51",
       "path": "Calendar/Weekly/2022-W51.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "2022-12-11",
       "path": "Calendar/Daily/2022-12-11.md"
-    },
-    {
-      "basename": "2022-12-12",
-      "path": "Calendar/Daily/2022-12-12.md"
     },
     {
       "basename": "Test Project",

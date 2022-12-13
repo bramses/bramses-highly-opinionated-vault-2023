@@ -19,15 +19,17 @@ I've been using Obsidian for well over a year and have developed many experiment
 
 Before we get into anything practical we **need** to discuss the underlying philosophies powering this vault, or none of the implementations will make any sense. Most of these philosophies I've learned or adapted from great contemporary and erstwhile authors and thinkers -- the following is a reflection of both my value structure as well as my take on the works of others.
 
-Philosophies we'll encounter along the way:
-- [Deep Work](#deep%20work) ([Cal Newport](https://www.calnewport.com/))
-- [Time Block Planning](#time%20block%20planning) ([Cal Newport](https://www.calnewport.com/))
+Philosophies we'll encounter along the way: 
+
+(*nb: github and obsidian use different link titles so if you are reading this in Obsidian press the (o) next to the names to jump to the heading, disregard if you are on Github*)
+- [Deep Work](#deep-work) [(o)](#deep%20work) ([Cal Newport](https://www.calnewport.com/))
+- [Time Block Planning](#time-block-planning) ([Cal Newport](https://www.calnewport.com/))
 - [PARA](#para) ([Tiago Forte](https://fortelabs.com/))
 - [CODE](#code) ([Tiago Forte](https://fortelabs.com/))
-- [Progressive Summarization](#progressive%20summarization) ([Tiago Forte](https://fortelabs.com/))
+- [Progressive Summarization](#progressive-summarization) ([Tiago Forte](https://fortelabs.com/))
 - [Zettelkasten](#zettelkasten) ([Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann))
-- [Digital Garden](#digital%20garden) ([Andy Matuschack](https://andymatuschak.org/))
-- [An unexamined life is not worth living](An%20unexamined%20life%20is%20not%20worth%20living) ([Socrates](https://en.wikipedia.org/wiki/Socrates))
+- [Digital Garden](#digital-garden) ([Andy Matuschack](https://andymatuschak.org/))
+- [An unexamined life is not worth living](An-unexamined-life-is-not-worth-living) ([Socrates](https://en.wikipedia.org/wiki/Socrates))
 - Jamming (Music Production)
 - AGILE (Software Development Project Management)
 - Metcalfe's Law (Computer Science)

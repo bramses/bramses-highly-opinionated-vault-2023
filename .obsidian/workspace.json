@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dcc80a27ea4590a7",
+        "id": "14206f362b83c11c",
         "type": "tabs",
         "children": [
           {
-            "id": "382c94a56533417c",
+            "id": "9d46456a81ae517e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,17 +183,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "382c94a56533417c",
+  "active": "9d46456a81ae517e",
   "lastOpenFiles": [
+    "Calendar/Daily/2022-12-12.md",
+    "(.md",
+    "README.md",
     "Calendar/Weekly/2022-W51.md",
     "Calendar/Quarterly/2022-Q4.md",
-    "README.md",
     "Inbox/Scratchpad.md",
     "Inbox/Smartphone Capture/Smartphone Capture.md",
     "Inbox/Computer Capture/Computer Capture.md",
     "Computed/Computed.md",
-    "Computed/Trackers.md",
-    "Computed/Tasks.md",
-    "Calendar/Daily/2022-12-11.md"
+    "Computed/Trackers.md"
   ]
 }
