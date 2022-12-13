@@ -14,7 +14,6 @@ The following settings can be set in the [Obsidian Export Settings in Readwise](
 ---
 author: {% if author %}{{author}}{% endif %}
 fullTitle: {{full_title}}
-progressiveSummarizationComplete: false
 category: #{{category}}
 source: {{source}}
 date: [[{{date}}]]
@@ -40,9 +39,9 @@ projects: []
 
 ```
 {% if is_new_page %}
-## Highlights
+## Highlights #to-process 
 {% elif has_new_highlights -%}
-## New highlights added {{date|date('F j, Y')}} at {{time}}
+## New highlights added {{date|date('F j, Y')}} at {{time}} #to-process 
 {% endif -%}
 ```
 

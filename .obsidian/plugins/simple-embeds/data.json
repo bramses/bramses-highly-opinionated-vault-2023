@@ -24,7 +24,7 @@
   "redditTheme": "auto",
   "enableInLivePreview": false,
   "centerEmbeds": true,
-  "keepLinksInPreview": false,
+  "keepLinksInPreview": true,
   "embedPlacement": "above",
   "disableAutomaticEmbeds": false
 }

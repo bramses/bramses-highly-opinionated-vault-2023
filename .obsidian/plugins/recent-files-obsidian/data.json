@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "202212122239",
+      "path": "202212122239.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212090136",
+      "path": "202212090136.md"
+    },
+    {
+      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
+      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
+    },
+    {
+      "basename": "Readwise",
+      "path": "_tests/External/Readwise.md"
+    },
+    {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Trackers",
+      "path": "Computed/Trackers.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "Computed/Tasks.md"
+    },
+    {
+      "basename": "To Process",
+      "path": "Computed/To Process.md"
+    },
+    {
+      "basename": "2022-12-11--11-59-30",
+      "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
+    },
+    {
+      "basename": "2022-12-11--12-00-00",
+      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
+    },
+    {
+      "basename": "Readwise",
+      "path": "Readwise/Readwise.md"
+    },
+    {
+      "basename": "2022-12-12",
+      "path": "Calendar/Daily/2022-12-12.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project/Resources.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project/Scratchpad.md"
+    },
+    {
+      "basename": "Test Project",
+      "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "Zettelkasten Note",
+      "path": "Templates/Zettelkasten Note.md"
+    },
+    {
+      "basename": "Weekly",
+      "path": "Templates/Weekly.md"
+    },
+    {
+      "basename": "Quarterly",
+      "path": "Templates/Quarterly.md"
+    },
+    {
+      "basename": "Note Refactor Zettelkasten Template",
+      "path": "Templates/Note Refactor Zettelkasten Template.md"
+    },
+    {
+      "basename": "People",
+      "path": "Templates/People.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Templates/Daily.md"
+    },
+    {
+      "basename": "Computed",
+      "path": "Computed/Computed.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "_PARA/Projects/Test Project/Kanban.md"
+    },
+    {
       "basename": "Templates",
       "path": "Templates/Templates.md"
     },
@@ -19,10 +123,6 @@
     {
       "basename": "Computer Capture",
       "path": "Inbox/Computer Capture/Computer Capture.md"
-    },
-    {
-      "basename": "Computed",
-      "path": "Computed/Computed.md"
     },
     {
       "basename": "Attachments",
@@ -49,18 +149,6 @@
       "path": "_PARA/_PARA.md"
     },
     {
-      "basename": "Readwise",
-      "path": "Readwise/Readwise.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "2022-12-12",
-      "path": "Calendar/Daily/2022-12-12.md"
-    },
-    {
       "basename": "2022-W51",
       "path": "Calendar/Weekly/2022-W51.md"
     },
@@ -69,28 +157,8 @@
       "path": "Calendar/Quarterly/2022-Q4.md"
     },
     {
-      "basename": "Trackers",
-      "path": "Computed/Trackers.md"
-    },
-    {
-      "basename": "Tasks",
-      "path": "Computed/Tasks.md"
-    },
-    {
       "basename": "2022-12-11",
       "path": "Calendar/Daily/2022-12-11.md"
-    },
-    {
-      "basename": "Test Project",
-      "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project/Scratchpad.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project/Resources.md"
     },
     {
       "basename": "Resources",
@@ -101,48 +169,12 @@
       "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
     },
     {
-      "basename": "202212090136",
-      "path": "202212090136.md"
-    },
-    {
-      "basename": "202212122239",
-      "path": "202212122239.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Projects/Test Project/Kanban.md"
-    },
-    {
       "basename": "Kanban",
       "path": "_PARA/Projects/Test Project 2/Kanban.md"
     },
     {
-      "basename": "2022-12-11--11-59-30",
-      "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
-    },
-    {
-      "basename": "2022-12-11--12-00-00",
-      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
-    },
-    {
-      "basename": "Daily",
-      "path": "Templates/Daily.md"
-    },
-    {
       "basename": "CRM",
       "path": "Private/CRM/CRM.md"
-    },
-    {
-      "basename": "People",
-      "path": "Templates/People.md"
     }
   ],
   "omittedPaths": [],

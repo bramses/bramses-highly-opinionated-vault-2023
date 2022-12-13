@@ -6,7 +6,7 @@
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
   "defaultViewMode": "preview",
-  "showLineNumber": true,
+  "showLineNumber": false,
   "spellcheck": true,
   "attachmentFolderPath": "Private/Attachments"
 }
