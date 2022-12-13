@@ -598,8 +598,8 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Commander](obsidian://show-plugin?id=cmdr)
 - [Dataview](obsidian://show-plugin?id=dataview)
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
-- Footnote Shortcut
-- Hotkeys for Templates
+- [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes)
+- [Hotkeys for Templates](obsidian://show-plugin?id=obsidian-hotkeys-for-templates)
 - Kanban
 - Luhmann
 - Natural Language Dates
