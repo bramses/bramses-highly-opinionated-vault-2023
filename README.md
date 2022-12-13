@@ -376,7 +376,7 @@ In BHOV-2023, Antifragility means that as your vault evolves you shouldn't feel 
 
 ## Version Control Systems
 
-*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: -> [I BROKE THE DAM](https://www.youtube.com/watch?v=3aX8ZdgNVRY&ab_channel=SouthParkClips). <- 
+*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: 
 
 These changes are particularly useful to software engineering teams who need to trace the history of a working block of code. For our case in BHOV-2023, Git is mainly used for two things: file versioning and light publishing capability. 
 
