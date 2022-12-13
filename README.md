@@ -21,26 +21,27 @@ Before we get into anything practical we **need** to discuss the underlying phil
 
 Philosophies we'll encounter along the way: 
 
-(*nb: github and obsidian use different link titles so if you are reading this in Obsidian press the (o) next to the names to jump to the heading, disregard if you are on Github*)
+(*nb: github and obsidian use different link styles for multiple word titles so if you are reading this in Obsidian press the (o) next to the names to jump to the heading, disregard if you are on Github*)
+
 - [Deep Work](#deep-work) [(o)](#deep%20work) ([Cal Newport](https://www.calnewport.com/))
-- [Time Block Planning](#time-block-planning) ([Cal Newport](https://www.calnewport.com/))
+- [Time Block Planning](#time-block-planning) [(o)](#time%20block%20planning) ([Cal Newport](https://www.calnewport.com/))
 - [PARA](#para) ([Tiago Forte](https://fortelabs.com/))
 - [CODE](#code) ([Tiago Forte](https://fortelabs.com/))
-- [Progressive Summarization](#progressive-summarization) ([Tiago Forte](https://fortelabs.com/))
+- [Progressive Summarization](#progressive-summarization) [(o)](#progressive%20summarization) ([Tiago Forte](https://fortelabs.com/))
 - [Zettelkasten](#zettelkasten) ([Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann))
-- [Digital Garden](#digital-garden) ([Andy Matuschack](https://andymatuschak.org/))
-- [An unexamined life is not worth living](An-unexamined-life-is-not-worth-living) ([Socrates](https://en.wikipedia.org/wiki/Socrates))
-- Jamming (Music Production)
-- AGILE (Software Development Project Management)
-- Metcalfe's Law (Computer Science)
-- Atticus Finch is the same in the house as he is on the public streets ([To Kill a Mockingbird](https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird))
-- Large Language Models and Transformers (Machine Learning)
-- Automation and Scripting (Software Development)
-- Content management systems (Software Development)
-- Antifragility ([Nassim Taleb](https://www.fooledbyrandomness.com/))
-- Version Control Systems (Software Development)
-- Causa Sui ([Ernest Becker](https://en.wikipedia.org/wiki/Ernest_Becker))
-- LYT + Maps of Content ([Nick Milo](https://www.linkingyourthinking.com/))
+- [Digital Garden](#digital-garden) [(o)](#digital%20garden) ([Andy Matuschack](https://andymatuschak.org/))
+- [An unexamined life is not worth living](#An-unexamined-life-is-not-worth-living) [(o)](#An%20unexamined%20life%20is%20not%20worth%20living) ([Socrates](https://en.wikipedia.org/wiki/Socrates))
+- [Jamming](#jamming) (Music Production)
+- [AGILE](#agile) (Software Development Project Management)
+- [Metcalfe's Law](#metcalfes-law) [(o)](#metcalfe's%20law) (Computer Science)
+- [Atticus Finch is the same in the house as he is on the public streets](#Atticus-Finch-is-the-same-in-the-house-as-he-is-on-the-public-streets) [(o)](#Atticus%20Finch%20is%20the%20same%20in%20the%20house%20as%20he%20is%20on%20the%20public%20streets) ([To Kill a Mockingbird](https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird))
+- [Large Language Models and Transformers](#Large-Language-Models-and-Transformers) [(o)](#Large%20Language%20Models%20and%20Transformers) (Machine Learning)
+- [Automation and Scripting](#Automation-and-Scripting) [(o)](#Automation%20and%20Scripting) (Software Development)
+- [Content management systems](#Content-management-systems) [(o)](#Content%20management%20systems) (Software Development)
+- [Antifragility](#Antifragility) ([Nassim Taleb](https://www.fooledbyrandomness.com/))
+- [Version Control Systems](#Version-Control-Systems) [(o)](#Version%20Control%20Systems) (Software Development)
+- [Causa Sui](#Causa-Sui) [(o)](#Causa%20Sui) ([Ernest Becker](https://en.wikipedia.org/wiki/Ernest_Becker))
+- [Linking Your Thinking + Maps of Content](#Linking-Your-Thinking) [(o)](#Linking%20Your%20Thinking) ([Nick Milo](https://www.linkingyourthinking.com/))
 
 
 ## Deep Work
