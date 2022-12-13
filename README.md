@@ -633,7 +633,9 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 
 ## Migration Guide for Current Obsidian Users
 
-`todo`
+In the creation of BHOV-2023, the author was in the middle of his own migration from his vault of 1.5 years to BHOV. So this is all quite relevant!
+
+First, the the questions you should ask yourself is: what about your current vault is necessary, what you'd like to change, and where you ideally want to be after migrating. Keep in mind, many of the tricks and strategies used in BHOV-2023 can be inserted into existing vaults, so you might not even need to make a full move!
 
 ## Settings
 
@@ -641,7 +643,7 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 
 # A Day in the Life - Real World Use
 
-**Bramses' Highly Opinionated Vault 2023** is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
+BHOV-2023 is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
 
 Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
 

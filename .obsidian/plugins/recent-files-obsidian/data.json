@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project/Resources.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "Computed/Tasks.md"
+    },
+    {
+      "basename": "2022-12-12",
+      "path": "Daily/2022-12-12.md"
     },
     {
       "basename": "Test Project",
       "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project/Scratchpad.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project/Resources.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project 2/Resources.md"
+    },
+    {
+      "basename": "Test Project 2",
+      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
     },
     {
       "basename": "202212090136",
@@ -25,24 +49,12 @@
       "path": "202212090137.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "2022-12-12",
-      "path": "Daily/2022-12-12.md"
-    },
-    {
       "basename": "Kanban",
       "path": "_PARA/Projects/Test Project/Kanban.md"
     },
     {
       "basename": "Computer Capture",
       "path": "Inbox/Computer Capture/Computer Capture.md"
-    },
-    {
-      "basename": "Tasks",
-      "path": "Computed/Tasks.md"
     },
     {
       "basename": "Kanban",
