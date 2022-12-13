@@ -592,12 +592,12 @@ Truly nothing in this vault is *required*, but if you want the full experience, 
 
 The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why they create the fabric of the system.
 
-- Auto Link Title
-	- Auto Link Title is a simple but powerful time saving plugin,  
-- Calendar
-- Commander
-- Dataview
-- Folder Note
+- [Auto Link Title](obsidian://show-plugin?id=obsidian-auto-link-title)
+	- Auto Link Title is a simple but powerful time saving plugin, turning two steps into one. Copy a link on the internet, highlight the text you want to replace in Obsidian and paste as usual. Done!
+- [Calendar](obsidian://show-plugin?id=calendar)
+- [Commander](obsidian://show-plugin?id=cmdr)
+- [Dataview](obsidian://show-plugin?id=dataview)
+- [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
 - Footnote Shortcut
 - Hotkeys for Templates
 - Kanban
