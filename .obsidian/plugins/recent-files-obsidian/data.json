@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-Q4",
+      "path": "Calendar/Quarterly/2022-Q4.md"
+    },
+    {
+      "basename": "2022-W51",
+      "path": "Calendar/Weekly/2022-W51.md"
+    },
+    {
+      "basename": "2022-12-11",
+      "path": "Calendar/Daily/2022-12-11.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -10,7 +22,7 @@
     },
     {
       "basename": "2022-12-12",
-      "path": "Daily/2022-12-12.md"
+      "path": "Calendar/Daily/2022-12-12.md"
     },
     {
       "basename": "Test Project",
@@ -71,10 +83,6 @@
     {
       "basename": "2022-12-11--12-00-00",
       "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
-    },
-    {
-      "basename": "2022-12-11",
-      "path": "Daily/2022-12-11.md"
     },
     {
       "basename": "Daily",

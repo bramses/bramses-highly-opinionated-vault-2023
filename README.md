@@ -376,7 +376,7 @@ In BHOV-2023, Antifragility means that as your vault evolves you shouldn't feel 
 
 ## Version Control Systems
 
-*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: 
+*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: https://github.com/bramses/bramses-highly-opinionated-vault-2023/commit/bbb68cbfd5e224f3a2a4b3022afc73364c236233?diff=split
 
 These changes are particularly useful to software engineering teams who need to trace the history of a working block of code. For our case in BHOV-2023, Git is mainly used for two things: file versioning and light publishing capability. 
 
@@ -558,6 +558,7 @@ Great! Now that that's out of the way, we can finally get to running the vault, 
 2. Download into your local machine
 3. Open the vault and rename it to whatever you want and open it in Obsidian
 4. Before you commit anything to GitHub, make sure you edit `.gitignore` to match what you want to publish. Doing this early will save you headaches down the road if you decide to publish (*part*) of your vault
+5. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated
 
 
 ## After You're Up and Running
@@ -636,6 +637,8 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 In the creation of BHOV-2023, the author was in the middle of his own migration from his vault of 1.5 years to BHOV. So this is all quite relevant!
 
 First, the the questions you should ask yourself is: what about your current vault is necessary, what you'd like to change, and where you ideally want to be after migrating. Keep in mind, many of the tricks and strategies used in BHOV-2023 can be inserted into existing vaults, so you might not even need to make a full move!
+
+After following the traditional [installation section above](#installation), the first thing you're probably going to want to do is start migrating a few notes you already have into the correct buckets. Once you get a feel for that manually, try to move your outside vault workflows (Alfred, Readwise, etc) to point to BHOV-2023. This will help facilitate the transition without a drastic switch over as new notes will be placed into BHOV-2023 and your existing workflows will be maintained in your old vault. 
 
 ## Settings
 
