@@ -674,6 +674,9 @@ Reflection is a critical component to the value of this vault, and so one day a 
 
 # Final Word
 
+BHOV-2023 would not be possible without the amazing team and community that make Obsidian what it is. This vault works because the technology is there, and all thanks goes to all of the developers in the community.
+...
+
 `todo`
 
 [^1]: hello from the future!
