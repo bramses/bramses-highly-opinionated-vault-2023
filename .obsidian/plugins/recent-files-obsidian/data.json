@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Templates",
+      "path": "Templates/Templates.md"
     },
     {
-      "basename": "2022-12-12",
-      "path": "Calendar/Daily/2022-12-12.md"
-    },
-    {
-      "basename": "2022-W51",
-      "path": "Calendar/Weekly/2022-W51.md"
-    },
-    {
-      "basename": "2022-Q4",
-      "path": "Calendar/Quarterly/2022-Q4.md"
+      "basename": "Inbox",
+      "path": "Inbox/Inbox.md"
     },
     {
       "basename": "Scratchpad",
@@ -31,6 +23,50 @@
     {
       "basename": "Computed",
       "path": "Computed/Computed.md"
+    },
+    {
+      "basename": "Attachments",
+      "path": "Attachments/Attachments.md"
+    },
+    {
+      "basename": "_tutorial",
+      "path": "_tutorial/_tutorial.md"
+    },
+    {
+      "basename": "_tests",
+      "path": "_tests/_tests.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "_PARA/Projects/Projects.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "_PARA/Archive/Archive.md"
+    },
+    {
+      "basename": "_PARA",
+      "path": "_PARA/_PARA.md"
+    },
+    {
+      "basename": "Readwise",
+      "path": "Readwise/Readwise.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2022-12-12",
+      "path": "Calendar/Daily/2022-12-12.md"
+    },
+    {
+      "basename": "2022-W51",
+      "path": "Calendar/Weekly/2022-W51.md"
+    },
+    {
+      "basename": "2022-Q4",
+      "path": "Calendar/Quarterly/2022-Q4.md"
     },
     {
       "basename": "Trackers",

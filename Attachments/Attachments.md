@@ -1,6 +1,5 @@
 
 %% Begin Waypoint %%
-- **[[Archive]]**
-- **[[Projects]]**
+
 
 %% End Waypoint %%

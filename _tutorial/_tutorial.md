@@ -1,6 +1,7 @@
 
 %% Begin Waypoint %%
-- **[[Archive]]**
-- **[[Projects]]**
+- **Attachments**
+
+- [[Hotkeys]]
 
 %% End Waypoint %%
