@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "202212122239.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "202212122239.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "202212122239.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "202212122239.md"
               }
             }
           },
@@ -220,15 +220,15 @@
   },
   "active": "fa7779fed8ad75a1",
   "lastOpenFiles": [
+    "202212141654.md",
+    "202212122239.md",
+    "README.md",
     "Calendar/Daily/2022-12-14.md",
     "Templates/Daily.md",
-    "README.md",
     "_tutorial/Hotkeys.md",
     "Computed/Trackers.md",
     "Computed/To Process.md",
     "Computed/Tasks.md",
-    "Templates/Quarterly.md",
-    "_PARA/Projects/Test Project/Resources.md",
-    "_PARA/Projects/Test Project/Scratchpad.md"
+    "Templates/Quarterly.md"
   ]
 }
