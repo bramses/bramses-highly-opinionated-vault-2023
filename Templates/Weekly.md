@@ -27,3 +27,23 @@ where file.name != "Kanban"
 where file.name != "Projects"
 where file.name != "Resources"
 ```
+# Commitments
+
+## todo/monday
+
+## todo/tuesday
+
+
+## todo/wednesday
+
+
+## todo/thursday
+
+
+## todo/friday
+
+
+## todo/saturday
+
+
+## todo/sunday

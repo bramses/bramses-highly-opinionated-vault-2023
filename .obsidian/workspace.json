@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d46456a81ae517e",
+            "id": "b6bcdb4c61fa21e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202212122239.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3251c326c5334d47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Computer Capture/2022-12-11--12-00-00.md",
+                "file": "Computed/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +31,7 @@
       {
         "id": "3e1fc648f46914c4",
         "type": "tabs",
-        "dimension": 70.0925925925926,
+        "dimension": 77.77777777777779,
         "children": [
           {
             "id": "cdbe46f476d5c797",
@@ -58,14 +46,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "615cd7309793c2a1",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -84,13 +64,21 @@
       {
         "id": "4af83666f6f49517",
         "type": "tabs",
-        "dimension": 29.907407407407405,
+        "dimension": 22.22222222222222,
         "children": [
           {
             "id": "d51c28db626a700f",
             "type": "leaf",
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "615cd7309793c2a1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
               "state": {}
             }
           }
@@ -107,6 +95,7 @@
       {
         "id": "3d1a900f5bead1b0",
         "type": "tabs",
+        "dimension": 66.2962962962963,
         "children": [
           {
             "id": "c6b1d00458e0be0c",
@@ -114,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202212122239.md",
+                "file": "Computed/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202212122239.md",
+                "file": "Computed/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,16 +143,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202212122239.md"
+                "file": "Computed/Tasks.md"
               }
-            }
-          },
-          {
-            "id": "b6f8141af5bfec88",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -175,7 +156,22 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "579a57490c31c46e",
+        "type": "tabs",
+        "dimension": 33.7037037037037,
+        "children": [
+          {
+            "id": "b6f8141af5bfec88",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,17 +191,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "615cd7309793c2a1",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
-    "202212120002.md",
-    "202212090137.md",
-    "202212090136.md",
-    "202212122239.md",
-    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
-    "_tests/External/Readwise.md",
-    "_tutorial/Hotkeys.md",
-    "README.md",
-    "Computed/Trackers.md",
-    "Computed/Tasks.md"
+    "Calendar/Daily/2022-12-12.md",
+    "Calendar/Daily/2022-12-11.md",
+    "Templates/Daily.md",
+    "Inbox/Scratchpad.md",
+    "Private/202212141113.md",
+    "Calendar/Weekly/2022-W51.md",
+    "Computed/Tasks.md",
+    "Templates/Weekly.md",
+    "Templates/Templates.md",
+    "README.md"
   ]
 }
