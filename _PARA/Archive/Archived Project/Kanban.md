@@ -1,11 +1,9 @@
 ---
-tags: 
-
+tags: []
 kanban-plugin: basic
-
 title: Kanban
 date created: Thursday, December 8th 2022, 2:42:09 am
-date modified: Wednesday, December 14th 2022, 3:33:55 pm
+date modified: Wednesday, December 14th 2022, 4:44:33 pm
 ---
 
 ## To Do

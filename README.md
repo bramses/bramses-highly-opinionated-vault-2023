@@ -1,12 +1,12 @@
 ---
-aliases: [Introduction]
 tags: [zettel]
-title: Introduction
-linter-yaml-title-alias: Introduction
+title: README
 date created: Friday, December 9th 2022, 12:24:59 pm
-date modified: Wednesday, December 14th 2022, 3:33:55 pm
+date modified: Wednesday, December 14th 2022, 5:04:46 pm
 ---
-# Introduction
+# README
+
+## Introduction
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
 
@@ -16,18 +16,17 @@ Some of these techniques may be familiar to you, others may be novel due to the 
 
 By following this guide and leveraging this template, I can promise that you'll be able to evolve from possibly never having used Obsidian to **being up to date with the way I think about using this phenomenal software**. I hope you enjoy and have fun!!
 
-# Motivation
+## Motivation
 
 I've been using Obsidian for well over a year and have developed many experiments, some of which succeeded and many others that have failed. I have tried to compile all the lessons from these experiences and create a vault that mirrors my up to date thinking on how Obsidian can be maximally utilized.
 
 **Bramses' Highly Opinionated Vault 2023** (BHOV-2023) will tread the line of practicality and theory. Let's dive in!
 
-
-# Philosophies
+## Philosophies
 
 Before we get into anything practical we **need** to discuss the underlying philosophies powering this vault, or none of the implementations will make any sense. Most of these philosophies I've learned or adapted from great contemporary and erstwhile authors and thinkers -- the following is a reflection of both my value structure as well as my take on the works of others.
 
-Philosophies we'll encounter along the way: 
+Philosophies we'll encounter along the way:
 
 (*nb: github and obsidian use different link styles for multiple word titles so if you are reading this in Obsidian press the (o) next to the names to jump to the heading, disregard if you are on Github*)
 
@@ -52,74 +51,84 @@ Philosophies we'll encounter along the way:
 - [Linking Your Thinking + Maps of Content](#Linking-Your-Thinking) [(o)](#Linking%20Your%20Thinking) ([Nick Milo](https://www.linkingyourthinking.com/))
 
 
-## Deep Work
+### Deep Work
 
 To do *deep work* is to be able to focus on a significant problem for an uninterrupted block of time. As a software engineer and writer, I am dependant on the flow state to create my best work and cut through the noise of digital and physical distraction.
 
 To enhance the likliehood of entering the flow state, and enhancing the quality of the flow state while it's engaged, this vault has tools to help you cut through the mud and focus on what needs to get done.
 
 Processes:
+
 - Intra-Vault Research
 - Keeping relevant project info in one spot
 - Vault wide task management protocols
 
 Plugins:
+
 - QuickAdd
 - Tasks
 
 Related Philosophies:
+
 - [Time Block Planning](#time-block-planning)
 
 
-## Time Block Planning
+### Time Block Planning
 
 *Time Block Planning* is the intentional process of giving every hour a "job". This intentional workflow allows for the creator to get a bird's eye view of their active commitments. This methodology bubbles up from daily commitments to a **weekly view** and a **quarterly view**. These views allow for enough space for projects to finish, while being short enough to see realistic change.
 
 In BHOV-2023, I don't functionally time block that much. This is because I usually get a late start to the day (more on this later), and I don't like using calendars that much. I've found writing the time next to notes in my daily page works just fine, e.g.:
+
 ```
 1-3p coding
 330-5 meeting with [[blah]]
 ...
 ```
-*if I need a notification for a meeting, I'm most likely gonna be late regardless...*
+
+*if I need a notification for a meeting, I'm most likely gonna be late regardless…*
 
 If you *are* planning on using a daily calendar, I'd recommend the [Full Calendar plugin](obsidian://show-plugin?id=obsidian-full-calendar). I hear good things!
 
 The Time Block Planning is great for weekly planning and quarterly planning as well. **The goal is to use the weekly plan to inform the daily plan and the quarterly plan to inform the weekly plan.** When combined with Templater (plugin) and Periodic Notes (plugin), Time Block Planning gives a great weekly review to look forward to.
 
 Plugins:
+
 - Templater
 - Periodic Notes
 - Full Calendar (optional)
 
 Related Philosophies:
- - [Deep Work](#deep-work) 
+
+ - [Deep Work](#deep-work)
  - [Agile Planning](#agile)
 
-## PARA
+### PARA
 
-The *PARA framework* is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects. 
+The *PARA framework* is a structure that usues cross app folders with the same names (**P**rojects, **A**reas, **R**esources, **A**rchives) as buckets to capture different projects. The main value to this vault is the `Project` and `Archive` folders. These two folders alone do a ton of work and allow resources to "live" inside their parent project folder. This makes organization **much** easier, as well as the retrieval of resources used to create old projects.
 
 If you look in the PARA directory (`/_PARA`), you'll notice a distinct lack of and Areas and Resources folder. That is because in BHOV-2023, I've offloaded a lot of the value those folders provide to other tools and techniques that will be discussed later. If you have well defined areas in your life and prefer to keep non-project related resources in a centralized place, feel free to recreate the folders!
 
 Scripts:
+
 - `quick-add-create-project-folder.js`
 - `quick-add-file-filter.js`
 - `quick-add-projects-folder-kanban-variables.js`
 - `quick-add-projects-folder-variables.js`
 
 Plugins:
+
 - QuickAdd
 - Kanban
 - Shimmering Obsidian (optional)
 - Waypoint
 
 Related philosophies:
+
 - [CODE](#code)
 
-## CODE
+### CODE
 
-CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a priority goal of BHOV-2023, because you never know when and where inspiration will strike. 
+CODE by Tiago Forte tands for **Capture**, **Organize**, **Distill** and **Express**. Fast capture with minimal friction is a priority goal of BHOV-2023, because you never know when and where inspiration will strike.
 
 To do quick **capture** on my computer, I leverage Shimmering Obsidian and custom written shortcuts. This plugin is powerful because Alfred can be evoked anywhere on your Mac (while watching a video, browsing the web, etc.). This helps avoid the [Doorway effect](https://en.wikipedia.org/wiki/Doorway_effect#:~:text=The%20doorway%20effect%20is%20a,remained%20in%20the%20same%20place.). The plugin then puts the thought in our `Inbox/` for future processing. The important part is that we can **trust that our ideas will land in a place where we can process them later**. A similar process is done on my mobile device leveraging iOS shortcuts and Obsidian Sync.
 
@@ -134,45 +143,48 @@ not done
 heading includes todo/mobile
 ```
 
-This is a great way to de-stress about open tasks getting buried in some previous 
+This is a great way to de-stress about open tasks getting buried in some previous
 
 **Distill** will be discussed in the Progressive Summarization section, and **Express** in the Digital Garden and CMS sections.
 
 Plugins:
+
 - Shimmering Obsidian
 - Sync
 - iOS shortcuts
 - Readwise
 
 Scripts:
+
 - `quick-add-file-filter.js`
 - `quick-add-projects-folder-kanban-variables.js`
 - `quick-add-projects-folder-variables.js`
 
 Related Philosophies:
+
 - Progressive Summarization
 - Digital Garden
 - CMS
 
-## Progressive Summarization
+### Progressive Summarization
 
 *Progressive Summarization* is a research/reading technique developed by Tiago Forte. In short, the goal is to read something, look for salient and helpful material, and highlight it. Then a second pass is applied, doubly emphasizing the important bits **you find important**. Finally, a third pass is done to rewrite the concept in **your own words**. Let's use the paragraph from above as an example:
 
 Highlighted from [source](https://www.livescience.com/11011-marathons-26-2-miles-long.html):
 
-> ...
-> 
+> …
+>
 > In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians) to some anxious Athenians. Not quite in mid-season shape, he delivered the message "Niki!" (Victory!) then keeled over and died.
-> 
-> ...
+>
+> …
 
 Second pass:
 
-> ...
-> 
+> …
+>
 > In a nod to Greek history, the first marathon commemorated the [run](https://www.livescience.com/5359-perfect-running-pace-revealed.html) of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. According to legend, **Pheidippides ran the approximately 25 miles to announce the defeat of the [Persians](https://www.livescience.com/who-were-the-persians)** to some anxious Athenians. Not quite in mid-season shape, he delivered the message **"Niki!" (Victory!) then keeled over and died**.
-> 
-> ...
+>
+> …
 
 Third pass:
 
@@ -183,27 +195,30 @@ The first marathon was run not for fun or to push one's body for exercise, but f
 To facilitate this process BHOV-2023 leverages Readwise and Note Refactor to do the three passes. Readwise is pass one, pass two is to exract salience and a title and tags (this can be done with AI thanks to GPT-3 Summarizer!), but a lot of the times I do it by hand. Finally, the tird pass is setting the note into it's final Zettelkasten state, and assigning to a PARA project, or leaving it in the root directory.
 
 Plugins:
+
 - Note Refactor
 - Readwise
 - GPT-3 Summarizer (optional)
 
 Related Philosophies:
+
 - Large Language Models
 - Zettlekasten
 - PARA
 
-## Zettelkasten
+### Zettelkasten
 
 *Zettelkasten*, German for slip box, is the metaphorical glue that holds ideas together. Zettelkasten is a loose but exteremely powerful structure, and a system with few [hard and fast rules that can scale magnificently](https://zettelkasten.de/introduction/).
 
 These rules are:
+
 1. Unique Identifier as filenames
 2. Atomic content -- one note roughly equals one coherent thought
 3. Links, tags, and citations > including the knowledge in the note itself
 
 Fortunately for us, Zettelkasten is a core feature of the Obsidian workflow. The core plugin Unique Note Creator will take care of creating IDs. Plugins like Footnote Shortcut and Zotero Plugin make citing external resources breeze. This allows you as the author to focus on two things:
 
-1. Is this note atomic? 
+1. Is this note atomic?
 2. What will I link it to?
 
 In BHOV-2023, Zettlekasten is responsible for ideas and notes that don't fit cleanly into the `Projects` or `Archive` folders of [PARA](#para). In other words, evergreen knowledge that forms your lattice of thinking, but doesn't have specific utility. In BHOV-2023, the goal of the Zettelkasten is to serve as puzzle pieces to help us Express (the E in [CODE](#code)) ourselves.
@@ -213,6 +228,7 @@ Notes like [[202212090137]] and [[202212090136]] live in the root directory, but
 When creating a new file in BHOV-2023, by default it will automatically create it to the Zettelkasten spec. A single Zettelkasten is referred to as a Zettel, so each note is tagged with #zettel by default in BHOV-2023.
 
 Plugins:
+
 - Templater
 - Unique Note Creator
 - Omnisearch
@@ -221,6 +237,7 @@ Plugins:
 - Note Refactor
 
 Related Philosophies:
+
 - Large Language Models
 - Digital Gardening
 
@@ -232,10 +249,9 @@ If you have content you want to extract from an existing note into a Zettel, you
 
 You can use `alt-shift-z` to search Zettelkasten notes by their human readable titles.
 
+### Digital Gardening
 
-## Digital Gardening
-
-If Zettelkasten is the planting of the seed of a single idea, *Digital Gardening* is the maintnence of the whole. It is the work of groundskeeping the entire vault, and finding utility in the edges. 
+If Zettelkasten is the planting of the seed of a single idea, *Digital Gardening* is the maintnence of the whole. It is the work of groundskeeping the entire vault, and finding utility in the edges.
 
 We can ease the "writers' block" of deciding which notes to upkeep by leveraging **Random Note Review**, which will surface three notes to review in our Daily Note.
 
@@ -249,32 +265,35 @@ We can ease the "writers' block" of deciding which notes to upkeep by leveraging
 <%* const todayIs = tp.date.now("YYYY-MM-DD") %>
 ```
 
-The side benfit of all this work is that it publishable! Since a garden is a collection of linked and curated thoughts, a published garden serves as a public utility similar to maintained gardens in the real world. Visitors can meander around your thought garden, stopping to marvel at the hydraengeas, or beelining straight for the mini pagoda and water feature in the corner. 
+The side benfit of all this work is that it publishable! Since a garden is a collection of linked and curated thoughts, a published garden serves as a public utility similar to maintained gardens in the real world. Visitors can meander around your thought garden, stopping to marvel at the hydraengeas, or beelining straight for the mini pagoda and water feature in the corner.
 
 Later, we'll address how to seperate private and public, but for now, assume any note that you do the work to Zettelkasten-ize, will eventually have some sort of public value.
 
 Plugins:
+
 - Publish
 - Templater
 - Footnote Shortcut
 
 Related philosophies:
+
 - Zettelkasten
 - Content Management Systems
 
-## An Unexamined Life is Not Worth Living
+### An Unexamined Life is Not Worth Living
 
-**Daily journaling** is a *meta habit*, a habit that anyone can apply to their existing life at any point for an improved experience. 
+**Daily journaling** is a *meta habit*, a habit that anyone can apply to their existing life at any point for an improved experience.
 
 Journaling allows for reflection and revisitation of past thoughts and events, planning and decomposing future desires into attainable goals, and most importantly, journaling serves as a conduit for thought in the present.
 
-The  self-Socratic method undertaken by a journaling exercise is both a form of catharsis and a tool for unabated growth.
+The self-Socratic method undertaken by a journaling exercise is both a form of catharsis and a tool for unabated growth.
 
 In BHOV-2023, **the dashboard is the daily note**. The daily note is the reflection of the driver, a trusted sidekick in the goings on of the day. In addition, thanks to Time Block Planning, BHOV-2023 has weekly and Quarterly notes as well, which are linked to the evolving daily note.
 
 Leveleraging Templater and Periodic Notes, BHOV-2023 creates a flexible daily note template that can easily adapt to the owner's life.
 
 Plugins:
+
 - Templater
 - Periodic Notes
 - Dataview
@@ -283,22 +302,23 @@ Plugins:
 - iOS Shortcuts (optional)
 - Default New Tab Page (optional)
 
-## Jamming
+### Jamming
 
 In music production, **jamming** is getting together with some like minded individuals to create a creative output. The goal is to have fun and find a riff that everyone can groove to, and bring out the best in their instrument.
 
 Obsidian is first and foremost a single player experience. There are ways to engage publicly, but many of these techniques are readonly.
 
-Indeed, the best jamming sessions in Obsidian come from the notes that already exist in the vault. We can use random notes to surface and inspire thought, to break exisiting thought patterns and introduce new concepts into our line of thinking. 
+Indeed, the best jamming sessions in Obsidian come from the notes that already exist in the vault. We can use random notes to surface and inspire thought, to break exisiting thought patterns and introduce new concepts into our line of thinking.
 
 Plugins:
+
 - Random Note
 - Canvas
-- Pinned Notes 
+- Pinned Notes
 
-## AGILE
+### AGILE
 
-In technology, **AGILE** is the process of splitting software development work into two week sprints. 
+In technology, **AGILE** is the process of splitting software development work into two week sprints.
 
 The AGILE methodology pairs well with PARA and Time Block Planning because it forces us to prioritize elements of a project that can be delivered in two weeks.
 
@@ -307,32 +327,34 @@ In BHOV-2023, Weekly Notes highlight active projects, as well as when they were 
 Quarterly notes track the opposite. The quarterly note tracks **how much was achieved in the quarter**.
 
 Plugins:
+
 - Dataview
 - Templater
 - Kanban
 
-## Metcalfe's Law
+### Metcalfe's Law
 
 **Metcalfe's Law** is a concept that says that the value of a network is the square of the number of nodes in the network. In the parlance of Zettelkasten, the more connected notes you have, the higher the value of the overall system.
 
 Processing notes from Readwise and Daily Notes will automatically put you into Metcalfe Law category, over a long period of time. The goal is to keep showing up, and to keep expanding your network whenever possible.
 
-## Atticus Finch is the Same in the House as He is on the Public Streets
+### Atticus Finch is the Same in the House as He is on the Public Streets
 
-Being a **local device first application**, Obsidian is "private by default" (well, at least as private as everything else on your laptop). 
+Being a **local device first application**, Obsidian is "private by default" (well, at least as private as everything else on your laptop).
 
-Obsidian also has tools for publishing public notes that we saw in the Digital Garden section above, namely the Publish plugin. 
+Obsidian also has tools for publishing public notes that we saw in the Digital Garden section above, namely the Publish plugin.
 
 BHOV-2023 acknowledges the need to keep certain things private and has a Private folder that uses Supercharged Links and Style Settings to visually warn you if you are linking to a private note in your shared section. In addition, in `.gitignore` there are a selection of files you may want to consider keeping Private and not committing to version control software (discussed later)
 
 Plugins:
+
 - Supercharged Links
 - Style Settings
 - Obsidian Git
 - Publish
 - Sync
 
-## Large Language Models and Transformers
+### Large Language Models and Transformers
 
 AI has been taking over the news lately, particularly **Large Language Models** (LLMs). These models serve as transformers, meaning that they can embed any type of data (code, text, images, etc.) and use a strategy called *attention* and a *bunch of data* to predict the next token using probability.
 
@@ -341,24 +363,27 @@ AI has been taking over the news lately, particularly **Large Language Models** 
 Thanks to Zettelkasten, we have perfectly cordoned off atomic thoughts that can be embedded for semantic search. Semantic search is a powerful type of search that indexes across meaning instead of full text searching. For example, I might be able to search singer and retireve "Taylor Swift", but if I were using full text search, singer and Taylor Swift have no letters in common so I would return zero results.
 
 Plugins:
+
 - GPT-3 Summarizer
 
 Related Philosophies:
+
 - Zettelkasten
 
-## Automation and Scripting
+### Automation and Scripting
 
-**Automation** is useful because it prevents the creative from having to do repeat work. By abstracting away a problem, we can simply press a button that will fire a bunch of processes in the background to do work. 
+**Automation** is useful because it prevents the creative from having to do repeat work. By abstracting away a problem, we can simply press a button that will fire a bunch of processes in the background to do work.
 
 Automation provides **leverage**, which is desperately needed if one is to get serious work done. In BHOV-2023, automation can be found everywhere, from the templates to the commands, each automation is meant to save you time and to allow you to put your energy where it really matters.
 
 Plugins:
+
 - `/_scripts`
 - Templater
 - DataviewJS
 - QuickAdd
 
-## Content Management Systems
+### Content Management Systems
 
 Posting content on the internet has become a very normalized thing to do -- whether you post on your own domain or a large website like Twitter. Sharing coherent and well structured thought is becoming a necessary skill. Fortunately for us, we have a whole databank of really good thoughts to pull from! With structured data sourcing from PARA and "unstructured" data emerging from our Zettelkasten, creating long form content is more about stitching together existing raw material than creating from scratch.
 
@@ -367,15 +392,17 @@ A **content management system** makes the process of posting easier taking care 
 Obsidian can also be used as a full e2e CMS. I know because I built one into Obsidian! The plugins required to make a full CMS are outside the scope of BHOV-2023, but if you'd like to see the code that powers my Obsidian backed CMS you can click [here](https://github.com/bramses/kaneki) and [here](https://github.com/bramses/kaneki-obsidian), or if you want a deep dive on the process of building a CMS into Obsidian, click [here](https://www.bramadams.dev/projects/how-to-kaneki).
 
 Plugins:
+
 - Kanban
 
 Related philosophies:
+
 - PARA
 - Zettelkasten
 - Deep Work
 
 
-## Antifragility
+### Antifragility
 
 *Antifragility* is a concept by Nassim Taleb that states that certain systems can get **stronger** in response to minor crises. Antifragile systems don't just recover or rebound from stressors, they thrive. Examples of antifragile systems include animal muscles that get stronger when put under stress. The immune system is another example of an Antifragile system.
 
@@ -385,32 +412,35 @@ In BHOV-2023, Antifragility means that as your vault evolves you shouldn't feel 
 > - Bruce Lee
 
 
-## Version Control Systems
+### Version Control Systems
 
-*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: https://github.com/bramses/bramses-highly-opinionated-vault-2023/commit/bbb68cbfd5e224f3a2a4b3022afc73364c236233?diff=split
+*Version Control Systems* like Git and SVN are specialized programs that track in history what happened to a particular file. For example, click this link to see a secret sentence that used to live right here: <https://github.com/bramses/bramses-highly-opinionated-vault-2023/commit/bbb68cbfd5e224f3a2a4b3022afc73364c236233?diff=split>
 
-These changes are particularly useful to software engineering teams who need to trace the history of a working block of code. For our case in BHOV-2023, Git is mainly used for two things: file versioning and light publishing capability. 
+These changes are particularly useful to software engineering teams who need to trace the history of a working block of code. For our case in BHOV-2023, Git is mainly used for two things: file versioning and light publishing capability.
 
 Git very easily can monitor the **state** of the vault at any period of time, creating a snapshot of connections, notes, and plugins at a given moment in time. This means that we can update our files without fear that we'll delete something important.
 
 Git(Hub) also serves as a light publishing tool because you can have a public repository and GitHub has a Markdown renderer which means that when people visit files they will render in Markdown -- [example](https://github.com/bramses/bramses-highly-opinionated-vault-2023/blob/main/Readwise/Articles%20Test/The%20Ancient%20Japanese%20Technique%20That%20Produces%20Lumber%20Without%20Cutting%20Trees.md).
 
 Plugins:
+
 - Obsidian Git
 
 External Software:
+
 - GitHub
 
-## Causa Sui
+### Causa Sui
 
 In the Denial of Death, philosopher Ernest Becker discusses the idea that we all knowingly or unknowingly undergo *Causa Sui projects*, or immortality projects. An immortality project is the desire for one to create meaning past their own life span, using their work, genetic progeny, or cultural beliefs of an afterlife.
 
 As a daily journal system as well as a project managment system, BHOV-2023 atttempts to help spark and foster creativity, allowing the Causa Sui project to emerge organically through your thoughts, daily goings on, and work.
 
 Related Philosophies:
+
 - Zettelkasten
 
-## Linking Your Thinking
+### Linking Your Thinking
 
 **Linking your Thinking** by Nick Milo is the concept of using emergence to discover relationships between your notes.
 
@@ -421,24 +451,25 @@ Automatically, Folder Notes include the Waypoint plugin which will keep a live v
 Manually, you may also look to create your own Maps of Content (MOCs) from a particular tag, or create a Zettelkasten note that is a map of other Zettelkasten Notes. Meta!
 
 Plugins:
+
 - Luhmann
 - Note Refactor
 
-# Implementation
+## Implementation
 
 `todo`
 
-## Elements of Markdown Important to BHOV-2023
+### Elements of Markdown Important to BHOV-2023
 
-### Footers
+#### Footers
 
 Footers serve two very important roles: citation and non destructive updates. Citation is used in the [Zettelkasten](#Zettelkasten), to help link a note to its source material.
 
-Footers also make for great **non destructive updates** to notes. This means you can revisit an old note, and instead of altering it directly, you can append a footnote to the end of a thought, without changing the structural meaning of the original file. Think of it as sedimentary rock, or a really lightweight [VCS](#version-control-system). 
+Footers also make for great **non destructive updates** to notes. This means you can revisit an old note, and instead of altering it directly, you can append a footnote to the end of a thought, without changing the structural meaning of the original file. Think of it as sedimentary rock, or a really lightweight [VCS](#version-control-system).
 
 Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
 
-### YAML
+#### YAML
 
 YAML, or frontmatter, serves as a way to get computed values or track over time. For example, if you are looking to establish a daily reading habit, you may desire to put that habit in a YAML and then track it.
 
@@ -463,12 +494,11 @@ month:
 
 ```
 
-## Tags
+#### Tags
 
 `todo`
 
-
-## Folder Structure
+### Folder Structure
 
 The following is the folder structure used by BHOV-2023, along with short descriptions as to why each exists.
 
@@ -506,21 +536,21 @@ The following is the folder structure used by BHOV-2023, along with short descri
 - Canvases (optional) (*a list of Obsidian Canvases*)
 - Excalidraw (optional) (*a list of Excalidraw items*)
 
-## Tests
+### Tests
 
 `todo`
 
-## CRM
+### CRM
 
-Another private but universal trait of humans is our relationships to others. Knowing this BHOV-2023 includes a private CRM (`Private/CRM/CRM`) that can help keep track of the important people in your life. 
+Another private but universal trait of humans is our relationships to others. Knowing this BHOV-2023 includes a private CRM (`Private/CRM/CRM`) that can help keep track of the important people in your life.
 
 I use my CRM to keep track of important days like birthdays as well as items discussed (adult relationships can go months without speaking).
 
-# Tips and Tricks
+## Tips and Tricks
 
 `todo`
 
-# External Tools
+## External Tools
 
 **Bramses' Highly Opinionated Vault 2023** uses *a lot* of external tools and technologies. I firmly believe that each of these technologies plays a significant role in making Obsidian an ecosystem instead of a stand alone application. These tools serve as scouts, fetching information from different places and returning the goods to "home base". That being said, some/most/all have some form of financial component as well as their own learning curves, so I wouldn't be dissapointed if you don't want to use them. That said **Bramses' Highly Opinionated Vault 2023** works a lot better as a holistic system if you do.
 
@@ -534,42 +564,41 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 - Sync ($)
 - Publish ($)
 
-## Readwise
+### Readwise
 
 `todo`
 
-## Alfred
+### Alfred
 
 `todo`
 
-## Zotero
+### Zotero
 
 `todo`
 
-## GitHub
+### GitHub
 
 `todo`
 
-## Sync
+### Sync
 
 `todo`
 
-## Publish
+### Publish
 
 `todo`
 
-## Shortcuts (iOS)
+### Shortcuts (iOS)
 
 `todo`
 
-## Mobile Integration (General)
+### Mobile Integration (General)
 
 `todo`
 
+## Installation
 
-# Installation
-
-Great! Now that that's out of the way, we can finally get to running the vault, *phew*! 
+Great! Now that that's out of the way, we can finally get to running the vault, *phew*!
 
 1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`
 2. Download into your local machine
@@ -578,7 +607,7 @@ Great! Now that that's out of the way, we can finally get to running the vault, 
 5. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated
 
 
-## After You're Up and Running
+### After You're Up and Running
 
 After getting your sea legs for a few days (perhaps a week!) and you feel comfortable with **Bramses' Highly Opinionated Vault 2023** system, it will sadly be time for us to part and for you to forge onwards. You'll be able to safely delete the following files:
 
@@ -591,9 +620,9 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 - \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
 - /Computed/Trackers (if you're not using the Tracker Plugin)
 
-...
+…
 
-## "Required" Plugins
+### "Required" Plugins
 
 Truly nothing in this vault is *required*, but if you want the full experience, these community plugins are quote-unquote mandatory:
 
@@ -606,7 +635,6 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Dataview](obsidian://show-plugin?id=dataview)
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes)
-- [Hotkeys for Templates](obsidian://show-plugin?id=obsidian-hotkeys-for-templates)
 - [Kanban](obsidian://show-plugin?id=obsidian-kanban)
 - [Luhmann](obsidian://show-plugin?id=luhman)
 - Natural Language Dates
@@ -625,7 +653,7 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - Waypoint
 
 
-## Optional Plugins
+### Optional Plugins
 
 These plugins aren't needed, as some are QoL and others have a steep price tag attached (some even have both!). But these apps are no less critical to my workflow than the "Required" apps above, so I need to include them.
 
@@ -636,7 +664,7 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - Excalidraw
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
 - Full Calendar
--  New Tab Default Page
+- New Tab Default Page
 - Plugin Update Tracker
 - GPT-3 Summarizer
 - Ozan's Image in Editor Plugin
@@ -647,44 +675,42 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - Tracker
 
 
-## Migration Guide for Current Obsidian Users
+### Migration Guide for Current Obsidian Users
 
 In the creation of BHOV-2023, the author was in the middle of his own migration from his vault of 1.5 years to BHOV. So this is all quite relevant!
 
 First, the the questions you should ask yourself is: what about your current vault is necessary, what you'd like to change, and where you ideally want to be after migrating. Keep in mind, many of the tricks and strategies used in BHOV-2023 can be inserted into existing vaults, so you might not even need to make a full move!
 
-After following the traditional [installation section above](#installation), the first thing you're probably going to want to do is start migrating a few notes you already have into the correct buckets. Once you get a feel for that manually, try to move your outside vault workflows (Alfred, Readwise, etc) to point to BHOV-2023. This will help facilitate the transition without a drastic switch over as new notes will be placed into BHOV-2023 and your existing workflows will be maintained in your old vault. 
+After following the traditional [installation section above](#installation), the first thing you're probably going to want to do is start migrating a few notes you already have into the correct buckets. Once you get a feel for that manually, try to move your outside vault workflows (Alfred, Readwise, etc) to point to BHOV-2023. This will help facilitate the transition without a drastic switch over as new notes will be placed into BHOV-2023 and your existing workflows will be maintained in your old vault.
 
-## Settings
+### Settings
 
 `todo`
 
-# A Day in the Life - Real World Use
+## A Day in the Life - Real World Use
 
 BHOV-2023 is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
 
 Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
 
+…
 
-...
-
-## Special Case: Saturday or Sunday
+### Special Case: Saturday or Sunday
 
 Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
 
-...
+…
 
+## Videos
 
-# Videos
-
-Over the year of 2023, I'll be deep diving into different components of BHOV-2023 as some aspects are better communicated visually. 
+Over the year of 2023, I'll be deep diving into different components of BHOV-2023 as some aspects are better communicated visually.
 
 - [BHOV-2023 Example Usage 2022-12-11 - YouTube](https://www.youtube.com/watch?v=28QZ3Zp9GBw&ab_channel=BramAdams)
 
-# Final Word
+## Final Word
 
-BHOV-2023 would not be possible without the amazing team and community that make Obsidian what it is. This vault works because the technology is there, and all thanks goes to all of the developers in the community.
-...
+BHOV-2023 would not be possible without the amazing team and community that make Obsidian what it is. This vault works because the technology is there, and all thanks goes to all of the developers in the community.  
+…
 
 `todo`
 

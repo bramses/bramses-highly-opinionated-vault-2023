@@ -72,10 +72,10 @@
       "Start Header Increment at Heading Level 2": false
     },
     "Headings Start Line": {
-      "Headings that do not start a line will have their preceding whitespace removed to make sure they get recognized as headers.": false
+      "Headings that do not start a line will have their preceding whitespace removed to make sure they get recognized as headers.": true
     },
     "Remove Trailing Punctuation in Heading": {
-      "Removes the specified punctuation from the end of headings making sure to ignore the semicolon at the end of [HTML entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).": false,
+      "Removes the specified punctuation from the end of headings making sure to ignore the semicolon at the end of [HTML entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).": true,
       "Trailing Punctuation": ".,;:!。，；：！"
     },
     "Footnote after Punctuation": {
@@ -88,49 +88,49 @@
       "Re-indexes footnote keys and footnote, based on the order of occurrence (NOTE: This rule deliberately does *not* preserve the relation between key and footnote, to be able to re-index duplicate keys.)": false
     },
     "Convert Bullet List Markers": {
-      "Converts common bullet list marker symbols to markdown list markers.": false
+      "Converts common bullet list marker symbols to markdown list markers.": true
     },
     "Emphasis Style": {
-      "Makes sure the emphasis style is consistent.": false,
+      "Makes sure the emphasis style is consistent.": true,
       "Style": "consistent"
     },
     "No Bare URLs": {
-      "Encloses bare URLs with angle brackets except when enclosed in back ticks, square braces, or single or double quotes.": false
+      "Encloses bare URLs with angle brackets except when enclosed in back ticks, square braces, or single or double quotes.": true
     },
     "Ordered List Style": {
-      "Makes sure that ordered lists follow the style specified. Note that 2 spaces or 1 tab is considered to be an indentation level.": false,
+      "Makes sure that ordered lists follow the style specified. Note that 2 spaces or 1 tab is considered to be an indentation level.": true,
       "Number Style": "ascending",
       "Ordered List Indicator End Style": "."
     },
     "Proper Ellipsis": {
-      "Replaces three consecutive dots with an ellipsis.": false
+      "Replaces three consecutive dots with an ellipsis.": true
     },
     "Remove Consecutive List Markers": {
-      "Removes consecutive list markers. Useful when copy-pasting list items.": false
+      "Removes consecutive list markers. Useful when copy-pasting list items.": true
     },
     "Remove Empty List Markers": {
-      "Removes empty list markers, i.e. list items without content.": false
+      "Removes empty list markers, i.e. list items without content.": true
     },
     "Remove Hyphenated Line Breaks": {
-      "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
+      "Removes hyphenated line breaks. Useful when pasting text from textbooks.": true
     },
     "Remove Multiple Spaces": {
-      "Removes two or more consecutive spaces. Ignores spaces at the beginning and ending of the line. ": false
+      "Removes two or more consecutive spaces. Ignores spaces at the beginning and ending of the line. ": true
     },
     "Strong Style": {
-      "Makes sure the strong style is consistent.": false,
+      "Makes sure the strong style is consistent.": true,
       "Style": "consistent"
     },
     "Two Spaces Between Lines with Content": {
-      "Makes sure that two spaces are added to the ends of lines with content continued on the next line for paragraphs, blockquotes, and list items": false
+      "Makes sure that two spaces are added to the ends of lines with content continued on the next line for paragraphs, blockquotes, and list items": true
     },
     "Unordered List Style": {
-      "Makes sure that unordered lists follow the style specified.": false,
+      "Makes sure that unordered lists follow the style specified.": true,
       "List item style": "consistent"
     },
     "Compact YAML": {
-      "Removes leading and trailing blank lines in the YAML front matter.": false,
-      "Inner New Lines": false
+      "Removes leading and trailing blank lines in the YAML front matter.": true,
+      "Inner New Lines": true
     },
     "Consecutive blank lines": {
       "There should be at most one consecutive blank line.": false
@@ -157,19 +157,19 @@
       "Empty Line Between Yaml and Header": true
     },
     "Line Break at Document End": {
-      "Ensures that there is exactly one line break at the end of a document.": false
+      "Ensures that there is exactly one line break at the end of a document.": true
     },
     "Move Math Block Indicators to Their Own Line": {
-      "Move all starting and ending math block indicators to their own lines using `Number of Dollar Signs to Indicate a Math Block` to determine how many dollar signs indicates a math block for single-line math.": false
+      "Move all starting and ending math block indicators to their own lines using `Number of Dollar Signs to Indicate a Math Block` to determine how many dollar signs indicates a math block for single-line math.": true
     },
     "Paragraph blank lines": {
-      "All paragraphs should have exactly one blank line both before and after.": false
+      "All paragraphs should have exactly one blank line both before and after.": true
     },
     "Remove Empty Lines Between List Markers and Checklists": {
-      "There should not be any empty lines between list markers and checklists.": false
+      "There should not be any empty lines between list markers and checklists.": true
     },
     "Remove link spacing": {
-      "Removes spacing around link text.": false
+      "Removes spacing around link text.": true
     },
     "Remove Space around Characters": {
       "Ensures that certain characters are not surrounded by whitespace (either single spaces or a tab). Note that this may causes issues with markdown format in some cases.": false,
@@ -179,38 +179,38 @@
       "Other symbols": ""
     },
     "Space after list markers": {
-      "There should be a single space after list markers and checkboxes.": false
+      "There should be a single space after list markers and checkboxes.": true
     },
     "Space between Chinese Japanese or Korean and English or numbers": {
       "Ensures that Chinese, Japanese, or Korean and English or numbers are separated by a single space. Follows these [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false
     },
     "Trailing spaces": {
-      "Removes extra spaces after every line.": false,
-      "Two Space Linebreak": false
+      "Removes extra spaces after every line.": true,
+      "Two Space Linebreak": true
     },
     "Add Blockquote Indentation on Paste": {
-      "Adds blockquotes to all but the first line, when the cursor is in a blockquote/callout line during pasting": false
+      "Adds blockquotes to all but the first line, when the cursor is in a blockquote/callout line during pasting": true
     },
     "Prevent Double Checklist Indicator on Paste": {
-      "Removes starting checklist indicator from the text to paste if the line the cursor is on in the file has a checklist indicator": false
+      "Removes starting checklist indicator from the text to paste if the line the cursor is on in the file has a checklist indicator": true
     },
     "Prevent Double List Item Indicator on Paste": {
-      "Removes starting list indicator from the text to paste if the line the cursor is on in the file has a list indicator": false
+      "Removes starting list indicator from the text to paste if the line the cursor is on in the file has a list indicator": true
     },
     "Proper Ellipsis on Paste": {
-      "Replaces three consecutive dots with an ellipsis even if they have a space between them in the text to paste": false
+      "Replaces three consecutive dots with an ellipsis even if they have a space between them in the text to paste": true
     },
     "Remove Hyphens on Paste": {
-      "Removes hyphens from the text to paste": false
+      "Removes hyphens from the text to paste": true
     },
     "Remove Leading or Trailing Whitespace on Paste": {
-      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": false
+      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": true
     },
     "Remove Leftover Footnotes from Quote on Paste": {
-      "Removes any leftover footnote references for the text to paste": false
+      "Removes any leftover footnote references for the text to paste": true
     },
     "Remove Multiple Blank Lines on Paste": {
-      "Condenses multiple blank lines down into one blank line for the text to paste": false
+      "Condenses multiple blank lines down into one blank line for the text to paste": true
     }
   },
   "lintOnSave": false,

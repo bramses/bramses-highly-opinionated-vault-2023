@@ -23,6 +23,12 @@
       "icon": "box-select",
       "name": "QuickAdd: Add to Project Kanban",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-linter:lint-file",
+      "icon": "brush",
+      "name": "Linter: Lint the current file",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
