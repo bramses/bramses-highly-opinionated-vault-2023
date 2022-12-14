@@ -1,3 +1,9 @@
+---
+tags: 
+title: Project Management
+date created: Thursday, December 8th 2022, 12:38:06 am
+date modified: Wednesday, December 14th 2022, 3:33:55 pm
+---
 >[!info]
 >Obsidian is in top form when it helps **manage** and **finish** projects
 

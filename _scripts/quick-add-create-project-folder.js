@@ -26,17 +26,26 @@ module.exports = async function createProject(params) {
   // // Create a new file in the new folder
   const newFile = await params.app.vault.create(
     `${absolutePath}/${userInput}.md`, 
-    `\n> [!info] Project Description\n> [What is my purpose?](https://youtu.be/X7HmltUWXgs)\n\n%% Waypoint %%\n\n`
+    `---
+aliases: 
+tags: 
+---\n\n> [!info] Project Description\n> [What is my purpose?](https://youtu.be/X7HmltUWXgs)\n\n%% Waypoint %%\n\n`
   );
 
   // // Create a scratchpad file in the new folder
   if (settings.includes("Create a Scratchpad")) {
-    await params.app.vault.create(`${absolutePath}/Scratchpad.md`, "");
+    await params.app.vault.create(`${absolutePath}/Scratchpad.md`, `---
+aliases: 
+tags: 
+---\n`);
   }
 
   if (settings.includes("Add Resources Dataview")) {
     await params.app.vault.create(
-      `${absolutePath}/Resources.md`, `\n\`\`\`dataview
+      `${absolutePath}/Resources.md`, `---
+aliases: 
+tags: 
+---\n\n\`\`\`dataview
 list 
 where contains(projects, "${userInput}")
 \`\`\`\n\n`

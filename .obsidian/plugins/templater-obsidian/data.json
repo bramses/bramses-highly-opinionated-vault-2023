@@ -21,10 +21,10 @@
   ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
-    ""
+    "Templates/Note Refactor Zettelkasten Template.md"
   ],
   "startup_templates": [
     ""
   ],
-  "enable_ribbon_icon": false
+  "enable_ribbon_icon": true
 }

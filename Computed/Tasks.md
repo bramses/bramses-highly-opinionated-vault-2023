@@ -1,3 +1,11 @@
+---
+aliases: [Tasks in Daily Notes]
+tags: 
+title: Tasks in Daily Notes
+linter-yaml-title-alias: Tasks in Daily Notes
+date created: Monday, December 12th 2022, 10:11:07 pm
+date modified: Wednesday, December 14th 2022, 3:33:55 pm
+---
 
 # Tasks in Daily Notes
 ```tasks

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "14206f362b83c11c",
+        "id": "3fde841227753554",
         "type": "tabs",
         "children": [
           {
-            "id": "b6bcdb4c61fa21e5",
+            "id": "94c5a56ec6a687c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computed/Tasks.md",
+                "file": "Templates/Zettelkasten Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#to-process",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computed/Tasks.md",
+                "file": "Templates/Zettelkasten Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computed/Tasks.md",
+                "file": "Templates/Zettelkasten Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computed/Tasks.md"
+                "file": "Templates/Zettelkasten Note.md"
               }
             }
           },
@@ -188,20 +189,21 @@
       "random-note:Open random note": true,
       "obsidian-map-view:Open map view": true,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "94c5a56ec6a687c9",
   "lastOpenFiles": [
-    "Calendar/Daily/2022-12-12.md",
-    "Calendar/Daily/2022-12-11.md",
-    "Templates/Daily.md",
-    "Inbox/Scratchpad.md",
-    "Private/202212141113.md",
-    "Calendar/Weekly/2022-W51.md",
-    "Computed/Tasks.md",
-    "Templates/Weekly.md",
-    "Templates/Templates.md",
-    "README.md"
+    "Templates/Note Refactor Zettelkasten Template.md",
+    "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+    "README.md",
+    "_tutorial/Hotkeys.md",
+    "202212141629.md",
+    "202212141628.md",
+    "202212090137.md",
+    "Templates/Zettelkasten Note.md",
+    "202212120002.md",
+    "Templates/Quarterly.md"
   ]
 }

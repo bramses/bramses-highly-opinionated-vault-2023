@@ -1,13 +1,15 @@
 ---
+aliases: [Lorem Ipsum]
+tags: [zettel]
 projects: []
+title: Lorem Ipsum
+linter-yaml-title-alias: Lorem Ipsum
+date created: <% tp.date.now("dddd, MMMM Do YYYY, h:mm:ss a") %>
+date modified: <% tp.date.now("dddd, MMMM Do YYYY, h:mm:ss a") %>
 ---
 
-# Lorem ipsum
+# <% tp.system.prompt("What is the title of this Zettel?") %>
 
-> [!abstract]- Tags
-> #zettel
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquet velit in convallis. Fusce ac convallis neque. Proin porta odio id elit sodales pharetra. Pellentesque aliquet pellentesque nunc, id porta velit imperdiet viverra. Phasellus consectetur sagittis magna, nec semper tellus ullamcorper pulvinar. Curabitur tristique velit id lacus blandit, dignissim mattis nibh facilisis. Praesent imperdiet massa semper sapien accumsan, sit amet ultrices massa interdum.[^1]
+<% tp.system.clipboard() %>[[^1]
 
 [^1]: Lorem ipsum dolor sit amet
-

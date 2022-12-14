@@ -1,3 +1,9 @@
+---
+tags: 
+title: Private
+date created: Wednesday, December 7th 2022, 11:34:44 pm
+date modified: Wednesday, December 14th 2022, 3:33:55 pm
+---
 
 > [!warning]
 > Private notes should have a icon in front of them to show they will not propogate to [Obsidian Publish](https://obsidian.md/publish)

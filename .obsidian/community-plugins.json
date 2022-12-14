@@ -25,8 +25,8 @@
   "simple-embeds",
   "luhman",
   "obsidian-timestamper",
-  "obsidian-hotkeys-for-templates",
   "settings-search",
   "recent-files-obsidian",
-  "obsidian-plugin-update-tracker"
+  "obsidian-plugin-update-tracker",
+  "obsidian-linter"
 ]

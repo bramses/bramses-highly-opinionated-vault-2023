@@ -1,3 +1,11 @@
+---
+aliases: [Introduction]
+tags: [zettel]
+title: Introduction
+linter-yaml-title-alias: Introduction
+date created: Friday, December 9th 2022, 12:24:59 pm
+date modified: Wednesday, December 14th 2022, 3:33:55 pm
+---
 # Introduction
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
@@ -220,7 +228,7 @@ Workflows:
 
 New file (`ctrl-n`) automatically creates a Zettelkasten note to spec, you just need to replace the Lorem Ipsum.
 
-If you have content you want to extract from an existing note into a Zettel, you can highlight the text you want to convert, press `alt-shift-v`  to convert it into Zettelkasten spec, and then `ctrl-shift-n` to trigger the Note Refactor plugin to move it to it's own note.
+If you have content you want to extract from an existing note into a Zettel, you can highlight the text you want to convert, copy it to clipboard, and then create a new note with `ctrl-n`
 
 You can use `alt-shift-z` to search Zettelkasten notes by their human readable titles.
 
@@ -254,7 +262,7 @@ Related philosophies:
 - Zettelkasten
 - Content Management Systems
 
-## An unexamined life is not worth living
+## An Unexamined Life is Not Worth Living
 
 **Daily journaling** is a *meta habit*, a habit that anyone can apply to their existing life at any point for an improved experience. 
 
@@ -303,13 +311,13 @@ Plugins:
 - Templater
 - Kanban
 
-## Metcalfe's Law 
+## Metcalfe's Law
 
 **Metcalfe's Law** is a concept that says that the value of a network is the square of the number of nodes in the network. In the parlance of Zettelkasten, the more connected notes you have, the higher the value of the overall system.
 
 Processing notes from Readwise and Daily Notes will automatically put you into Metcalfe Law category, over a long period of time. The goal is to keep showing up, and to keep expanding your network whenever possible.
 
-## Atticus Finch is the same in the house as he is on the public streets
+## Atticus Finch is the Same in the House as He is on the Public Streets
 
 Being a **local device first application**, Obsidian is "private by default" (well, at least as private as everything else on your laptop). 
 
@@ -350,7 +358,7 @@ Plugins:
 - DataviewJS
 - QuickAdd
 
-## Content management systems
+## Content Management Systems
 
 Posting content on the internet has become a very normalized thing to do -- whether you post on your own domain or a large website like Twitter. Sharing coherent and well structured thought is becoming a necessary skill. Fortunately for us, we have a whole databank of really good thoughts to pull from! With structured data sourcing from PARA and "unstructured" data emerging from our Zettelkasten, creating long form content is more about stitching together existing raw material than creating from scratch.
 
@@ -495,7 +503,6 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Quarterly
 	- People
 	- Zettelkasten Note
-	- Note Refactor Zettelkasten Note (*slightly different than the Zettelkasten note template -- will automagically trigger on highlighted text and convert it into a valid Zettelkasten note*)
 - Canvases (optional) (*a list of Obsidian Canvases*)
 - Excalidraw (optional) (*a list of Excalidraw items*)
 
@@ -600,10 +607,11 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes)
 - [Hotkeys for Templates](obsidian://show-plugin?id=obsidian-hotkeys-for-templates)
-- Kanban
-- Luhmann
+- [Kanban](obsidian://show-plugin?id=obsidian-kanban)
+- [Luhmann](obsidian://show-plugin?id=luhman)
 - Natural Language Dates
 - Obsidian Git
+- Obsidian Linter
 - Omnisearch
 - Periodic Notes
 - QuickAdd
@@ -631,7 +639,6 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 -  New Tab Default Page
 - Plugin Update Tracker
 - GPT-3 Summarizer
-- Obsidian Linter
 - Ozan's Image in Editor Plugin
 - Simple Embeds
 - Settings Search
@@ -669,6 +676,8 @@ Reflection is a critical component to the value of this vault, and so one day a 
 
 
 # Videos
+
+Over the year of 2023, I'll be deep diving into different components of BHOV-2023 as some aspects are better communicated visually. 
 
 - [BHOV-2023 Example Usage 2022-12-11 - YouTube](https://www.youtube.com/watch?v=28QZ3Zp9GBw&ab_channel=BramAdams)
 

@@ -1,60 +1,180 @@
 {
   "recentFiles": [
     {
-      "basename": "Tasks",
-      "path": "Computed/Tasks.md"
+      "basename": "Zettelkasten Note",
+      "path": "Templates/Zettelkasten Note.md"
     },
     {
-      "basename": "2022-12-12",
-      "path": "Calendar/Daily/2022-12-12.md"
-    },
-    {
-      "basename": "2022-12-11",
-      "path": "Calendar/Daily/2022-12-11.md"
-    },
-    {
-      "basename": "Daily",
-      "path": "Templates/Daily.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "Inbox/Scratchpad.md"
-    },
-    {
-      "basename": "202212141113",
-      "path": "Private/202212141113.md"
-    },
-    {
-      "basename": "2022-W51",
-      "path": "Calendar/Weekly/2022-W51.md"
-    },
-    {
-      "basename": "Weekly",
-      "path": "Templates/Weekly.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Templates/Templates.md"
+      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
+      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
       "basename": "Quarterly",
       "path": "Templates/Quarterly.md"
+    },
+    {
+      "basename": "People",
+      "path": "Templates/People.md"
     },
     {
       "basename": "202212090136",
       "path": "202212090136.md"
     },
     {
-      "basename": "Trackers",
-      "path": "Computed/Trackers.md"
+      "basename": "202212122239",
+      "path": "202212122239.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Templates/Daily.md"
+    },
+    {
+      "basename": "202212141113",
+      "path": "Private/202212141113.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "Inbox/Scratchpad.md"
+    },
+    {
+      "basename": "seinfeld the art of seduction",
+      "path": "Private/Attachments/seinfeld the art of seduction.png"
+    },
+    {
+      "basename": "2022-12-11--11-59-30",
+      "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
+    },
+    {
+      "basename": "2022-12-11--12-00-00",
+      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
     },
     {
       "basename": "To Process",
       "path": "Computed/To Process.md"
+    },
+    {
+      "basename": "2022-W51",
+      "path": "Calendar/Weekly/2022-W51.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "Computed/Tasks.md"
+    },
+    {
+      "basename": "2022-Q4",
+      "path": "Calendar/Quarterly/2022-Q4.md"
+    },
+    {
+      "basename": "Weekly",
+      "path": "Templates/Weekly.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project/Resources.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project/Scratchpad.md"
+    },
+    {
+      "basename": "2022-12-14",
+      "path": "Calendar/Daily/2022-12-14.md"
+    },
+    {
+      "basename": "2022-12-11",
+      "path": "Calendar/Daily/2022-12-11.md"
+    },
+    {
+      "basename": "2022-12-12",
+      "path": "Calendar/Daily/2022-12-12.md"
+    },
+    {
+      "basename": "Paste URL into Selection",
+      "path": "_tests/Paste URL into Selection.md"
+    },
+    {
+      "basename": "Readwise",
+      "path": "_tests/External/Readwise.md"
+    },
+    {
+      "basename": "iOS Shortcuts",
+      "path": "_tests/External/iOS Shortcuts.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "_tests/External/GitHub.md"
+    },
+    {
+      "basename": "Alfred",
+      "path": "_tests/External/Alfred.md"
+    },
+    {
+      "basename": "_tests",
+      "path": "_tests/_tests.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project 2/Scratchpad.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project 2/Resources.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "_PARA/Projects/Test Project 2/Kanban.md"
+    },
+    {
+      "basename": "Test Project 2",
+      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "_PARA/Projects/Test Project/Kanban.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "_PARA/Archive/Archive.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Archive/Archived Project/Scratchpad.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "_PARA/Archive/Archived Project/Kanban.md"
+    },
+    {
+      "basename": "Archived Project",
+      "path": "_PARA/Archive/Archived Project/Archived Project.md"
+    },
+    {
+      "basename": "Test Project",
+      "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Templates/Templates.md"
+    },
+    {
+      "basename": "Trackers",
+      "path": "Computed/Trackers.md"
     },
     {
       "basename": "Computed",
@@ -71,118 +191,6 @@
     {
       "basename": "Inbox",
       "path": "Inbox/Inbox.md"
-    },
-    {
-      "basename": "Readwise",
-      "path": "Readwise/Readwise.md"
-    },
-    {
-      "basename": "_PARA",
-      "path": "_PARA/_PARA.md"
-    },
-    {
-      "basename": "Secret Note",
-      "path": "Private/Secret Note.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "_PARA/Projects/Projects.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project/Resources.md"
-    },
-    {
-      "basename": "Test Project",
-      "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
-      "basename": "Test Project 2",
-      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
-    },
-    {
-      "basename": "202212122239",
-      "path": "202212122239.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
-      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
-      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
-    },
-    {
-      "basename": "Readwise",
-      "path": "_tests/External/Readwise.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
-    },
-    {
-      "basename": "2022-12-11--11-59-30",
-      "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
-    },
-    {
-      "basename": "2022-12-11--12-00-00",
-      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project/Scratchpad.md"
-    },
-    {
-      "basename": "Zettelkasten Note",
-      "path": "Templates/Zettelkasten Note.md"
-    },
-    {
-      "basename": "Note Refactor Zettelkasten Template",
-      "path": "Templates/Note Refactor Zettelkasten Template.md"
-    },
-    {
-      "basename": "People",
-      "path": "Templates/People.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Projects/Test Project/Kanban.md"
-    },
-    {
-      "basename": "Attachments",
-      "path": "Attachments/Attachments.md"
-    },
-    {
-      "basename": "_tutorial",
-      "path": "_tutorial/_tutorial.md"
-    },
-    {
-      "basename": "_tests",
-      "path": "_tests/_tests.md"
-    },
-    {
-      "basename": "Archive",
-      "path": "_PARA/Archive/Archive.md"
-    },
-    {
-      "basename": "2022-Q4",
-      "path": "Calendar/Quarterly/2022-Q4.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project 2/Resources.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Projects/Test Project 2/Kanban.md"
-    },
-    {
-      "basename": "CRM",
-      "path": "Private/CRM/CRM.md"
     }
   ],
   "omittedPaths": [],

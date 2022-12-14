@@ -1,14 +1,23 @@
-#quarterly
+---
+aliases: [<% tp.date.now('yyyy') %>-Q<% Math.floor(tp.date.now('MM') / 4) + 1 %>]
+tags: [quarterly]
+title: <% tp.date.now('yyyy') %>-Q<% Math.floor(tp.date.now('MM') / 4) + 1 %>
+linter-yaml-title-alias: <% tp.date.now('yyyy') %>-Q<% Math.floor(tp.date.now('MM') / 4) + 1 %>
+date created: <% tp.date.now("dddd, MMMM Do YYYY, h:mm:ss a") %>
+date modified: <% tp.date.now("dddd, MMMM Do YYYY, h:mm:ss a") %>
+---
 
-# Retro
+# <% tp.date.now('yyyy') %>-Q<% Math.floor(tp.date.now('MM') / 4) + 1 %>
 
-## What did I finish this quarter? (finished writings, finished art pieces, etc.)
+## Retro
 
-## What lessons did I learn?
+### What Did I Finish This Quarter? (finished Writings, Finished Art Pieces, etc.)
 
-## What still puzzles me?
+### What Lessons Did I Learn?
 
-## Archived Projects Last Quarter
+### What Still Puzzles Me?
+
+### Archived Projects Last Quarter
 
 ```dataview
 table file.ctime as "finished"
@@ -21,10 +30,10 @@ where file.name != "Resources"
 ```
 
 
-# Upcoming
+## Upcoming
 
-## What are your overall goals for this quarter?
+### What Are Your Overall Goals for This Quarter?
 
-## How do these goals affect your life?
+### How Do These Goals Affect Your Life?
 
-## What projects do you plan on completing?
+### What Projects Do You Plan on Completing?

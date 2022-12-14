@@ -1,3 +1,9 @@
+---
+tags: 
+title: Scratchpad
+date created: Thursday, December 8th 2022, 2:42:09 am
+date modified: Wednesday, December 14th 2022, 3:33:55 pm
+---
 
 - resource link 1
 - some thought I had

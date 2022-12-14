@@ -1,3 +1,9 @@
+---
+tags: []
+title: Hotkeys
+date created: Thursday, December 8th 2022, 12:18:03 am
+date modified: Wednesday, December 14th 2022, 3:45:09 pm
+---
 `ctrl-shift-e` -> [auto link title](obsidian://show-plugin?id=obsidian-auto-link-title)
 `ctrl-shift-p` -> show [projects](obsidian://show-plugin?id=obsidian-projects)
 `ctrl-click` a folder name -> create a [folder note](obsidian://show-plugin?id=folder-note-plugin)
@@ -8,5 +14,3 @@
 `alt-shift-q` -> open quarterly note
 `ctrl-.` -> toggle pin note
 `alt-shift-z` -> search Zettelkasten notes by H1
-`alt-shift-v` -> use highlightted selection to create a new Zettelekasten note template in the current file
-	`ctrl-shift-n`	- note refactor it to a new file
