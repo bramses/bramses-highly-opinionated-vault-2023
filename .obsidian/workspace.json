@@ -37,7 +37,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -218,7 +218,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "fa7779fed8ad75a1",
   "lastOpenFiles": [
     "_tutorial/Attachments/calendar.png",
     "README.md",
