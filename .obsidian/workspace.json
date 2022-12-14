@@ -23,24 +23,24 @@
             "id": "b2fa9b028d53ec9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Templates/Daily.md",
-                "mode": "source",
-                "source": false
+                "file": "_tutorial/Attachments/calendar.png"
               }
             }
           },
           {
             "id": "fa7779fed8ad75a1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202212122239.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202212122239.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202212122239.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202212122239.md"
+                "file": "README.md"
               }
             }
           },
@@ -218,17 +218,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa7779fed8ad75a1",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
-    "202212141654.md",
-    "202212122239.md",
+    "_tutorial/Attachments/calendar.png",
     "README.md",
+    "202212122239.md",
+    "202212141654.md",
     "Calendar/Daily/2022-12-14.md",
     "Templates/Daily.md",
     "_tutorial/Hotkeys.md",
     "Computed/Trackers.md",
     "Computed/To Process.md",
-    "Computed/Tasks.md",
-    "Templates/Quarterly.md"
+    "Computed/Tasks.md"
   ]
 }

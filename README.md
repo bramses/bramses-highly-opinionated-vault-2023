@@ -631,26 +631,27 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Auto Link Title](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- Auto Link Title is a simple but powerful time saving plugin, turning two steps into one. Copy a link on the internet, highlight the text you want to replace in Obsidian and paste as usual. Done!
 - [Calendar](obsidian://show-plugin?id=calendar)
+	- Bottom right of the workspace[^2] -- easily jump to a daily note by clicking the day
 - [Commander](obsidian://show-plugin?id=cmdr)
 - [Dataview](obsidian://show-plugin?id=dataview)
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes)
 - [Kanban](obsidian://show-plugin?id=obsidian-kanban)
 - [Luhmann](obsidian://show-plugin?id=luhman)
-- Natural Language Dates
-- Obsidian Git
-- Obsidian Linter
-- Omnisearch
-- Periodic Notes
-- QuickAdd
+- [Natural Language Dates](obsidian://show-plugin?id=nldates-obsidian)
+- [Obsidian Git](obsidian://show-plugin?id=obsidian-git)
+- [Obsidian Linter](obsidian://show-plugin?id=obsidian-linter)
+- [Omnisearch](obsidian://show-plugin?id=omnisearch)
+- [Periodic Notes](obsidian://show-plugin?id=periodic-notes)
+- [QuickAdd](obsidian://show-plugin?id=quickadd)
 - Random Note
-- Readwise (*look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault derives from Readwise, so don't use it at your own risk*)
-- Recent Files
-- Style Settings
-- Supercharged Links
-- Templater
-- Timestamper
-- Waypoint
+- [Readwise](obsidian://show-plugin?id=readwise-official)
+	- *look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault, both philosophically and day to day lived experience derives from Readwise, so don't use it at your own risk*
+- [Recent Files](obsidian://show-plugin?id=recent-files-obsidian)
+- [Style Settings](obsidian://show-plugin?id=obsidian-style-settings)
+- [Supercharged Links](obsidian://show-plugin?id=supercharged-links-obsidian)
+- [Templater](obsidian://show-plugin?id=templater-obsidian)
+- [Waypoint](obsidian://show-plugin?id=waypoint)
 
 
 ### Optional Plugins
@@ -659,20 +660,21 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 
 The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why you may be interested.
 
-- Open in VSCode
-- Map View
-- Excalidraw
+- [Open Vault in VSCode](obsidian://show-plugin?id=open-vscode)
+- [Map View](obsidian://show-plugin?id=obsidian-map-view)
+- [Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
-- Full Calendar
-- New Tab Default Page
-- Plugin Update Tracker
-- GPT-3 Summarizer
-- Ozan's Image in Editor Plugin
-- Simple Embeds
-- Settings Search
-- Tag Wrangler
-- Zotero (requires [Better BibTeX for Zotero plugin](https://github.com/retorquere/zotero-better-bibtex))
-- Tracker
+- [Full Calendar](obsidian://show-plugin?id=obsidian-full-calendar)
+- [New Tab Default Page](obsidian://show-plugin?id=new-tab-default-page)
+- [Plugin Update Tracker](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
+- [GPT-3 Summarizer](https://github.com/bramses/summarize-with-gpt3-obsidian)
+- [Ozan's Image in Editor Plugin](obsidian://show-plugin?id=oz-image-plugin)
+- [Simple Embeds](obsidian://show-plugin?id=simple-embeds)
+- [Settings Search](obsidian://show-plugin?id=settings-search)
+- [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler)
+- [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector) (requires [Better BibTeX for Zotero addon](https://github.com/retorquere/zotero-better-bibtex))
+- [Tracker](obsidian://show-plugin?id=obsidian-tracker)
+- [Timestamper](obsidian://show-plugin?id=obsidian-timestamper)
 
 
 ### Migration Guide for Current Obsidian Users
@@ -715,3 +717,4 @@ BHOV-2023 would not be possible without the amazing team and community that make
 `todo`
 
 [^1]: hello from the future!
+[^2]: ![calendar](calendar.png)
