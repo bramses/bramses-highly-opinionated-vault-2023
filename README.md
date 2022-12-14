@@ -717,4 +717,4 @@ BHOV-2023 would not be possible without the amazing team and community that make
 `todo`
 
 [^1]: hello from the future!
-[^2]: ![calendar](_tutorial/Attachments/calendar.png)
+[^2]: [calendar example](_tutorial/Attachments/calendar.png)

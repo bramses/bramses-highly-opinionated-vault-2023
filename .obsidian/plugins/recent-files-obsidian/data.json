@@ -9,6 +9,30 @@
       "path": "_tutorial/Attachments/calendar.png"
     },
     {
+      "basename": "Attachments",
+      "path": "Attachments/Attachments.md"
+    },
+    {
+      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
+      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
+    },
+    {
+      "basename": "Readwise",
+      "path": "Readwise/Readwise.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212090136",
+      "path": "202212090136.md"
+    },
+    {
       "basename": "202212122239",
       "path": "202212122239.md"
     },
@@ -57,10 +81,6 @@
       "path": "_tutorial/_tutorial.md"
     },
     {
-      "basename": "202212120002",
-      "path": "202212120002.md"
-    },
-    {
       "basename": "Kanban",
       "path": "_PARA/Projects/Test Project 2/Kanban.md"
     },
@@ -81,20 +101,8 @@
       "path": "Private/Secret Note.md"
     },
     {
-      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
-      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
       "basename": "People",
       "path": "Templates/People.md"
-    },
-    {
-      "basename": "202212090136",
-      "path": "202212090136.md"
     },
     {
       "basename": "Scratchpad",
@@ -191,14 +199,6 @@
     {
       "basename": "Computed",
       "path": "Computed/Computed.md"
-    },
-    {
-      "basename": "Smartphone Capture",
-      "path": "Inbox/Smartphone Capture/Smartphone Capture.md"
-    },
-    {
-      "basename": "Computer Capture",
-      "path": "Inbox/Computer Capture/Computer Capture.md"
     }
   ],
   "omittedPaths": [],
