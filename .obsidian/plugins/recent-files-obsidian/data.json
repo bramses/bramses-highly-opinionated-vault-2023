@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-W51",
+      "path": "Calendar/Weekly/2022-W51.md"
+    },
+    {
       "basename": "2022-W51-Kanban",
       "path": "Calendar/Weekly/2022-W51-Kanban.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Weekly",
+      "path": "Templates/Weekly.md"
+    },
+    {
+      "basename": "Zettelkasten Note",
+      "path": "Templates/Zettelkasten Note.md"
+    },
+    {
+      "basename": "People",
+      "path": "Templates/People.md"
     },
     {
       "basename": "202212120002",
@@ -49,10 +69,6 @@
       "path": "Databases/Recipes/Instant Pot Fried Rice.md"
     },
     {
-      "basename": "People",
-      "path": "Templates/People.md"
-    },
-    {
       "basename": "Jane Doe",
       "path": "Databases/CRM/Jane Doe.md"
     },
@@ -71,14 +87,6 @@
     {
       "basename": "Recipes",
       "path": "Templates/Recipes.md"
-    },
-    {
-      "basename": "Weekly",
-      "path": "Templates/Weekly.md"
-    },
-    {
-      "basename": "Zettelkasten Note",
-      "path": "Templates/Zettelkasten Note.md"
     },
     {
       "basename": "Daily",
@@ -127,14 +135,6 @@
     {
       "basename": "seinfeld the art of seduction",
       "path": "Private/Attachments/seinfeld the art of seduction.png"
-    },
-    {
-      "basename": "2022-W51",
-      "path": "Calendar/Weekly/2022-W51.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Attachments",
@@ -195,10 +195,6 @@
     {
       "basename": "Scratchpad",
       "path": "Inbox/Scratchpad.md"
-    },
-    {
-      "basename": "2022-12-11--11-59-30",
-      "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
     }
   ],
   "omittedPaths": [],

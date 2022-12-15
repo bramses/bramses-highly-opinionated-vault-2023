@@ -8,5 +8,6 @@
   "defaultViewMode": "preview",
   "showLineNumber": false,
   "spellcheck": true,
-  "attachmentFolderPath": "Private/Attachments"
+  "attachmentFolderPath": "Private/Attachments",
+  "promptDelete": false
 }
