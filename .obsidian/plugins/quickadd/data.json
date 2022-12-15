@@ -20,6 +20,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "84ef441e-4dd5-4349-a811-be48fe49ab9f"
+    },
+    {
+      "id": "0a8d7591-c4b6-43ad-8692-ea6f3d23aa1d",
+      "name": "Add Kanban to Weekly",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8b7ed685-74c3-454b-ba8c-961c60a985af"
     }
   ],
   "macros": [
@@ -153,6 +160,20 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add Kanban to Weekly Note",
+      "id": "8b7ed685-74c3-454b-ba8c-961c60a985af",
+      "commands": [
+        {
+          "name": "make-weekly-kanban",
+          "type": "UserScript",
+          "id": "bc15efb1-5a5f-4df0-84b4-7758c9873b2d",
+          "path": "_scripts/make-weekly-kanban.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false

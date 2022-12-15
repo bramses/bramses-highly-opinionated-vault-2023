@@ -35,35 +35,9 @@
             "id": "e5e122d97fdadddf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Databases/Recipes/Instant Pot Fried Rice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30767105d876abad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Quarterly.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de337eb10406382d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/People.md",
-                "mode": "source",
-                "source": false
+                "file": "Calendar/Weekly/2022-W51-Kanban.md"
               }
             }
           },
@@ -150,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b2837026535a9eaa",
@@ -167,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Recipes/Instant Pot Fried Rice.md",
+                "file": "Calendar/Weekly/2022-W51-Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Recipes/Instant Pot Fried Rice.md",
+                "file": "Calendar/Weekly/2022-W51-Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Recipes/Instant Pot Fried Rice.md"
+                "file": "Calendar/Weekly/2022-W51-Kanban.md"
               }
             }
           },
@@ -257,15 +232,15 @@
   },
   "active": "e5e122d97fdadddf",
   "lastOpenFiles": [
-    "Templates/People.md",
-    "Databases/CRM/Jane Doe.md",
-    "Databases/CRM/John Doe.md",
-    "Untitled.md",
-    "Databases/CRM/Untitled.md",
-    "Templates/Quarterly.md",
-    "Databases/CRM/CRM.md",
-    "Databases/Recipes/Instant Pot Fried Rice.md",
-    "Templates/Recipes.md",
-    "Templates/Weekly.md"
+    "202212120002.md",
+    "202212090137.md",
+    "202212090136.md",
+    "Computed/Computed.md",
+    "Databases/Workouts/Squats.md",
+    "Computed/Workouts.md",
+    "Databases/Workouts/Workouts.md",
+    "Databases/Recipes/Recipes.md",
+    "Computed/CRM.md",
+    "Templates/Workout.md"
   ]
 }

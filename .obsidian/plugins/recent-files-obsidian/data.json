@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-W51-Kanban",
+      "path": "Calendar/Weekly/2022-W51-Kanban.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212090136",
+      "path": "202212090136.md"
+    },
+    {
+      "basename": "Computed",
+      "path": "Computed/Computed.md"
+    },
+    {
+      "basename": "Squats",
+      "path": "Databases/Workouts/Squats.md"
+    },
+    {
+      "basename": "Workouts",
+      "path": "Computed/Workouts.md"
+    },
+    {
+      "basename": "Workouts",
+      "path": "Databases/Workouts/Workouts.md"
+    },
+    {
+      "basename": "Recipes",
+      "path": "Databases/Recipes/Recipes.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Computed/CRM.md"
+    },
+    {
+      "basename": "Workout",
+      "path": "Templates/Workout.md"
+    },
+    {
       "basename": "Instant Pot Fried Rice",
       "path": "Databases/Recipes/Instant Pot Fried Rice.md"
     },
@@ -41,10 +85,6 @@
       "path": "Templates/Daily.md"
     },
     {
-      "basename": "CRM",
-      "path": "Computed/CRM.md"
-    },
-    {
       "basename": "202212122239",
       "path": "202212122239.md"
     },
@@ -75,18 +115,6 @@
     {
       "basename": "Test Project",
       "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
-      "basename": "202212090136",
-      "path": "202212090136.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
     },
     {
       "basename": "Test Project 2",
@@ -171,30 +199,6 @@
     {
       "basename": "2022-12-11--11-59-30",
       "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
-    },
-    {
-      "basename": "2022-12-11--12-00-00",
-      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
-    },
-    {
-      "basename": "2022-Q4",
-      "path": "Calendar/Quarterly/2022-Q4.md"
-    },
-    {
-      "basename": "2022-12-11",
-      "path": "Calendar/Daily/2022-12-11.md"
-    },
-    {
-      "basename": "2022-12-12",
-      "path": "Calendar/Daily/2022-12-12.md"
-    },
-    {
-      "basename": "Paste URL into Selection",
-      "path": "_tests/Paste URL into Selection.md"
-    },
-    {
-      "basename": "Readwise",
-      "path": "_tests/External/Readwise.md"
     }
   ],
   "omittedPaths": [],

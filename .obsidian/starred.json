@@ -24,6 +24,11 @@
       "type": "file",
       "title": "Hotkeys",
       "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "type": "file",
+      "title": "CRM",
+      "path": "Computed/CRM.md"
     }
   ]
 }
