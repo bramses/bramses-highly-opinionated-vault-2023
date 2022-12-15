@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "dataview-table-overflow"
+  ]
 }

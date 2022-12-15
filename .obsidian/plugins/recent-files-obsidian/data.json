@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "CRM",
-      "path": "Computed/CRM.md"
+      "basename": "Instant Pot Fried Rice",
+      "path": "Databases/Recipes/Instant Pot Fried Rice.md"
+    },
+    {
+      "basename": "People",
+      "path": "Templates/People.md"
+    },
+    {
+      "basename": "Jane Doe",
+      "path": "Databases/CRM/Jane Doe.md"
+    },
+    {
+      "basename": "John Doe",
+      "path": "Databases/CRM/John Doe.md"
+    },
+    {
+      "basename": "Quarterly",
+      "path": "Templates/Quarterly.md"
     },
     {
       "basename": "CRM",
       "path": "Databases/CRM/CRM.md"
+    },
+    {
+      "basename": "Recipes",
+      "path": "Templates/Recipes.md"
+    },
+    {
+      "basename": "Weekly",
+      "path": "Templates/Weekly.md"
+    },
+    {
+      "basename": "Zettelkasten Note",
+      "path": "Templates/Zettelkasten Note.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Templates/Daily.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Computed/CRM.md"
+    },
+    {
+      "basename": "202212122239",
+      "path": "202212122239.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Templates/Templates.md"
+    },
+    {
+      "basename": "calendar",
+      "path": "_tutorial/Attachments/calendar.png"
     },
     {
       "basename": "Resources",
@@ -41,10 +89,6 @@
       "path": "202212120002.md"
     },
     {
-      "basename": "202212122239",
-      "path": "202212122239.md"
-    },
-    {
       "basename": "Test Project 2",
       "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
     },
@@ -65,10 +109,6 @@
       "path": "README.md"
     },
     {
-      "basename": "calendar",
-      "path": "_tutorial/Attachments/calendar.png"
-    },
-    {
       "basename": "Attachments",
       "path": "Attachments/Attachments.md"
     },
@@ -85,10 +125,6 @@
       "path": "Calendar/Daily/2022-12-14.md"
     },
     {
-      "basename": "Daily",
-      "path": "Templates/Daily.md"
-    },
-    {
       "basename": "Hotkeys",
       "path": "_tutorial/Hotkeys.md"
     },
@@ -103,14 +139,6 @@
     {
       "basename": "Tasks",
       "path": "Computed/Tasks.md"
-    },
-    {
-      "basename": "Quarterly",
-      "path": "Templates/Quarterly.md"
-    },
-    {
-      "basename": "Zettelkasten Note",
-      "path": "Templates/Zettelkasten Note.md"
     },
     {
       "basename": "_tutorial",
@@ -137,10 +165,6 @@
       "path": "Private/Secret Note.md"
     },
     {
-      "basename": "People",
-      "path": "Templates/People.md"
-    },
-    {
       "basename": "Scratchpad",
       "path": "Inbox/Scratchpad.md"
     },
@@ -157,10 +181,6 @@
       "path": "Calendar/Quarterly/2022-Q4.md"
     },
     {
-      "basename": "Weekly",
-      "path": "Templates/Weekly.md"
-    },
-    {
       "basename": "2022-12-11",
       "path": "Calendar/Daily/2022-12-11.md"
     },
@@ -175,30 +195,6 @@
     {
       "basename": "Readwise",
       "path": "_tests/External/Readwise.md"
-    },
-    {
-      "basename": "iOS Shortcuts",
-      "path": "_tests/External/iOS Shortcuts.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "_tests/External/GitHub.md"
-    },
-    {
-      "basename": "Alfred",
-      "path": "_tests/External/Alfred.md"
-    },
-    {
-      "basename": "_tests",
-      "path": "_tests/_tests.md"
-    },
-    {
-      "basename": "Archive",
-      "path": "_PARA/Archive/Archive.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Archive/Archived Project/Scratchpad.md"
     }
   ],
   "omittedPaths": [],

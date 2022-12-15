@@ -9,6 +9,7 @@ date modified: Wednesday, December 14th 2022, 3:33:55 pm
 - [[Daily]]
 - [[People]]
 - [[Quarterly]]
+- [[Recipes]]
 - [[Weekly]]
 - [[Zettelkasten Note]]
 

@@ -1,0 +1,5 @@
+.block-language-dataview  {
+    display: block;
+    max-height: 400px;
+    overflow: auto;
+}
