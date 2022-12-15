@@ -60,7 +60,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "{{date}} - {{value}} "
+              "format": "{{value}} - [[{{date}}]]"
             },
             "insertAfter": {
               "enabled": false,

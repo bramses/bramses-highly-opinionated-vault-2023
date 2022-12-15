@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "CRM",
+      "path": "Computed/CRM.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Databases/CRM/CRM.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project/Resources.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project 2/Resources.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project 2/Scratchpad.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "_PARA/Projects/Test Project/Scratchpad.md"
+    },
+    {
+      "basename": "Test Project",
+      "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "202212090136",
+      "path": "202212090136.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "202212122239",
+      "path": "202212122239.md"
+    },
+    {
+      "basename": "Test Project 2",
+      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
+    },
+    {
+      "basename": "Canvas",
+      "path": "_PARA/Projects/Test Project 2/Canvas.canvas"
+    },
+    {
+      "basename": "seinfeld the art of seduction",
+      "path": "Private/Attachments/seinfeld the art of seduction.png"
+    },
+    {
+      "basename": "2022-W51",
+      "path": "Calendar/Weekly/2022-W51.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -19,22 +79,6 @@
     {
       "basename": "Readwise",
       "path": "Readwise/Readwise.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
-      "basename": "202212090136",
-      "path": "202212090136.md"
-    },
-    {
-      "basename": "202212122239",
-      "path": "202212122239.md"
     },
     {
       "basename": "2022-12-14",
@@ -63,14 +107,6 @@
     {
       "basename": "Quarterly",
       "path": "Templates/Quarterly.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project/Resources.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project/Scratchpad.md"
     },
     {
       "basename": "Zettelkasten Note",
@@ -109,20 +145,12 @@
       "path": "Inbox/Scratchpad.md"
     },
     {
-      "basename": "seinfeld the art of seduction",
-      "path": "Private/Attachments/seinfeld the art of seduction.png"
-    },
-    {
       "basename": "2022-12-11--11-59-30",
       "path": "Inbox/Smartphone Capture/2022-12-11--11-59-30.md"
     },
     {
       "basename": "2022-12-11--12-00-00",
       "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
-    },
-    {
-      "basename": "2022-W51",
-      "path": "Calendar/Weekly/2022-W51.md"
     },
     {
       "basename": "2022-Q4",
@@ -165,40 +193,12 @@
       "path": "_tests/_tests.md"
     },
     {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project 2/Scratchpad.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project 2/Resources.md"
-    },
-    {
-      "basename": "Test Project 2",
-      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
-    },
-    {
       "basename": "Archive",
       "path": "_PARA/Archive/Archive.md"
     },
     {
       "basename": "Scratchpad",
       "path": "_PARA/Archive/Archived Project/Scratchpad.md"
-    },
-    {
-      "basename": "Archived Project",
-      "path": "_PARA/Archive/Archived Project/Archived Project.md"
-    },
-    {
-      "basename": "Test Project",
-      "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Templates/Templates.md"
-    },
-    {
-      "basename": "Computed",
-      "path": "Computed/Computed.md"
     }
   ],
   "omittedPaths": [],

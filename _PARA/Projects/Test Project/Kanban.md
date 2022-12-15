@@ -7,6 +7,7 @@ date modified: Wednesday, December 14th 2022, 4:44:43 pm
 ---
 
 ## To Do
+- [ ] 2022-12-15 - - [ ] an example task added by quickadd!
 
 - [ ] a task for test project!
 
