@@ -29,6 +29,12 @@
       "icon": "brush",
       "name": "Linter: Lint the current file",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:94b67496-7eef-4e51-9054-cbf04cdf8bc8",
+      "icon": "at-sign",
+      "name": "QuickAdd: Capture Thought",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

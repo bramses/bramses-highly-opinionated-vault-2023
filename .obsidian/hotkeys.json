@@ -88,5 +88,14 @@
       ],
       "key": "V"
     }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "'"
+    }
   ]
 }

@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "To Process",
+      "path": "Computed/To Process.md"
+    },
+    {
+      "basename": "2022-12-15-14-50-51",
+      "path": "Inbox/Computer Capture/2022-12-15-14-50-51.md"
+    },
+    {
+      "basename": "202212151455",
+      "path": "202212151455.md"
+    },
+    {
+      "basename": "2022-12-15-14-50-23",
+      "path": "Inbox/Computer Capture/2022-12-15-14-50-23.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2022-Q4",
+      "path": "Calendar/Quarterly/2022-Q4.md"
+    },
+    {
+      "basename": "2022-12-14",
+      "path": "Calendar/Daily/2022-12-14.md"
+    },
+    {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "basename": "Workouts",
+      "path": "Computed/Workouts.md"
+    },
+    {
       "basename": "2022-W51",
       "path": "Calendar/Weekly/2022-W51.md"
     },
     {
       "basename": "2022-W51-Kanban",
       "path": "Calendar/Weekly/2022-W51-Kanban.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Weekly",
@@ -43,10 +75,6 @@
     {
       "basename": "Squats",
       "path": "Databases/Workouts/Squats.md"
-    },
-    {
-      "basename": "Workouts",
-      "path": "Computed/Workouts.md"
     },
     {
       "basename": "Workouts",
@@ -149,20 +177,8 @@
       "path": "Readwise/Readwise.md"
     },
     {
-      "basename": "2022-12-14",
-      "path": "Calendar/Daily/2022-12-14.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
-    },
-    {
       "basename": "Trackers",
       "path": "Computed/Trackers.md"
-    },
-    {
-      "basename": "To Process",
-      "path": "Computed/To Process.md"
     },
     {
       "basename": "Tasks",
@@ -183,18 +199,6 @@
     {
       "basename": "Kanban",
       "path": "_PARA/Archive/Archived Project/Kanban.md"
-    },
-    {
-      "basename": "202212141113",
-      "path": "Private/202212141113.md"
-    },
-    {
-      "basename": "Secret Note",
-      "path": "Private/Secret Note.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "Inbox/Scratchpad.md"
     }
   ],
   "omittedPaths": [],

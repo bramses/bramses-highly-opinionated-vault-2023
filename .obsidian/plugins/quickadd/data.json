@@ -27,6 +27,40 @@
       "type": "Macro",
       "command": true,
       "macroId": "8b7ed685-74c3-454b-ba8c-961c60a985af"
+    },
+    {
+      "id": "94b67496-7eef-4e51-9054-cbf04cdf8bc8",
+      "name": "Capture Thought",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Inbox/Computer Capture/{{DATE:YYYY-MM-DD-HH-mm-ss}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\ntags: [to-process]\n---\n\n{{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

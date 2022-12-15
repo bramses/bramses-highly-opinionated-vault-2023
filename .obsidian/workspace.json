@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5e122d97fdadddf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Weekly.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "fa7779fed8ad75a1",
             "type": "leaf",
             "pinned": true,
@@ -36,19 +22,19 @@
             }
           },
           {
-            "id": "d213700ecd94cda4",
+            "id": "5aa185008f6cc9cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Weekly/2022-W51.md",
-                "mode": "preview",
+                "file": "Computed/To Process.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Weekly/2022-W51.md",
+                "file": "Computed/To Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Weekly/2022-W51.md",
+                "file": "Computed/To Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Weekly/2022-W51.md"
+                "file": "Computed/To Process.md"
               }
             }
           },
@@ -221,17 +207,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d213700ecd94cda4",
+  "active": "5aa185008f6cc9cd",
   "lastOpenFiles": [
-    "Calendar/Weekly/2022-W51-Kanban.md",
-    "Calendar/Weekly/2022-W51.md",
+    "Inbox/Computer Capture/2022-12-15-14-50-51.md",
+    "202212151455.md",
+    "202212151454.md",
+    "Computed/To Process.md",
+    "Inbox/Computer Capture/2022-12-15-14-50-23.md",
+    "Inbox/Computer Capture/2022-12-15-14-41-44.md",
+    "Inbox/Computer Capture/2022-12-15-14-49-33.md",
+    "Inbox/Computer Capture/2022-12-15-14-49-30.md",
     "README.md",
-    "Templates/Weekly.md",
-    "Templates/Zettelkasten Note.md",
-    "Templates/People.md",
-    "202212120002.md",
-    "202212090137.md",
-    "202212090136.md",
-    "Computed/Computed.md"
+    "Calendar/Quarterly/2022-Q4.md"
   ]
 }
