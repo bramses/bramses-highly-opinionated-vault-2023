@@ -15,7 +15,7 @@ date modified: Wednesday, December 14th 2022, 4:52:45 pm
 `alt-shift-d` -> open daily note  
 `alt-shift-w` -> open weekly note  
 `alt-shift-q` -> open quarterly note 
-`aly-shift-'` -> reveal current file in navigation
+`alt-shift-'` -> reveal current file in navigation
 `ctrl-.` -> toggle pin note  
 `alt-shift-z` -> search Zettelkasten notes by H1  
 `ctl-alt-l` -> lint file

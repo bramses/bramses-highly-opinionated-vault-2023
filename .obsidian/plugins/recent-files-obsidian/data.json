@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "To Process",
+      "path": "Computed/To Process.md"
+    },
+    {
+      "basename": "2022-12-11--12-00-00",
+      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
+    },
+    {
+      "basename": "Readwise-Example",
+      "path": "Readwise-Example/Readwise-Example.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "_tests",
+      "path": "_tests/_tests.md"
+    },
+    {
       "basename": "202212141113",
       "path": "Private/202212141113.md"
     },
@@ -13,14 +41,6 @@
       "path": "Attachments/Instant Pot Fried Rice - Little Sunny Kitchen.pdf"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
-    },
-    {
       "basename": "Smartphone Capture",
       "path": "Inbox/Smartphone Capture/Smartphone Capture.md"
     },
@@ -31,10 +51,6 @@
     {
       "basename": "_tutorial",
       "path": "_tutorial/_tutorial.md"
-    },
-    {
-      "basename": "To Process",
-      "path": "Computed/To Process.md"
     },
     {
       "basename": "Test Project",
@@ -63,10 +79,6 @@
     {
       "basename": "Tasks",
       "path": "Computed/Tasks.md"
-    },
-    {
-      "basename": "2022-12-11--12-00-00",
-      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
     },
     {
       "basename": "202212090137",
@@ -115,10 +127,6 @@
     {
       "basename": "People",
       "path": "Templates/People.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
     },
     {
       "basename": "202212090136",
@@ -191,14 +199,6 @@
     {
       "basename": "Resources",
       "path": "_PARA/Projects/Test Project 2/Resources.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project 2/Scratchpad.md"
-    },
-    {
-      "basename": "Scratchpad",
-      "path": "_PARA/Projects/Test Project/Scratchpad.md"
     }
   ],
   "omittedPaths": [],

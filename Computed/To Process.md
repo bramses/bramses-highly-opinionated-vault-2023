@@ -9,6 +9,6 @@ linter-yaml-title-alias: To Process
 
 ```dataview
 list
-from "Inbox" OR "Readwise"
+from "Inbox" OR "Readwise" OR "Readwise-Example"
 where contains(file.tags, "#to-process")
 ```

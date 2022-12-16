@@ -13,7 +13,7 @@ date modified: Wednesday, December 14th 2022, 3:33:55 pm
 	- [[Alfred]]
 	- [[GitHub]]
 	- [[iOS Shortcuts]]
-	- [[Readwise]]
+	- [[_tests/External/Readwise]]
 - [[Paste URL into Selection]]
 - [[Private]]
 - [[Project Management]]

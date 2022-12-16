@@ -28,7 +28,7 @@ module.exports = async function createProject(params) {
     `${absolutePath}/${userInput}.md`, 
     `---
 aliases: 
-tags: 
+tags: [projects, ${userInput.replace(/ /g, "-")}]
 ---\n\n> [!info] Project Description\n> [What is my purpose?](https://youtu.be/X7HmltUWXgs)\n\n%% Waypoint %%\n\n`
   );
 
@@ -36,7 +36,7 @@ tags:
   if (settings.includes("Create a Scratchpad")) {
     await params.app.vault.create(`${absolutePath}/Scratchpad.md`, `---
 aliases: 
-tags: 
+tags: [projects, ${userInput.replace(/ /g, "-")}]
 ---\n`);
   }
 
@@ -44,7 +44,7 @@ tags:
     await params.app.vault.create(
       `${absolutePath}/Resources.md`, `---
 aliases: 
-tags: 
+tags: [projects, ${userInput.replace(/ /g, "-")}]
 ---\n\n\`\`\`dataview
 list 
 where contains(projects, "${userInput}")

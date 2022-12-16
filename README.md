@@ -192,11 +192,11 @@ The first marathon was run not for fun or to push one's body for exercise, but f
 
 ---
 
-To facilitate this process BHOV-2023 leverages Readwise and Note Refactor to do the three passes. Readwise is pass one, pass two is to exract salience and a title and tags (this can be done with AI thanks to GPT-3 Summarizer!), but a lot of the times I do it by hand. Finally, the tird pass is setting the note into it's final Zettelkasten state, and assigning to a PARA project, or leaving it in the root directory.
+To facilitate this process BHOV-2023 leverages Readwise and Unique Note Creator to do the three passes. Readwise is pass one, pass two is to exract salience and a title and tags (this can be done with AI thanks to GPT-3 Summarizer!), but a lot of the times I do it by hand. Finally, the tird pass is setting the note into it's final Zettelkasten state, and assigning to a PARA project, or leaving it in the root directory.
 
 Plugins:
 
-- Note Refactor
+- Unique Note Creator
 - Readwise
 - GPT-3 Summarizer (optional)
 
@@ -234,7 +234,7 @@ Plugins:
 - Omnisearch
 - Local Graph
 - Backlinks
-- Note Refactor
+- Unique Note Creator
 
 Related Philosophies:
 
@@ -453,7 +453,7 @@ Manually, you may also look to create your own Maps of Content (MOCs) from a par
 Plugins:
 
 - Luhmann
-- Note Refactor
+- Unique Note Creator
 
 ## Implementation
 
@@ -727,6 +727,8 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 	- Insert answers from Stack Overflow directly into Obsidian
 - [Auto Note Mover](obsidian://show-plugin?id=auto-note-mover)
 	- automatically move notes to another folder using a tag
+- Minimal Theme Settings
+- Note Refactor
 
 
 ### Migration Guide for Current Obsidian Users
@@ -748,7 +750,7 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 
 - README
 - \_tests/\*
-- Readwise/ (if you're not using the service)
+- Readwise-Example/\*
 - \_tutorial/\*
 - \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
 - \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
