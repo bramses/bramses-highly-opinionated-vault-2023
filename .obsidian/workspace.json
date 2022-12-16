@@ -46,7 +46,7 @@
       {
         "id": "3e1fc648f46914c4",
         "type": "tabs",
-        "dimension": 77.77777777777779,
+        "dimension": 79.53703703703704,
         "children": [
           {
             "id": "cdbe46f476d5c797",
@@ -79,16 +79,8 @@
       {
         "id": "4af83666f6f49517",
         "type": "tabs",
-        "dimension": 22.22222222222222,
+        "dimension": 20.462962962962962,
         "children": [
-          {
-            "id": "d51c28db626a700f",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
           {
             "id": "615cd7309793c2a1",
             "type": "leaf",
@@ -96,9 +88,16 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d51c28db626a700f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,12 +201,12 @@
       "command-palette:Open command palette": true,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
-      "obsidian-map-view:Open map view": true,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "c4214259a6dca15b",
+  "active": "615cd7309793c2a1",
   "lastOpenFiles": [
     "Private/Attachments/seinfeld the art of seduction.png",
     "Attachments/Instant Pot Fried Rice - Little Sunny Kitchen.pdf",
