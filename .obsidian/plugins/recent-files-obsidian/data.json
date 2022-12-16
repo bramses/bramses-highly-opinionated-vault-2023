@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Test Project",
+      "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "_PARA",
+      "path": "_PARA/_PARA.md"
+    },
+    {
+      "basename": "Inbox",
+      "path": "Inbox/Inbox.md"
+    },
+    {
+      "basename": "Scratchpad",
+      "path": "Inbox/Scratchpad.md"
+    },
+    {
+      "basename": "Secret Note",
+      "path": "Private/Secret Note.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Computed/CRM.md"
+    },
+    {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
+      "basename": "Trackers",
+      "path": "Computed/Trackers.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "Computed/Tasks.md"
+    },
+    {
       "basename": "To Process",
       "path": "Computed/To Process.md"
+    },
+    {
+      "basename": "_tutorial",
+      "path": "_tutorial/_tutorial.md"
+    },
+    {
+      "basename": "2022-12-11--12-00-00",
+      "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
     },
     {
       "basename": "2022-12-15-14-50-51",
@@ -17,20 +69,12 @@
       "path": "Inbox/Computer Capture/2022-12-15-14-50-23.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "2022-Q4",
       "path": "Calendar/Quarterly/2022-Q4.md"
     },
     {
       "basename": "2022-12-14",
       "path": "Calendar/Daily/2022-12-14.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
     },
     {
       "basename": "Workouts",
@@ -61,10 +105,6 @@
       "path": "202212120002.md"
     },
     {
-      "basename": "202212090137",
-      "path": "202212090137.md"
-    },
-    {
       "basename": "202212090136",
       "path": "202212090136.md"
     },
@@ -83,10 +123,6 @@
     {
       "basename": "Recipes",
       "path": "Databases/Recipes/Recipes.md"
-    },
-    {
-      "basename": "CRM",
-      "path": "Computed/CRM.md"
     },
     {
       "basename": "Workout",
@@ -149,10 +185,6 @@
       "path": "_PARA/Projects/Test Project/Scratchpad.md"
     },
     {
-      "basename": "Test Project",
-      "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
       "basename": "Test Project 2",
       "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Attachments",
       "path": "Attachments/Attachments.md"
-    },
-    {
-      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
-      "path": "Readwise/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
-    },
-    {
-      "basename": "Readwise",
-      "path": "Readwise/Readwise.md"
-    },
-    {
-      "basename": "Trackers",
-      "path": "Computed/Trackers.md"
-    },
-    {
-      "basename": "Tasks",
-      "path": "Computed/Tasks.md"
-    },
-    {
-      "basename": "_tutorial",
-      "path": "_tutorial/_tutorial.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Projects/Test Project 2/Kanban.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Projects/Test Project/Kanban.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "_PARA/Archive/Archived Project/Kanban.md"
     }
   ],
   "omittedPaths": [],

@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -27,14 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computed/To Process.md",
+                "file": "_PARA/Projects/Test Project/Test Project.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computed/To Process.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computed/To Process.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computed/To Process.md"
+                "file": "README.md"
               }
             }
           },
@@ -207,17 +206,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5aa185008f6cc9cd",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
-    "Inbox/Computer Capture/2022-12-15-14-50-51.md",
-    "202212151455.md",
-    "202212151454.md",
-    "Computed/To Process.md",
-    "Inbox/Computer Capture/2022-12-15-14-50-23.md",
-    "Inbox/Computer Capture/2022-12-15-14-41-44.md",
-    "Inbox/Computer Capture/2022-12-15-14-49-33.md",
-    "Inbox/Computer Capture/2022-12-15-14-49-30.md",
+    "_PARA/Projects/Test Project/Test Project.md",
+    "_PARA/_PARA.md",
     "README.md",
-    "Calendar/Quarterly/2022-Q4.md"
+    "Inbox/Inbox.md",
+    "Inbox/Scratchpad.md",
+    "Private/Secret Note.md",
+    "Computed/CRM.md",
+    "_tutorial/Hotkeys.md",
+    "Computed/Trackers.md",
+    "Computed/Tasks.md"
   ]
 }

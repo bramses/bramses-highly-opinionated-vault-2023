@@ -31252,9 +31252,7 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     let status2;
     let unstagedFiles;
     if (this.gitManager instanceof SimpleGit) {
-      const file = this.app.vault.getAbstractFileByPath(this.conflictOutputFile);
-      if (file != null)
-        await this.app.vault.delete(file);
+      this.mayDeleteConflictFile();
       status2 = await this.updateCachedStatus();
       if (fromAutoBackup && status2.conflicted.length > 0) {
         this.displayError(`Did not commit, because you have conflicts in ${status2.conflicted.length} ${status2.conflicted.length == 1 ? "file" : "files"}. Please resolve them and commit per command.`);
@@ -31267,9 +31265,7 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
       this.displayError(`Did not commit, because you have conflicts. Please resolve them and commit per command.`);
       return false;
     } else if (hadConflict) {
-      const file = this.app.vault.getAbstractFileByPath(this.conflictOutputFile);
-      if (file != null)
-        await this.app.vault.delete(file);
+      await this.mayDeleteConflictFile();
       status2 = await this.updateCachedStatus();
       changedFiles = [...status2.changed, ...status2.staged];
     } else {
@@ -31346,10 +31342,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     if (!await this.remotesAreSet()) {
       return false;
     }
-    const file = this.app.vault.getAbstractFileByPath(this.conflictOutputFile);
     const hadConflict = this.localStorage.getConflict() === "true";
-    if (this.gitManager instanceof SimpleGit && file)
-      await this.app.vault.delete(file);
+    if (this.gitManager instanceof SimpleGit)
+      await this.mayDeleteConflictFile();
     let status2;
     if (this.gitManager instanceof SimpleGit && (status2 = await this.updateCachedStatus()).conflicted.length > 0) {
       this.displayError(`Cannot push. You have conflicts in ${status2.conflicted.length} ${status2.conflicted.length == 1 ? "file" : "files"}`);
@@ -31386,6 +31381,17 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
       this.lastPulledFiles = pulledFiles;
     }
     return pulledFiles.length != 0;
+  }
+  async mayDeleteConflictFile() {
+    const file = this.app.vault.getAbstractFileByPath(this.conflictOutputFile);
+    if (file) {
+      this.app.workspace.iterateAllLeaves((leaf) => {
+        if (leaf.view instanceof import_obsidian23.MarkdownView && leaf.view.file.path == file.path) {
+          leaf.detach();
+        }
+      });
+      await this.app.vault.delete(file);
+    }
   }
   async stageFile(file) {
     if (!await this.isAllInitialized())
@@ -31584,7 +31590,10 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     if (conflicted !== void 0) {
       lines = [
         "# Conflicts",
-        "Please resolve them and commit per command (This file will be deleted before the commit).",
+        "Please resolve them and commit them using the commands `Obsidian Git: Commit all changes` followed by `Obsidian Git: Push`",
+        "(This file will automatically be deleted before commit)",
+        "[[#Additional Instructions]] available below file list",
+        "",
         ...conflicted.map((e) => {
           const file = this.app.vault.getAbstractFileByPath(e);
           if (file instanceof import_obsidian23.TFile) {
@@ -31593,7 +31602,18 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           } else {
             return `- Not a file: ${e}`;
           }
-        })
+        }),
+        `
+# Additional Instructions
+I strongly recommend to use "Source mode" for viewing the conflicted files. For simple conflicts, in each file listed above replace every occurrence of the following text blocks with the desired text.
+
+\`\`\`diff
+<<<<<<< HEAD
+    File changes in local repository
+=======
+    File changes in remote repository
+>>>>>>> origin/main
+\`\`\``
       ];
     }
     this.writeAndOpenFile(lines == null ? void 0 : lines.join("\n"));

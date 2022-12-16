@@ -35,6 +35,12 @@
       "icon": "at-sign",
       "name": "QuickAdd: Capture Thought",
       "mode": "any"
+    },
+    {
+      "id": "luhman:insert-zettel-link",
+      "icon": "link-2",
+      "name": "Luhman: Insert Zettel Link",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

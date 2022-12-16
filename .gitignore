@@ -4,3 +4,12 @@
 # Calendar/*
 # Readwise/*
 # Databases/*
+
+# images
+# *.png
+# *.jpg
+
+# audio
+# *.wav
+# *.m4a
+# *.mp3

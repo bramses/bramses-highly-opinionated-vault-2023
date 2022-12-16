@@ -509,8 +509,8 @@ The following is the folder structure used by BHOV-2023, along with short descri
 			- Scratchpad (*back of the napkin thoughts to a specific project*)
 			- Test Project (*every folder has a file of the same name -- this is looked for by Dataview and in Waypoint*)
 	- Archive (*finished projects*)
-- \_tests
-- \_tutorial
+- \_tests (tests for BHOV 2023)
+- \_tutorial 
 	- Hotkeys (*hotkeys used by BHOV-2023*)
 - Attachments
 - Computed (*dataviews of information computed across your vault*)
@@ -520,6 +520,7 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Daily
 	- Weekly
 	- Quarterly
+- Databases (databases are a collection of files that have very similar attributes to each other like people recipe work out etc.)
 - Inbox
 	- Computer Capture
 	- Smartphone Capture
@@ -538,7 +539,7 @@ The following is the folder structure used by BHOV-2023, along with short descri
 
 ### Tests
 
-`todo`
+ the test folder allows you to check if the plug-ins are performing as normal. Since obsidian can't run test like you might in code you have to be a little bit more cheeky about running tests and really talk them out step-by-step as you might in writing
 
 ### CRM
 
@@ -548,7 +549,14 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 
 ## Tips and Tricks
 
-`todo`
+### From Capture To Complete Thought
+
+There are a lot of different ways that new information my into your vault. This could be through the lumberjack plug-in read wise or any other variety of shortcuts. Since obsidian is folder backed, anything that can insert a file to this folder will show up in your vault. If a note has the  \#to-process tag, it will show up in computed/To Process.
+
+From there take a second to think about the note that you are looking at. Is it missing information or contacts that you can provide? Is it too long and needs to be shortened down to something more pithy? In the two processes know right out what you wanted to see if it was a standalone note that you wouldn't mind putting in a letter and sealing up in an envelope.
+
+Finally highlight the text that you just created and copy it to clipboard. Once in the clipboard hit control in to make a new note, in template it will automatically create a Zettelkasten note
+
 
 ## External Tools
 
@@ -566,31 +574,35 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 
 ### Readwise
 
-`todo`
+ read wise as a very powerful software that syncs with multiple form of inputs whether that be Twitter or reading books. The read wise integration automatically sinks into obsidian once you set it up with your account. If you'd like to copy my settings you can go into tests/external/readwise to see the export settings that I've used.
 
 ### Alfred
 
-`todo`
+*Mac only*
+
+ Alfred is a global Mac search app that replaces spotlight. Alfred Maine claim to fame is this program ability allowing you to add multiple workflows that you can trigger with a hot key like "sc" or "run", etc.
 
 ### Zotero
 
-`todo`
+Zotero is an app that can help you with footnotes in citations in your Zettelkasten notes. There is a chrome extension that allows you to save the title of pretty much any book on Amazon, and then insert it directly into obsidian for a footnote and a citation.
 
 ### GitHub
 
-`todo`
+GitHub is a hosting service for code, in BHOV-2023 we can use it to store snapshots of our  vault, as well as make public changes that others can comment on.
 
 ### Sync
 
-`todo`
+ Sync is an obsidian official paid service that allows you to sync your obsidian vault between devices. Each vault has a 10 GB limit, so be careful with what you do with images PDFs movie files etc.
 
 ### Publish
 
-`todo`
+Publish is another official obsidian paid service that allows you to share your vault on a public URL. Users will be able to come see what you've written and you can easily upload and download files from said vault
 
-### Shortcuts (iOS)
+### Shortcuts 
 
-`todo`
+*IOS only*
+
+shortcuts are small bits of code that run on your phone. The small workflows allow for macro style functionality. In the near future I will publish the shortcuts that I use daily in a sister repo.
 
 ### Mobile Integration (General)
 
@@ -600,11 +612,17 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 
 Great! Now that that's out of the way, we can finally get to running the vault, *phew*!
 
-1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`
-2. Download into your local machine
+1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`. This will create a separate get hungry but for you or you can maintain your own version of this vault.
+2. Download into your local machine using git clone or download zip
 3. Open the vault and rename it to whatever you want and open it in Obsidian
-4. Before you commit anything to GitHub, make sure you edit `.gitignore` to match what you want to publish. Doing this early will save you headaches down the road if you decide to publish (*part*) of your vault
-5. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated
+4. Before you commit anything to GitHub, make sure you edit `.gitignore` to match what you want to publish. Doing this early will save you headaches down the road if you decide to publish (*part*) of your vault. To do this run the command: `Obsidian Git: edit .gitignore`. You'll already see some commented out options that you might choose to hide from uploading to get hub whether it's private or public.
+6. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated. If the little plug icon has a red X next to it see what plug-ins need to be updated
+7. Open this file (README) and pin it with `ctrl-.`
+8. From there explore the vault a bit. I would first recommend visiting the starred notes in the bottom left corner.
+9. Then I recommend opening the PARA folder, looking at the projects in the files within.
+	1. Try adding to a project scratch pad by using the quick add add to project scratchpad command
+	2. Do the same with the project kanban command
+10. Hit the open today button in the left and ribbon to create a new daily note
 
 
 ### After You're Up and Running
@@ -631,27 +649,44 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Auto Link Title](obsidian://show-plugin?id=obsidian-auto-link-title)
 	- Auto Link Title is a simple but powerful time saving plugin, turning two steps into one. Copy a link on the internet, highlight the text you want to replace in Obsidian and paste as usual. Done!
 - [Calendar](obsidian://show-plugin?id=calendar)
-	- Bottom right of the workspace[^2] -- easily jump to a daily note by clicking the day
+	- a calendar in the bottom right of the workspace[^2] -- easily jump to a daily note by clicking the day
 - [Commander](obsidian://show-plugin?id=cmdr)
+	- add custom commands to Obsidian
 - [Dataview](obsidian://show-plugin?id=dataview)
+	- used in the /computed folder to surface notes from all across the vault, as well as using Yaml for some special features
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
+	- creates a readme type file at any directory
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes)
+	- easily insert foot notes great for Zettelkasten
 - [Kanban](obsidian://show-plugin?id=obsidian-kanban)
+	- puts a Kanban board into Obsidian. A simple and powerful extension of the plain to do system, that allows us to make use of multiple columns, and here to the tenants of time block planning as well as AGILE
 - [Luhmann](obsidian://show-plugin?id=luhman)
+	- lowers the learning curve greatly for dealing with Zettelkasten notes. Searches by H1 in notes, and allows for easy insertion of Zettelkasten notes from other contexts (check out the chain link in the in the ribbon to the left or press alt shift Z to search your current Zettelkasten notes)
 - [Natural Language Dates](obsidian://show-plugin?id=nldates-obsidian)
+	- allows the use of the @ symbol to insert dates like yesterday tomorrow etc.
 - [Obsidian Git](obsidian://show-plugin?id=obsidian-git)
+	- Version control built into obsidian -- allows for very easy back ups and snapshots
 - [Obsidian Linter](obsidian://show-plugin?id=obsidian-linter)
+	-  helps remove the stress of the chore of keeping notes clean, and also populates the YAML with important data
 - [Omnisearch](obsidian://show-plugin?id=omnisearch)
+	- a fast and alternative to the obsidian built-in search, works really well for fuzzy searching
 - [Periodic Notes](obsidian://show-plugin?id=periodic-notes)
+	- extends the daily notes core plug into include weekly and quarterly templates. Also functions very well with templater and calendar
 - [QuickAdd](obsidian://show-plugin?id=quickadd)
+	- a powerful extension that allows us to create macros that do multiple things. Also accept user Scripps so can run JavaScript to create new files and the like. In BHOV-2023, Quick ad is used to enter face with a PARA folder directly, saving the user multiple keystrokes and a ton of time
 - Random Note
 - [Readwise](obsidian://show-plugin?id=readwise-official)
 	- *look -- I really hate to put a paid subscription plugin on the "required" list, but this app is **so** good, it's really revolutionized my reading experience across Twitter/Kindle/blogs/podcasts. Plus their new [Reader](https://readwise.io/read) app is straight up awesome. A lot of the ease of this vault, both philosophically and day to day lived experience derives from Readwise, so don't use it at your own risk*
 - [Recent Files](obsidian://show-plugin?id=recent-files-obsidian)
+	- recent files is a simple but powerful plug-in that shows you the recently open files which is useful when you don't want to re-search for certain file
 - [Style Settings](obsidian://show-plugin?id=obsidian-style-settings)
+	- style settings works together with supercharged links to provide the emoji in front of the private note section
 - [Supercharged Links](obsidian://show-plugin?id=supercharged-links-obsidian)
+	- see above
 - [Templater](obsidian://show-plugin?id=templater-obsidian)
+	- template or is a powerful plug-in that allows us to create templates for any type of note including YAML, capturing user highlighted text, creating titles on the fly, etc.
 - [Waypoint](obsidian://show-plugin?id=waypoint)
+	- waypoint is an auto generated folder representation in a note. BHOV-2023 uses this as a automated map of content. Pairs very well with folder note
 
 
 ### Optional Plugins
@@ -661,29 +696,44 @@ These plugins aren't needed, as some are QoL and others have a steep price tag a
 The following is a list of these plugins as well as a one sentence blurb of how I use them in BHOV-2023 and why you may be interested.
 
 - [Open Vault in VSCode](obsidian://show-plugin?id=open-vscode)
+	- Visual studio code has very powerful support for multiple cursors. These cursors allow for simultaneous editing. This plug-in opens visual studio code to the current note that you were are on in obsidian
 - [Map View](obsidian://show-plugin?id=obsidian-map-view)
+	- if you put the location tag in your why AML and include latitude and longitude you can see that note on a map view of the entire planet. This gives a new dimension to notetaking allowing you to see the location of where your notes were taken.
 - [Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
+	- Excalidraw is a very powerful drawing tool that allows you to condense thought into visual images. Excalidraw is great for both drawing and visual storytelling
 - [Shimmering Obsidian](https://github.com/chrisgrieser/shimmering-obsidian) (Alfred plugin)
+	- shimmering obsidian is how  BHOV captures screen shots into the vault as well as capturing to do's. Shimmering obsidian is an Alfred plug-in and therefore is Mac only
 - [Full Calendar](obsidian://show-plugin?id=obsidian-full-calendar)
+	- Full calendar is a full calendar in obsidian. Full calendar allows you to connect notes to independent meetings and events in your schedule
 - [New Tab Default Page](obsidian://show-plugin?id=new-tab-default-page)
+	- new tab default page is what happens when you hit the plus button on the tab bar you can choose to open a random note a daily note or anything in between
 - [Plugin Update Tracker](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
+	- plug-in update tracker keeps track of plug-ins that you've installed and let you know when they need updating it also tells you what is in there Changelog so you can see the code that changed
 - [GPT-3 Summarizer](https://github.com/bramses/summarize-with-gpt3-obsidian)
+	- GPT-3 summarizer takes a highlighted block of text generates a title and tags for it leveraging the machine learning model GPT3
 - [Ozan's Image in Editor Plugin](obsidian://show-plugin?id=oz-image-plugin)
+	- Ozan's image in editor plug-in helps in the displaying of images without having to use the exclamation point In front of the mark down command
 - [Simple Embeds](obsidian://show-plugin?id=simple-embeds)
+	- simple embeds allows you to view tweets and YouTube videos directly inside of your obsidian
 - [Settings Search](obsidian://show-plugin?id=settings-search)
+	- Setting search as a search bar to the settings window allowing you to move quickly through the settings in obsidian
 - [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler)
+	- tag wrangler allows for editing and renaming tags all across the vault
 - [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector) (requires [Better BibTeX for Zotero addon](https://github.com/retorquere/zotero-better-bibtex))
+	- Zotero is an external app that allows us to do citations. The Zotaro integration allows us to bring those citations into obsidian
 - [Tracker](obsidian://show-plugin?id=obsidian-tracker)
+	- tracker gives us visualizations of things that we might want to track overtime it's really good for habit tracker and you can do bar charts line charts any type of graph that you can imagine basically
 - [Timestamper](obsidian://show-plugin?id=obsidian-timestamper)
+	- timestamp or is an easy way to get a Zettelkasten ID without having to manually type it yourself
 
 
 ### Migration Guide for Current Obsidian Users
 
 In the creation of BHOV-2023, the author was in the middle of his own migration from his vault of 1.5 years to BHOV. So this is all quite relevant!
 
-First, the the questions you should ask yourself is: what about your current vault is necessary, what you'd like to change, and where you ideally want to be after migrating. Keep in mind, many of the tricks and strategies used in BHOV-2023 can be inserted into existing vaults, so you might not even need to make a full move!
+First, the the questions you should ask yourself is: what about your current vault is necessary, what you'd like to change, and where you ideally want to be after migrating. Keep in mind, many of the tricks and strategies used in BHOV-2023 can be inserted into existing vaults, so you might not even need to make a full move! If you're interested in a particular philosophy you can look at the plug-in section under it and just try and integrate those plug-ins into your vault.
 
-After following the traditional [installation section above](#installation), the first thing you're probably going to want to do is start migrating a few notes you already have into the correct buckets. Once you get a feel for that manually, try to move your outside vault workflows (Alfred, Readwise, etc) to point to BHOV-2023. This will help facilitate the transition without a drastic switch over as new notes will be placed into BHOV-2023 and your existing workflows will be maintained in your old vault.
+After following the traditional [installation section above](#installation), the first thing you're probably going to want to do is start migrating a few notes you already have in your old vault into the correct buckets. Once you get a feel for that manually, try to move your outside vault workflows (Alfred, Readwise, etc) to point to BHOV-2023. This will help facilitate the transition without a drastic switch over as new notes will be placed into BHOV-2023 and your existing workflows will be maintained in your old vault.
 
 ### Settings
 
@@ -693,15 +743,18 @@ After following the traditional [installation section above](#installation), the
 
 BHOV-2023 is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
 
-Noon (wake up -- *I'm a night owl and a degenerate*) 🤷
+**Morning** - refer to my weekly note to see what tasks I have open there -- prepare the resources I need to do my best work
+**Afternoon** - do deep work on my open projects as well as taken care of any commitments, Capture any to do that come up from my phone or my computer whatever's closest
+**Evening** - review the notes in Computed/To Process and see what I've read yesterday. Process these notes into Zettelkasten notes.
+**Night** - read new content in the reader app (blogs, youtube videos) or my kindle and highlight the things that I like
 
-…
 
 ### Special Case: Saturday or Sunday
 
 Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
 
-…
+Reflection is an extension on what happens on a normal evening where I spend more time processing notes and try to do deeper work in consolidating the thought processes that I've had over the week.  In BHOV-2023 it's easy to traverse through a whole week and just click between the notes to see what you thought during the different days
+
 
 ## Videos
 
@@ -711,10 +764,14 @@ Over the year of 2023, I'll be deep diving into different components of BHOV-202
 
 ## Final Word
 
-BHOV-2023 would not be possible without the amazing team and community that make Obsidian what it is. This vault works because the technology is there, and all thanks goes to all of the developers in the community.  
-…
+BHOV-2023 would not be possible without the amazing team and community that make Obsidian what it is. This vault works because the technology is built by an amazing team and an amazing community, and all thanks goes to all of the fantastic developers.  
 
-`todo`
+I really do love this software -- it's had such a major impact on my life, it's hard to accurately quantify. I jokingly tell my friends that I've had two pivotal moments in my life where I've noticed a stepwise improvement in my intelligence. The first was when I started reading as an adult as a past-time instead of as a chore. The second is when I first manually linked two discrete ideas in Obsidian and saw them connected real space. The edge between the notes felt like a formalization of a new thought -- something new that I could grasp tangibly.
+
+If you liked what you read here, please go ahead and give this repo a star. Better yet if you feel so inclined hit the donate button ;). As I come across new and better paradigms I'm planning on keeping BHOV updated, perhaps even doing a yearly release with major updates. In the interim I will be updating this read me and tests as I go along the year, as well as participating in any discussions above in the discussions tab. 
+
+There is an a lot of knowledge that got lost during the set up of this vault but I tried to be as explicit as possible with every step. As time goes on I will try and update this vault to match the parity of starting from scratch and getting new users going as fast as possible.
+
 
 [^1]: hello from the future!
 [^2]: [calendar example](https://github.com/bramses/bramses-highly-opinionated-vault-2023/blob/main/_tutorial/Attachments/calendar.png)
