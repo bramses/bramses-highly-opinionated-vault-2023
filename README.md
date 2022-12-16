@@ -457,46 +457,7 @@ Plugins:
 
 ## Implementation
 
-`todo`
-
-### Elements of Markdown Important to BHOV-2023
-
-#### Footers
-
-Footers serve two very important roles: citation and non destructive updates. Citation is used in the [Zettelkasten](#Zettelkasten), to help link a note to its source material.
-
-Footers also make for great **non destructive updates** to notes. This means you can revisit an old note, and instead of altering it directly, you can append a footnote to the end of a thought, without changing the structural meaning of the original file. Think of it as sedimentary rock, or a really lightweight [VCS](#version-control-system).
-
-Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
-
-#### YAML
-
-YAML, or frontmatter, serves as a way to get computed values or track over time. For example, if you are looking to establish a daily reading habit, you may desire to put that habit in a YAML and then track it.
-
-```
-// /Daily/2023-01-01
-
----
-read: 0
----
-
-// /Computed/Trackers.md
-
-\`\`\`tracker
-searchType: frontmatter
-searchTarget: read
-fixedScale: 1.0
-fitPanelWidth: true
-folder: Daily
-datasetName: Read 20 mins or more
-month:
-\`\`\`
-
-```
-
-#### Tags
-
-`todo`
+Now that we have examined some of the philosophies that power BHOV-2023, we get to go into the gritty details of how to set it up.
 
 ### Folder Structure
 
@@ -536,6 +497,44 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Zettelkasten Note
 - Canvases (optional) (*a list of Obsidian Canvases*)
 - Excalidraw (optional) (*a list of Excalidraw items*)
+
+### Elements of Markdown Important to BHOV-2023
+
+#### Footers
+
+Footers serve two very important roles: citation and non destructive updates. Citation is used in the [Zettelkasten](#Zettelkasten), to help link a note to its source material.
+
+Footers also make for great **non destructive updates** to notes. This means you can revisit an old note, and instead of altering it directly, you can append a footnote to the end of a thought, without changing the structural meaning of the original file. Think of it as sedimentary rock, or a really lightweight [VCS](#version-control-system).
+
+Footnote Shortcut combined with Natural Landguage Dates allows for super easy non destructive updates that serve as asides, knowledge from a wiser and smarter future you.[^1]
+
+#### YAML
+
+YAML, or frontmatter, serves as a way to get computed values or track over time. For example, if you are looking to establish a daily reading habit, you may desire to put that habit in a YAML and then track it.
+
+```
+// /Daily/2023-01-01
+
+--read: 0
+---
+
+// /Computed/Trackers.md
+
+\`\`\`tracker
+searchType: frontmatter
+searchTarget: read
+fixedScale: 1.0
+fitPanelWidth: true
+folder: Daily
+datasetName: Read 20 mins or more
+month:
+\`\`\`
+
+```
+
+#### Tags
+
+`todo`
 
 ### Tests
 
@@ -623,22 +622,6 @@ Great! Now that that's out of the way, we can finally get to running the vault, 
 	1. Try adding to a project scratch pad by using the quick add add to project scratchpad command
 	2. Do the same with the project kanban command
 10. Hit the open today button in the left and ribbon to create a new daily note
-
-
-### After You're Up and Running
-
-After getting your sea legs for a few days (perhaps a week!) and you feel comfortable with **Bramses' Highly Opinionated Vault 2023** system, it will sadly be time for us to part and for you to forge onwards. You'll be able to safely delete the following files:
-
-- README
-- \_tests/\*
-- Readwise/ (if you're not using the service)
-- \_tutorial/\*
-- \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
-- \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
-- \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
-- /Computed/Trackers (if you're not using the Tracker Plugin)
-
-…
 
 ### "Required" Plugins
 
@@ -740,6 +723,24 @@ After following the traditional [installation section above](#installation), the
 ### Settings
 
 `todo`
+
+
+### After You're Up and Running
+
+After getting your sea legs for a few days (perhaps a week!) and you feel comfortable with **Bramses' Highly Opinionated Vault 2023** system, it will sadly be time for us to part and for you to forge onwards. You'll be able to safely delete the following files:
+
+- README
+- \_tests/\*
+- Readwise/ (if you're not using the service)
+- \_tutorial/\*
+- \_PARA/Archive/Archived Project (*!Note: do not delete the Archive folder itself, just the example folder*)
+- \_PARA/Projects/Test Project (*!Note: do not delete the Projects folder itself, just the example folder*)
+- \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
+- /Computed/Trackers (if you're not using the Tracker Plugin)
+
+…
+
+
 
 ## A Day in the Life - Real World Use
 
