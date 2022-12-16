@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
+    },
+    {
       "basename": "Smartphone Capture",
       "path": "Inbox/Smartphone Capture/Smartphone Capture.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "CRM",
       "path": "Computed/CRM.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
     },
     {
       "basename": "Trackers",

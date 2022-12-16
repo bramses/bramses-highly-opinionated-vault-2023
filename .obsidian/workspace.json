@@ -22,18 +22,19 @@
             }
           },
           {
-            "id": "5aa185008f6cc9cd",
+            "id": "c4214259a6dca15b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Smartphone Capture/Smartphone Capture.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,17 +207,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fa7779fed8ad75a1",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
+    "_tutorial/Hotkeys.md",
+    "README.md",
     "Inbox/Smartphone Capture/Smartphone Capture.md",
     "Inbox/Inbox.md",
     "_tutorial/_tutorial.md",
     "Computed/To Process.md",
-    "README.md",
     "_PARA/Projects/Test Project/Test Project.md",
     "_PARA/_PARA.md",
     "Inbox/Scratchpad.md",
-    "Private/Secret Note.md",
-    "Computed/CRM.md"
+    "Private/Secret Note.md"
   ]
 }

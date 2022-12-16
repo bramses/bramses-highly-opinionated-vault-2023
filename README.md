@@ -556,6 +556,7 @@ From there take a second to think about the note that you are looking at. Is it 
 
 Finally highlight the text that you just created and copy it to clipboard. Once in the clipboard hit control in to make a new note, in template it will automatically create a Zettelkasten note
 
+### Project Management Like a Pro
 
 ## External Tools
 
@@ -634,7 +635,7 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Calendar](obsidian://show-plugin?id=calendar)
 	- a calendar in the bottom right of the workspace[^2] -- easily jump to a daily note by clicking the day
 - [Commander](obsidian://show-plugin?id=cmdr)
-	- add custom commands to Obsidian
+	- add custom commands to Obsidian ribbon bar for easy clicking
 - [Dataview](obsidian://show-plugin?id=dataview)
 	- used in the /computed folder to surface notes from all across the vault, as well as using Yaml for some special features
 - [Folder Note](obsidian://show-plugin?id=folder-note-plugin)
@@ -710,6 +711,22 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 	- tracker gives us visualizations of things that we might want to track overtime it's really good for habit tracker and you can do bar charts line charts any type of graph that you can imagine basically
 - [Timestamper](obsidian://show-plugin?id=obsidian-timestamper)
 	- timestamp or is an easy way to get a Zettelkasten ID without having to manually type it yourself
+- [Admonition](obsidian://show-plugin?id=obsidian-admonition)
+	- Customizable callouts, that use the code bloc (\`\`\`) format instead of the blockquote (>) format
+- [Gallery](obsidian://show-plugin?id=obsidian-gallery)
+	- Display images in your vault in a searchable, mood board like format
+- [Projects](obsidian://show-plugin?id=obsidian-projects)
+	- Notion style project management in Obsidian
+- [Text Snippets](obsidian://show-plugin?id=text-snippets-obsidian)
+	- expand text shortcuts into full sentences like qbfjlzd -> "the quick brown fox jumped over the lazy dog"
+- [Advanced Tables](obsidian://show-plugin?id=table-editor-obsidian)
+	- An improvement to built in MD tables, allows for row editing similar to Google Sheets
+- [Wikipedia](obsidian://show-plugin?id=obsidian-wikipedia)
+	- Insert Wikipedia snippets into your vault by searching for the article title
+- [Stack Overflow Answers](obsidian://show-plugin?id=obsidian-stack-overflow)
+	- Insert answers from Stack Overflow directly into Obsidian
+- [Auto Note Mover](obsidian://show-plugin?id=auto-note-mover)
+	- automatically move notes to another folder using a tag
 
 
 ### Migration Guide for Current Obsidian Users
