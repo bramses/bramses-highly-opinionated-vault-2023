@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Private/202212141113.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Private/202212141113.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Private/202212141113.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Private/202212141113.md"
               }
             }
           },
@@ -207,17 +207,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "c4214259a6dca15b",
   "lastOpenFiles": [
-    "_tutorial/Hotkeys.md",
+    "Private/Attachments/seinfeld the art of seduction.png",
+    "Attachments/Instant Pot Fried Rice - Little Sunny Kitchen.pdf",
+    "Attachments/Attachments.md",
     "README.md",
+    "_tutorial/Hotkeys.md",
     "Inbox/Smartphone Capture/Smartphone Capture.md",
     "Inbox/Inbox.md",
     "_tutorial/_tutorial.md",
     "Computed/To Process.md",
-    "_PARA/Projects/Test Project/Test Project.md",
-    "_PARA/_PARA.md",
-    "Inbox/Scratchpad.md",
-    "Private/Secret Note.md"
+    "_PARA/Projects/Test Project/Test Project.md"
   ]
 }
