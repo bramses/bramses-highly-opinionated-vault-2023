@@ -707,6 +707,8 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 	- Full calendar is a full calendar in obsidian. Full calendar allows you to connect notes to independent meetings and events in your schedule
 - [New Tab Default Page](obsidian://show-plugin?id=new-tab-default-page)
 	- new tab default page is what happens when you hit the plus button on the tab bar you can choose to open a random note a daily note or anything in between
+- [Lumberjack](obsidian://show-plugin?id=lumberjack-obsidian)
+	- lumber jack is a plug-in that allows you to log to your daily note a pending after the journal header or use the timber obsidian URL to append an out directly to your inbox
 - [Plugin Update Tracker](obsidian://show-plugin?id=obsidian-plugin-update-tracker)
 	- plug-in update tracker keeps track of plug-ins that you've installed and let you know when they need updating it also tells you what is in there Changelog so you can see the code that changed
 - [GPT-3 Summarizer](https://github.com/bramses/summarize-with-gpt3-obsidian)

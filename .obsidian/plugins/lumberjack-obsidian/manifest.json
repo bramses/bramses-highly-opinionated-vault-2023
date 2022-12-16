@@ -1,0 +1,10 @@
+{
+	"id": "lumberjack-obsidian",
+	"name": "Lumberjack 🪓 🪵",
+	"version": "1.3.0",
+	"minAppVersion": "0.12.0",
+	"description": "Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.",
+	"author": "ryanjamurphy",
+	"authorUrl": "https://axle.design",
+	"isDesktopOnly": false
+}

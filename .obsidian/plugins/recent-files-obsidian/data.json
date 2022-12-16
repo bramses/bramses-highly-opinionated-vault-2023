@@ -5,16 +5,28 @@
       "path": "README.md"
     },
     {
+      "basename": "Smartphone Capture",
+      "path": "Inbox/Smartphone Capture/Smartphone Capture.md"
+    },
+    {
+      "basename": "Inbox",
+      "path": "Inbox/Inbox.md"
+    },
+    {
+      "basename": "_tutorial",
+      "path": "_tutorial/_tutorial.md"
+    },
+    {
+      "basename": "To Process",
+      "path": "Computed/To Process.md"
+    },
+    {
       "basename": "Test Project",
       "path": "_PARA/Projects/Test Project/Test Project.md"
     },
     {
       "basename": "_PARA",
       "path": "_PARA/_PARA.md"
-    },
-    {
-      "basename": "Inbox",
-      "path": "Inbox/Inbox.md"
     },
     {
       "basename": "Scratchpad",
@@ -39,14 +51,6 @@
     {
       "basename": "Tasks",
       "path": "Computed/Tasks.md"
-    },
-    {
-      "basename": "To Process",
-      "path": "Computed/To Process.md"
-    },
-    {
-      "basename": "_tutorial",
-      "path": "_tutorial/_tutorial.md"
     },
     {
       "basename": "2022-12-11--12-00-00",
@@ -195,10 +199,6 @@
     {
       "basename": "seinfeld the art of seduction",
       "path": "Private/Attachments/seinfeld the art of seduction.png"
-    },
-    {
-      "basename": "Attachments",
-      "path": "Attachments/Attachments.md"
     }
   ],
   "omittedPaths": [],

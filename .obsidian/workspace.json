@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_PARA/Projects/Test Project/Test Project.md",
+                "file": "Inbox/Smartphone Capture/Smartphone Capture.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,17 +206,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "fa7779fed8ad75a1",
   "lastOpenFiles": [
+    "Inbox/Smartphone Capture/Smartphone Capture.md",
+    "Inbox/Inbox.md",
+    "_tutorial/_tutorial.md",
+    "Computed/To Process.md",
+    "README.md",
     "_PARA/Projects/Test Project/Test Project.md",
     "_PARA/_PARA.md",
-    "README.md",
-    "Inbox/Inbox.md",
     "Inbox/Scratchpad.md",
     "Private/Secret Note.md",
-    "Computed/CRM.md",
-    "_tutorial/Hotkeys.md",
-    "Computed/Trackers.md",
-    "Computed/Tasks.md"
+    "Computed/CRM.md"
   ]
 }
