@@ -27,5 +27,7 @@
   "settings-search",
   "recent-files-obsidian",
   "obsidian-plugin-update-tracker",
-  "obsidian-linter"
+  "obsidian-linter",
+  "lumberjack-obsidian",
+  "open-vscode"
 ]

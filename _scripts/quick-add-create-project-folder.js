@@ -47,7 +47,7 @@ aliases:
 tags: [projects, ${userInput.replace(/ /g, "-")}]
 ---\n\n\`\`\`dataview
 list 
-where contains(projects, "${userInput}")
+where contains(projects, "${userInput.replace(/ /g, "-")}")
 \`\`\`\n\n`
     )
     }

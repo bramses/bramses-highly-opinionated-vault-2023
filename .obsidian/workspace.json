@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c8a2876e1feba161",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tutorial/Hotkeys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b2837026535a9eaa",
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tutorial/Hotkeys.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tutorial/Hotkeys.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tutorial/Hotkeys.md"
+                "file": "README.md"
               }
             }
           },
@@ -203,22 +191,29 @@
       "command-palette:Open command palette": true,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
-      "periodic-notes:Open today": false,
       "obsidian-map-view:Open map view": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "periodic-notes:Open today": false,
+      "cmdr:QuickAdd: Add to Project Scratchpad": false,
+      "cmdr:QuickAdd: Create New Project": false,
+      "cmdr:QuickAdd: Add to Project Kanban": false,
+      "cmdr:Linter: Lint the current file": false,
+      "cmdr:QuickAdd: Capture Thought": false,
+      "cmdr:Luhman: Insert Zettel Link": false,
+      "open-vscode:VSCode": false
     }
   },
-  "active": "c8a2876e1feba161",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
+    "Computed/CRM.md",
+    "Databases/CRM/CRM.md",
     "README.md",
+    "Computed/Tasks.md",
+    "202212151455.md",
+    "_tutorial/Hotkeys.md",
     "Computed/To Process.md",
     "Inbox/Computer Capture/2022-12-11--12-00-00.md",
     "Readwise-Example/Readwise-Example.md",
-    "202212120002.md",
-    "_tests/_tests.md",
-    "Private/202212141113.md",
-    "Private/Attachments/seinfeld the art of seduction.png",
-    "Attachments/Instant Pot Fried Rice - Little Sunny Kitchen.pdf",
-    "Attachments/Attachments.md"
+    "202212120002.md"
   ]
 }

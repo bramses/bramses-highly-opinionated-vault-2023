@@ -1,5 +1,5 @@
 ---
-tags: [zettel]
+tags: [readme]
 title: README
 date created: Friday, December 9th 2022, 12:24:59 pm
 date modified: Wednesday, December 14th 2022, 5:04:46 pm
@@ -457,7 +457,21 @@ Plugins:
 
 ## Implementation
 
-Now that we have examined some of the philosophies that power BHOV-2023, we get to go into the gritty details of how to set it up.
+Now that we have examined some of the philosophies that power BHOV-2023, we get to go into the gritty details of how to set BHOV-2023 up, starting with the Big Three Workflows.
+
+### The Big Three
+
+Most interactions with BHOV fall under three categories: project related work, daily notes related work, and Zettelkasten related work. Each has its own set of workflows, and particularities. Let's dive into each and see how to work with them.
+
+#### From Capture To Complete Thought (Zettelkasten)
+
+There are numerous ways that new information comes into the vault. This could be through the lumberjack plug-in read wise or any other variety of shortcuts. Since obsidian is folder backed, anything that can insert a file to this folder will show up in your vault. If a note has the  \#to-process tag, it will show up in computed/To Process.
+
+From there take a second to think about the note that you are looking at. Is it missing information or contacts that you can provide? Is it too long and needs to be shortened down to something more pithy? In the two processes know right out what you wanted to see if it was a standalone note that you wouldn't mind putting in a letter and sealing up in an envelope.
+
+Finally highlight the text that you just created and copy it to clipboard. Once in the clipboard hit control in to make a new note, in template it will automatically create a Zettelkasten note
+
+#### Project Management Like a Pro (Projects)
 
 ### Folder Structure
 
@@ -548,15 +562,9 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 
 ## Tips and Tricks
 
-### From Capture To Complete Thought
+### Someday/Maybe Tasks (GTD)
 
-There are a lot of different ways that new information my into your vault. This could be through the lumberjack plug-in read wise or any other variety of shortcuts. Since obsidian is folder backed, anything that can insert a file to this folder will show up in your vault. If a note has the  \#to-process tag, it will show up in computed/To Process.
-
-From there take a second to think about the note that you are looking at. Is it missing information or contacts that you can provide? Is it too long and needs to be shortened down to something more pithy? In the two processes know right out what you wanted to see if it was a standalone note that you wouldn't mind putting in a letter and sealing up in an envelope.
-
-Finally highlight the text that you just created and copy it to clipboard. Once in the clipboard hit control in to make a new note, in template it will automatically create a Zettelkasten note
-
-### Project Management Like a Pro
+Since BHOV-2023 is catered towards immediate processes, you may be wondering where to put open goals you have for yourself that aren't immediately trackable; like "learn Italian" or "run a 5k". I personally create a Kanban within my Quarterly note, and in addition to the regular columns (To Do, In Progress, Complete, Waiting On) I have a fourth column called "Someday/Maybe". The reason I put it in my quarterly note is that quarterly review happens infrequently enough (once every three months) that I get to decide if I really want to take on a Someday/Maybe task. In addition, Quarterly planning is a great time to do long term goal planning and come up with concrete steps!
 
 ## External Tools
 

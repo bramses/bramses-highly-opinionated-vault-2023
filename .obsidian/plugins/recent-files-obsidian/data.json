@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Hotkeys",
-      "path": "_tutorial/Hotkeys.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Computed/CRM.md"
+    },
+    {
+      "basename": "CRM",
+      "path": "Databases/CRM/CRM.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "Computed/Tasks.md"
+    },
+    {
+      "basename": "202212151455",
+      "path": "202212151455.md"
+    },
+    {
+      "basename": "Hotkeys",
+      "path": "_tutorial/Hotkeys.md"
     },
     {
       "basename": "To Process",
@@ -69,16 +85,8 @@
       "path": "Private/Secret Note.md"
     },
     {
-      "basename": "CRM",
-      "path": "Computed/CRM.md"
-    },
-    {
       "basename": "Trackers",
       "path": "Computed/Trackers.md"
-    },
-    {
-      "basename": "Tasks",
-      "path": "Computed/Tasks.md"
     },
     {
       "basename": "202212090137",
@@ -87,10 +95,6 @@
     {
       "basename": "2022-12-15-14-50-51",
       "path": "Inbox/Computer Capture/2022-12-15-14-50-51.md"
-    },
-    {
-      "basename": "202212151455",
-      "path": "202212151455.md"
     },
     {
       "basename": "2022-12-15-14-50-23",
@@ -167,10 +171,6 @@
     {
       "basename": "Quarterly",
       "path": "Templates/Quarterly.md"
-    },
-    {
-      "basename": "CRM",
-      "path": "Databases/CRM/CRM.md"
     },
     {
       "basename": "Recipes",

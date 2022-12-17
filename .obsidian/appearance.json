@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "supercharged-links-gen",
     "dataview-table-overflow"
-  ]
+  ],
+  "theme": "moonstone"
 }

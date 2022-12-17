@@ -50,8 +50,7 @@
   "macros": [],
   "explorer": [],
   "hide": {
-    "statusbar": [],
-    "leftRibbon": []
+    "statusbar": []
   },
   "spacing": 8,
   "advancedToolbar": {
