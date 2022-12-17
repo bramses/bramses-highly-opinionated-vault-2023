@@ -566,27 +566,27 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 
 ### Ribbon Commands
 
-![Screenshot 2022-12-17 17-18-40.png](Screenshot%202022-12-17%2017-18-40.png) - Add a quick thought to Project_Name/Scratchpad. Good for project specific thoughts.
+![Screenshot 2022-12-17 17-18-40.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-18-40.png) - Add a quick thought to Project_Name/Scratchpad. Good for project specific thoughts.
 
-![Screenshot 2022-12-17 17-18-53.png](Screenshot%202022-12-17%2017-18-53.png) - Create a new task in a project kanban. Good for an open specific project task.
+![Screenshot 2022-12-17 17-18-53.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-18-53.png) - Create a new task in a project kanban. Good for an open specific project task.
 
-![Screenshot 2022-12-17 17-18-44.png](Screenshot%202022-12-17%2017-18-44.png) - create a new project with an optional Kanban Board, Resources page, and Scratchpad.
+![Screenshot 2022-12-17 17-18-44.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-18-44.png) - create a new project with an optional Kanban Board, Resources page, and Scratchpad.
 
-![Screenshot 2022-12-17 17-18-58.png](Screenshot%202022-12-17%2017-18-58.png) - Lint a file. Can also by triggered with `cmd + s`
+![Screenshot 2022-12-17 17-18-58.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-18-58.png) - Lint a file. Can also by triggered with `cmd + s`
 
-![Screenshot 2022-12-17 17-19-03.png](Screenshot%202022-12-17%2017-19-03.png) - capture a thought to your daily note (if it exists)
+![Screenshot 2022-12-17 17-19-03.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-03.png) - capture a thought to your daily note (if it exists)
 
-![Screenshot 2022-12-17 17-19-10.png](Screenshot%202022-12-17%2017-19-10.png) - Insert a link to another Zettel using the **Luhmann** plugin
+![Screenshot 2022-12-17 17-19-10.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-10.png) - Insert a link to another Zettel using the **Luhmann** plugin
 
-![Screenshot 2022-12-17 17-19-15.png](Screenshot%202022-12-17%2017-19-15.png) - open daily note
+![Screenshot 2022-12-17 17-19-15.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-15.png) - open daily note
 
-![Screenshot 2022-12-17 17-19-19.png](Screenshot%202022-12-17%2017-19-19.png) - move a zettelkasten note from the root to the `Private` folder
+![Screenshot 2022-12-17 17-19-19.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-19.png) - move a zettelkasten note from the root to the `Private` folder
 
-![Screenshot 2022-12-17 17-19-24.png](Screenshot%202022-12-17%2017-19-24.png) - Open a map view of all your notes using the **Map View** plugin. Looks for `location: [lat,long]` in frontmatter
+![Screenshot 2022-12-17 17-19-24.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-24.png) - Open a map view of all your notes using the **Map View** plugin. Looks for `location: [lat,long]` in frontmatter
 
-![Screenshot 2022-12-17 17-19-28.png](Screenshot%202022-12-17%2017-19-28.png) - open a new Excalidraw drawing using the **Excalidraw** plugin
+![Screenshot 2022-12-17 17-19-28.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-28.png) - open a new Excalidraw drawing using the **Excalidraw** plugin
 
-![Screenshot 2022-12-17 17-19-36.png](Screenshot%202022-12-17%2017-19-36.png) - Open active file (and vault) in VSCode
+![Screenshot 2022-12-17 17-19-36.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-36.png) - Open active file (and vault) in VSCode
 
 
 
