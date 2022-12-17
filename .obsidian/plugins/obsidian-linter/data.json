@@ -213,7 +213,7 @@
       "Condenses multiple blank lines down into one blank line for the text to paste": true
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "displayChanged": true,
   "foldersToIgnore": [
     "Templates"

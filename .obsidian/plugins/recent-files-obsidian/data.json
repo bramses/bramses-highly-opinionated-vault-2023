@@ -5,6 +5,50 @@
       "path": "README.md"
     },
     {
+      "basename": "Screenshot 2022-12-17 17-18-40",
+      "path": "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png"
+    },
+    {
+      "basename": "202212151455",
+      "path": "202212151455.md"
+    },
+    {
+      "basename": "202212090136",
+      "path": "202212090136.md"
+    },
+    {
+      "basename": "202212090137",
+      "path": "202212090137.md"
+    },
+    {
+      "basename": "202212122239",
+      "path": "202212122239.md"
+    },
+    {
+      "basename": "202212120002",
+      "path": "202212120002.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project/Resources.md"
+    },
+    {
+      "basename": "Resources",
+      "path": "_PARA/Projects/Test Project 2/Resources.md"
+    },
+    {
+      "basename": "Test Project",
+      "path": "_PARA/Projects/Test Project/Test Project.md"
+    },
+    {
+      "basename": "Test Project 2",
+      "path": "_PARA/Projects/Test Project 2/Test Project 2.md"
+    },
+    {
+      "basename": "_PARA",
+      "path": "_PARA/_PARA.md"
+    },
+    {
       "basename": "CRM",
       "path": "Computed/CRM.md"
     },
@@ -15,10 +59,6 @@
     {
       "basename": "Tasks",
       "path": "Computed/Tasks.md"
-    },
-    {
-      "basename": "202212151455",
-      "path": "202212151455.md"
     },
     {
       "basename": "Hotkeys",
@@ -35,10 +75,6 @@
     {
       "basename": "Readwise-Example",
       "path": "Readwise-Example/Readwise-Example.md"
-    },
-    {
-      "basename": "202212120002",
-      "path": "202212120002.md"
     },
     {
       "basename": "_tests",
@@ -69,14 +105,6 @@
       "path": "_tutorial/_tutorial.md"
     },
     {
-      "basename": "Test Project",
-      "path": "_PARA/Projects/Test Project/Test Project.md"
-    },
-    {
-      "basename": "_PARA",
-      "path": "_PARA/_PARA.md"
-    },
-    {
       "basename": "Scratchpad",
       "path": "Inbox/Scratchpad.md"
     },
@@ -87,10 +115,6 @@
     {
       "basename": "Trackers",
       "path": "Computed/Trackers.md"
-    },
-    {
-      "basename": "202212090137",
-      "path": "202212090137.md"
     },
     {
       "basename": "2022-12-15-14-50-51",
@@ -133,10 +157,6 @@
       "path": "Templates/People.md"
     },
     {
-      "basename": "202212090136",
-      "path": "202212090136.md"
-    },
-    {
       "basename": "Computed",
       "path": "Computed/Computed.md"
     },
@@ -167,38 +187,6 @@
     {
       "basename": "John Doe",
       "path": "Databases/CRM/John Doe.md"
-    },
-    {
-      "basename": "Quarterly",
-      "path": "Templates/Quarterly.md"
-    },
-    {
-      "basename": "Recipes",
-      "path": "Templates/Recipes.md"
-    },
-    {
-      "basename": "Daily",
-      "path": "Templates/Daily.md"
-    },
-    {
-      "basename": "202212122239",
-      "path": "202212122239.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Templates/Templates.md"
-    },
-    {
-      "basename": "calendar",
-      "path": "_tutorial/Attachments/calendar.png"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project/Resources.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "_PARA/Projects/Test Project 2/Resources.md"
     }
   ],
   "omittedPaths": [],

@@ -41,6 +41,12 @@
       "icon": "link-2",
       "name": "Luhman: Insert Zettel Link",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:7d1318ec-92bb-4054-a68b-70da6f584544",
+      "icon": "copyright",
+      "name": "QuickAdd: Move Zettel to Private",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

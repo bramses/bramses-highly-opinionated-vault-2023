@@ -61,6 +61,13 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "7d1318ec-92bb-4054-a68b-70da6f584544",
+      "name": "Move Zettel to Private",
+      "type": "Macro",
+      "command": true,
+      "macroId": "fbbceb07-8ccb-4cad-b0a4-7374f77944d9"
     }
   ],
   "macros": [
@@ -207,6 +214,20 @@
           "type": "UserScript",
           "id": "bc15efb1-5a5f-4df0-84b4-7758c9873b2d",
           "path": "_scripts/make-weekly-kanban.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Move Zettel to Private",
+      "id": "fbbceb07-8ccb-4cad-b0a4-7374f77944d9",
+      "commands": [
+        {
+          "name": "move-zettel-to-private",
+          "type": "UserScript",
+          "id": "27cd9ce7-9887-4051-a908-3e99c73943a5",
+          "path": "_scripts/move-zettel-to-private.js",
           "settings": {}
         }
       ],

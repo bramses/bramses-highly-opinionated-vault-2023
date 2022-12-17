@@ -20,6 +20,16 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "57260da14369f889",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png"
+              }
+            }
           }
         ]
       }
@@ -90,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b2837026535a9eaa",
@@ -187,7 +196,9 @@
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
+      "cmdr:QuickAdd: Create New Project": false,
       "publish:Publish changes": true,
+      "cmdr:QuickAdd: Add to Project Kanban": false,
       "command-palette:Open command palette": true,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
@@ -195,25 +206,24 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "periodic-notes:Open today": false,
       "cmdr:QuickAdd: Add to Project Scratchpad": false,
-      "cmdr:QuickAdd: Create New Project": false,
-      "cmdr:QuickAdd: Add to Project Kanban": false,
       "cmdr:Linter: Lint the current file": false,
       "cmdr:QuickAdd: Capture Thought": false,
       "cmdr:Luhman: Insert Zettel Link": false,
-      "open-vscode:VSCode": false
+      "open-vscode:VSCode": false,
+      "cmdr:QuickAdd: Move Zettel to Private": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "fa7779fed8ad75a1",
   "lastOpenFiles": [
-    "Computed/CRM.md",
-    "Databases/CRM/CRM.md",
+    "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png",
     "README.md",
-    "Computed/Tasks.md",
+    "_PARA/Projects/rs/rs.md",
+    "_PARA/Projects/rs/Resources.md",
+    "_PARA/Projects/rs/Kanban.md",
+    "_PARA/Projects/rs/Scratchpad.md",
     "202212151455.md",
-    "_tutorial/Hotkeys.md",
-    "Computed/To Process.md",
-    "Inbox/Computer Capture/2022-12-11--12-00-00.md",
-    "Readwise-Example/Readwise-Example.md",
-    "202212120002.md"
+    "202212090136.md",
+    "202212090137.md",
+    "202212122239.md"
   ]
 }
