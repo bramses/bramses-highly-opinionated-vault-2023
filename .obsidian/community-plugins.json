@@ -29,5 +29,6 @@
   "obsidian-plugin-update-tracker",
   "obsidian-linter",
   "lumberjack-obsidian",
-  "open-vscode"
+  "open-vscode",
+  "wikilinks-to-mdlinks-obsidian"
 ]
