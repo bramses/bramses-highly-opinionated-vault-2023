@@ -20,16 +20,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "57260da14369f889",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png"
-              }
-            }
           }
         ]
       }
@@ -214,7 +204,7 @@
       "cmdr:QuickAdd: Move Zettel to Private": false
     }
   },
-  "active": "fa7779fed8ad75a1",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
     "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png",
     "README.md",

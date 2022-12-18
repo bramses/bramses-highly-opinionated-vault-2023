@@ -1,8 +1,6 @@
 {
   "newLinkFormat": "shortest",
-  "userIgnoreFilters": [
-    "Private/"
-  ],
+  "userIgnoreFilters": null,
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
   "defaultViewMode": "preview",

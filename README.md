@@ -18,6 +18,8 @@ Some of these techniques may be familiar to you, others may be novel due to the 
 
 By following this guide and leveraging this template, I can promise that you'll be able to evolve from possibly never having used Obsidian to **being up to date with the way I think about using this phenomenal software**. I hope you enjoy and have fun!!
 
+*NB: This guide is **really** long, so don't be afraid to use the [Table of Contents feature in the top left corner of the README](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/).
+
 ## Motivation
 
 I've been using Obsidian for well over a year and have developed many experiments, some of which succeeded and many others that have failed. I have tried to compile all the lessons from these experiences and create a vault that mirrors my up to date thinking on how Obsidian can be maximally utilized.
@@ -461,11 +463,11 @@ Plugins:
 
 ## Implementation
 
-Now that we have examined some of the philosophies that power BHOV-2023, we get to go into the gritty details of how to set BHOV-2023 up, starting with the Big Three Workflows.
+Now that we have examined some of the philosophies that power BHOV-2023, we get to go into the gritty details of how to set BHOV-2023 up, starting with the **Big Three Workflows**.
 
 ### The Big Three
 
-Most interactions with BHOV fall under three categories: project related work, daily notes related work, and Zettelkasten related work. Each has its own set of workflows, and particularities. Let's dive into each and see how to work with them.
+Most interactions with BHOV fall under three categories: project related work, daily notes related work, and Zettelkasten related work. Each has its own set of workflows, and particularities. Let's dive into each and see how to work with each of them.
 
 #### From Capture To Complete Thought (Zettelkasten)
 
@@ -476,6 +478,10 @@ From there take a second to think about the note that you are looking at. Is it 
 Finally highlight the text that you just created and copy it to clipboard. Once in the clipboard hit control in to make a new note, in template it will automatically create a Zettelkasten note
 
 #### Project Management Like a Pro (Projects)
+
+Projects are goals that have a particular end state, whether that is a deadline or some sort of "project completion" state.
+
+A project you are currently working on will go under the `_PARA/Projects` folder. You can use the [ribbon commands](#ribbon-commands) to interface directly with active projects with the help of macros and user scripts.
 
 ### Folder Structure
 
@@ -654,21 +660,34 @@ shortcuts are small bits of code that run on your phone. The small workflows all
 
 In BHOV-2023, mobile is mainly used for "upstream" and "downstream" work. Upstream work is raw note insertion. On my phone, I have a "battalion" of shortcuts that manage putting notes into my Obsidian vault. From there, I do most of my processing work on the computer.
 
+Downstream work is searching for existing notes or doing light progressive summarization. I try to keep the plugins on mobile light, here's what I use:
+
+- Dataview
+- Templater (must have if you want to interface with a Daily Note)
+- Periodic Notes (must have if you want to interface with a Daily Note)
+- Kanban
+- Paste URL into Selection
+- Luhman (must have if you want to search the BHOV Zettelkasten directory)
+
+I'm hoping to refine BHOV-2023 for mobile over the course of 2023, and have something ready for BHOV-2024!
+
 ## Installation
 
 Great! Now that that's out of the way, we can finally get to running the vault, *phew*!
 
-1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`. This will create a separate get hungry but for you or you can maintain your own version of this vault.
-2. Download into your local machine using git clone or download zip
+1. Select `Use this Template` **or** `git clone https://github.com/bramses/bramses-highly-opinionated-vault-2023.git`. This will create a separate GitHub repo for you that will allow you to diverge and add your own flavor to BHOV-2023.
+2. Download into your local machine using git clone or download zip.
 3. Open the vault and rename it to whatever you want and open it in Obsidian
 4. Before you commit anything to GitHub, make sure you edit `.gitignore` to match what you want to publish. Doing this early will save you headaches down the road if you decide to publish (*part*) of your vault. To do this run the command: `Obsidian Git: edit .gitignore`. You'll already see some commented out options that you might choose to hide from uploading to get hub whether it's private or public.
-5. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated. If the little plug icon has a red X next to it see what plug-ins need to be updated
-6. Open this file (README) and pin it with `ctrl-.`
-7. From there explore the vault a bit. I would first recommend visiting the starred notes in the bottom left corner.
-8. Then I recommend opening the PARA folder, looking at the projects in the files within.
+5. Select "Trust Author ad enable plugins" to get the community plugins in BHOV-2023 (see picture below)
+	1. ![trust author to get plugins.png](_tutorial/Attachments/trust%20author%20to%20get%20plugins.png)
+6. Depending on when you clone this repo, you may want to check plugins for updates. In the bottom right corner, the plugin Plugin Update Tracker will alert you if any plugins in BHOV-2023 need to be updated. If the little plug icon has a red X next to it see what plug-ins need to be updated
+7. Open this file (README) and pin it with `ctrl-.`
+8. From there explore the vault a bit. I would first recommend visiting the starred notes in the bottom left corner.
+9. Then I recommend opening the PARA folder, looking at the projects in the files within.
 	1. Try adding to a project scratch pad by using the quick add add to project scratchpad command
 	2. Do the same with the project kanban command
-9. Hit the open today button in the left and ribbon to create a new daily note
+10. Hit the open today button in the left and ribbon to create a new daily note
 
 ### "Required" Plugins
 
