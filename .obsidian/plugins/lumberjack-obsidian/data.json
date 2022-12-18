@@ -1,9 +1,0 @@
-{
-  "logPrefix": "- [ ] ",
-  "useTimestamp": true,
-  "alwaysOpenInNewLeaf": false,
-  "inboxFilePath": "Inbox/Lumberjack",
-  "newDraftFilenameTemplate": "YYYYMMDD--HHmmss",
-  "targetHeader": "todo/daily",
-  "timestampFormat": "HH:mm"
-}

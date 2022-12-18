@@ -22,18 +22,18 @@
             }
           },
           {
-            "id": "2a0dc0d1d47fe09f",
+            "id": "289964d5c7bc1a10",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Readwise-Example/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b2837026535a9eaa",
@@ -120,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -202,27 +205,27 @@
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
       "obsidian-map-view:Open map view": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "periodic-notes:Open today": false,
       "cmdr:QuickAdd: Add to Project Scratchpad": false,
       "cmdr:Linter: Lint the current file": false,
       "cmdr:QuickAdd: Capture Thought": false,
       "cmdr:Luhman: Insert Zettel Link": false,
       "open-vscode:VSCode": false,
-      "cmdr:QuickAdd: Move Zettel to Private": false
+      "cmdr:QuickAdd: Move Zettel to Private": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "2a0dc0d1d47fe09f",
+  "active": "c102a50492c64997",
   "lastOpenFiles": [
+    "Readwise-Example/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
     "README.md",
+    "Readwise-Example/Readwise-Example.md",
+    "_tutorial/_tutorial.md",
     "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png",
     "_PARA/Projects/rs/rs.md",
     "_PARA/Projects/rs/Resources.md",
     "_PARA/Projects/rs/Kanban.md",
     "_PARA/Projects/rs/Scratchpad.md",
-    "202212151455.md",
-    "202212090136.md",
-    "202212090137.md",
-    "202212122239.md"
+    "202212151455.md"
   ]
 }

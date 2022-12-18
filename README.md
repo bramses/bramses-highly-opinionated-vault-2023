@@ -491,7 +491,7 @@ Publishing the WIP resources is a great way to show your work!
 >
 > Show Your Work! - Austin Kleon
 
-### Daily Note Domination
+#### Daily Note Domination
 
 Last but not least, the Daily Note Workflow allows for capture of events, thoughts, and to-dos in the real world. In the Daily Note Template, you can easily move up to the weekly note and the quarterly note that a daily note belongs to. In addition, the ribbon command `Capture Thought` allows for quick capture to the current daily note.
 
@@ -506,10 +506,12 @@ The following is the folder structure used by BHOV-2023, along with short descri
 			- Scratchpad (*back of the napkin thoughts to a specific project*)
 			- Test Project (*every folder has a file of the same name -- this is looked for by Dataview and in Waypoint*)
 	- Archive (*finished projects*)
-- \_tests (tests for BHOV 2023)
+- \_scripts (*a collection of JS scripts that power BHOV-2023*)
+- \_tests (*tests for BHOV 2023*)
 - \_tutorial
 	- Hotkeys (*hotkeys used by BHOV-2023*)
-- Attachments
+	- Attachments (*images used for this README*)
+- Attachments (*public images and pdfs*)
 - Computed (*dataviews of information computed across your vault*)
 	- Trackers (*trackers like habit trackers, reminders etc*)
 	- Tasks (*open tasks found using - \[ \] all across the vault*)
@@ -519,18 +521,20 @@ The following is the folder structure used by BHOV-2023, along with short descri
 	- Quarterly
 - Databases (databases are a collection of files that have very similar attributes to each other like people recipe work out etc.)
 - Inbox
-	- Computer Capture
-	- Smartphone Capture
+	- Computer Capture (*notes captured from external apps from your computer*)
+	- Smartphone Capture (*notes captured from external apps from your phone*)
 - Private
-	- CRM
+	- CRM (*a database of people, including support for social media handles*)
 	- Attachments (*images will automatically be placed into this folder*)
-- Readwise
-- Templates
+- Readwise-Example
+	- Articles Test
+		- The Ancient Japanese Technique That Produces Lumber Without Cutting Trees (*an example of how a readwise article is lined to a project and put into To Process for summarization*)
+- Templates (*templater uses these to populate files*)
 	- Daily
 	- Weekly
 	- Quarterly
 	- People
-	- Zettelkasten Note
+	- Zettelkasten Note (*triggered every time a new file is made to help conform to [Zettelkasten](#zettelkasten) spec*)
 - Canvases (optional) (*a list of Obsidian Canvases*)
 - Excalidraw (optional) (*a list of Excalidraw items*)
 
@@ -667,11 +671,26 @@ Publish is another official obsidian paid service that allows you to share your 
 
 shortcuts are small bits of code that run on your phone. The small workflows allow for macro style functionality. In the near future I will publish the shortcuts that I use daily in a sister repo.
 
+## A Day in the Life - Real World Use
+
+BHOV-2023 is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
+
+**Morning** - refer to my weekly note to see what tasks I have open there -prepare the resources I need to do my best work  
+**Afternoon** - do deep work on my open projects as well as taken care of any commitments, Capture any to do that come up from my phone or my computer whatever's closest  
+**Evening** - review the notes in Computed/To Process and see what I've read yesterday. Process these notes into Zettelkasten notes.  
+**Night** - read new content in the reader app (blogs, youtube videos) or my kindle and highlight the things that I like
+
+### Special Case: Saturday or Sunday
+
+Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
+
+Reflection is an extension on what happens on a normal evening where I spend more time processing notes and try to do deeper work in consolidating the thought processes that I've had over the week. In BHOV-2023 it's easy to traverse through a whole week and just click between the notes to see what you thought during the different days
+
 ## Mobile Integration (General)
 
 In BHOV-2023, mobile is mainly used for "upstream" and "downstream" work. Upstream work is raw note insertion. On my phone, I have a "battalion" of shortcuts that manage putting notes into my Obsidian vault. From there, I do most of my processing work on the computer.
 
-Downstream work is searching for existing notes or doing light progressive summarization. I try to keep the plugins on mobile light, here's what I use:
+Downstream work is searching for existing notes or doing light [progressive summarization](#progressive-summariztion). I try to keep the plugins on mobile light, here's what I use:
 
 - Dataview
 - Templater (must have if you want to interface with a Daily Note)
@@ -823,10 +842,10 @@ After following the traditional [installation section above](#installation), the
 
 BHOV-2023 has set up numerous settings, but the important ones are as follows:
 
-- Default View for New Tabs - Reading View (this is great for tables and Markdown format heavy files, but Live Preview works well too)
-- Attachment Folder Path = `Private/Attachments` - BHOV-2023 tries to stay local first whenever possible so automatically inserted images will be put into the Private folder
-- CSS Snippets; dataview table overflow - A CSS snippet that allows for horizontal scrolling of long Dataview tables
-- 
+- *Default View for New Tabs* - Reading View (this is great for tables and Markdown format heavy files, but Live Preview works well too)
+- *Attachment Folder Path =* `Private/Attachments` - BHOV-2023 tries to stay local first whenever possible so automatically inserted images will be put into the Private folder
+- *CSS Snippets; dataview table overflow* - A CSS snippet that allows for horizontal scrolling of long Dataview tables
+
 
 ### After You're Up and Running
 
@@ -841,22 +860,6 @@ After getting your sea legs for a few days (perhaps a week!) and you feel comfor
 - \_PARA/Projects/Test Project 2 (*!Note: do not delete the Projects folder itself, just the example folder*)
 - /Computed/Trackers (if you're not using the Tracker Plugin)
 
-…
-
-## A Day in the Life - Real World Use
-
-BHOV-2023 is only helpful if you can use it day in/day out as a tool to help you in life. Here's how I would use it in any random day (let's say Tuesday, perhaps):
-
-**Morning** - refer to my weekly note to see what tasks I have open there -- prepare the resources I need to do my best work  
-**Afternoon** - do deep work on my open projects as well as taken care of any commitments, Capture any to do that come up from my phone or my computer whatever's closest  
-**Evening** - review the notes in Computed/To Process and see what I've read yesterday. Process these notes into Zettelkasten notes.  
-**Night** - read new content in the reader app (blogs, youtube videos) or my kindle and highlight the things that I like
-
-### Special Case: Saturday or Sunday
-
-Reflection is a critical component to the value of this vault, and so one day a week **must** be carved out to do reflection. This shouldn't take more than thirty minutes or so, but it does need to happen once a week, so choose what works best for you.
-
-Reflection is an extension on what happens on a normal evening where I spend more time processing notes and try to do deeper work in consolidating the thought processes that I've had over the week. In BHOV-2023 it's easy to traverse through a whole week and just click between the notes to see what you thought during the different days
 
 ## Videos
 

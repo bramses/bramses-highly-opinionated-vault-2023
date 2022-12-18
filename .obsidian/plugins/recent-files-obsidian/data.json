@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "The Ancient Japanese Technique That Produces Lumber Without Cutting Trees",
+      "path": "Readwise-Example/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md"
+    },
+    {
       "basename": "Screenshot 2022-12-17 17-18-40",
       "path": "_tutorial/Attachments/Screenshot 2022-12-17 17-18-40.png"
     },
@@ -73,10 +77,6 @@
       "path": "Inbox/Computer Capture/2022-12-11--12-00-00.md"
     },
     {
-      "basename": "Readwise-Example",
-      "path": "Readwise-Example/Readwise-Example.md"
-    },
-    {
       "basename": "_tests",
       "path": "_tests/_tests.md"
     },
@@ -99,10 +99,6 @@
     {
       "basename": "Inbox",
       "path": "Inbox/Inbox.md"
-    },
-    {
-      "basename": "_tutorial",
-      "path": "_tutorial/_tutorial.md"
     },
     {
       "basename": "Scratchpad",
