@@ -3,7 +3,7 @@ aliases: [README]
 tags: [readme, zettel]
 title: README
 date created: Friday, December 9th 2022, 12:24:59 pm
-date modified: Saturday, December 17th 2022, 4:46:08 pm
+date modified: Saturday, December 17th 2022, 6:15:46 pm
 linter-yaml-title-alias: README
 ---
 # README
@@ -483,6 +483,18 @@ Projects are goals that have a particular end state, whether that is a deadline 
 
 A project you are currently working on will go under the `_PARA/Projects` folder. You can use the [ribbon commands](#ribbon-commands) to interface directly with active projects with the help of macros and user scripts.
 
+When a project is finished, the folder is moved to the `_PARA/Archive` folder. For future projects if there was a particularly helpful resource, you can "summon" it by looking in the Resources of your Archived project.
+
+Publishing the WIP resources is a great way to show your work!
+
+> Once a day, after you’ve done your day’s work, go back to your documentation and find one little piece of your process that you can share. Where you are in your process will determine what that piece is. If you’re in the very early stages, share your influences and what’s inspiring you. If you’re in the middle of executing a project, write about your methods or share works in progress. If you’ve just completed a project, show the final product, share scraps from the cutting-room floor, or write about what you learned. If you have lots of projects out into the world, you can report on how they’re doing—you can tell stories about how people are interacting with your work. ([Location 211](https://readwise.io/to_kindle?action=open&asin=B00GU2RGGI&location=211))
+>
+> Show Your Work! - Austin Kleon
+
+### Daily Note Domination
+
+Last but not least, the Daily Note Workflow allows for capture of events, thoughts, and to-dos in the real world. In the Daily Note Template, you can easily move up to the weekly note and the quarterly note that a daily note belongs to. In addition, the ribbon command `Capture Thought` allows for quick capture to the current daily note.
+
 ### Folder Structure
 
 The following is the folder structure used by BHOV-2023, along with short descriptions as to why each exists.
@@ -539,7 +551,8 @@ YAML, or frontmatter, serves as a way to get computed values or track over time.
 ```
 // /Daily/2023-01-01
 
---read: 0
+---
+read: 0
 ---
 
 // /Computed/Trackers.md
@@ -558,7 +571,7 @@ month:
 
 #### Tags
 
-`todo`
+Tags are great for searching and grouping. Try and choose memorable tags that will stick out, and to group similar tags togeter using a plugin like Tag Wrangler.
 
 ### Tests
 
@@ -593,8 +606,6 @@ I use my CRM to keep track of important days like birthdays as well as items dis
 ![Screenshot 2022-12-17 17-19-28.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-28.png) - open a new Excalidraw drawing using the **Excalidraw** plugin
 
 ![Screenshot 2022-12-17 17-19-36.png](_tutorial/Attachments/Screenshot%202022-12-17%2017-19-36.png) - Open active file (and vault) in VSCode
-
-
 
 ## Tips and Tricks
 
@@ -769,7 +780,7 @@ The following is a list of these plugins as well as a one sentence blurb of how 
 - [Settings Search](obsidian://show-plugin?id=settings-search)
 	- Setting search as a search bar to the settings window allowing you to move quickly through the settings in obsidian
 - [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler)
-	- tag wrangler allows for editing and renaming tags all across the vault
+	- tag wrangler allows for editing and renaming tags all across the vault, as well as batching tags together
 - [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector) (requires [Better BibTeX for Zotero addon](https://github.com/retorquere/zotero-better-bibtex))
 	- Zotero is an external app that allows us to do citations. The Zotaro integration allows us to bring those citations into obsidian
 - [Tracker](obsidian://show-plugin?id=obsidian-tracker)
@@ -810,7 +821,12 @@ After following the traditional [installation section above](#installation), the
 
 ### Settings
 
-`todo`
+BHOV-2023 has set up numerous settings, but the important ones are as follows:
+
+- Default View for New Tabs - Reading View (this is great for tables and Markdown format heavy files, but Live Preview works well too)
+- Attachment Folder Path = `Private/Attachments` - BHOV-2023 tries to stay local first whenever possible so automatically inserted images will be put into the Private folder
+- CSS Snippets; dataview table overflow - A CSS snippet that allows for horizontal scrolling of long Dataview tables
+- 
 
 ### After You're Up and Running
 
