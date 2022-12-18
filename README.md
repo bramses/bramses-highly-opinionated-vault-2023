@@ -12,7 +12,7 @@ linter-yaml-title-alias: README
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
 
-What you'll see in this repo is a **highly opinionated, unapologetic** way to use Obsidian. Note that this is not the *only* way to use Obsidian, nor is it the *correct* way. But it is a way that **works well**, especially once you understand the [philosophies](#Philosophies) behind it.
+What you'll see in this repo is a **highly opinionated, unapologetic** way to use [the knwoledge base application Obsidian](https://obsidian.md/). Note that this is not the *only* way to use Obsidian, nor is it the *correct* way. But it is a way that **works well**, especially once you understand the [philosophies](#Philosophies) behind it.
 
 Some of these techniques may be familiar to you, others may be novel due to the *idiosyncracies about how my own mind works*. I'll do my best to explain all of my philosophies and lived experience in the creation of this vault. Some techniques, processes and plugins are built into the platform. Other techniques leverage powerful external softwares to greatly enhance the Obsidian experience. I'll argue for those as they come as well as provide potential alternatives.
 
