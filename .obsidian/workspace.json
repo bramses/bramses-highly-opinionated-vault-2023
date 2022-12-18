@@ -20,18 +20,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "289964d5c7bc1a10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readwise-Example/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -102,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b2837026535a9eaa",
@@ -216,7 +203,7 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "c102a50492c64997",
+  "active": "885911e69901227d",
   "lastOpenFiles": [
     "Readwise-Example/Articles Test/The Ancient Japanese Technique That Produces Lumber Without Cutting Trees.md",
     "README.md",
