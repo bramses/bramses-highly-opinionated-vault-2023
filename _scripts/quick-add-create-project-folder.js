@@ -59,7 +59,7 @@ where contains(projects, "${userInput.replace(/ /g, "-")}")
 \`\`\`
 < % *
 const dv = this.app.plugins.plugins["dataview"].api ;
-const arr = await dv.queryMarkdown(\`LIST where contains(projects, "${userInput}")\`)
+const arr = await dv.queryMarkdown('LIST where contains(projects, "${userInput.replace(/ /g, "-")}")')
 tR += arr.value
 % >
 \`\`\`\n\n`
