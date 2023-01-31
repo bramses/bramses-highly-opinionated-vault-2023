@@ -281,7 +281,7 @@ We can ease the "writers' block" of deciding which notes to upkeep by leveraging
 
 The side benefit of all this work is that it publishable! Since a garden is a collection of linked and curated thoughts, a published garden serves as a public utility similar to maintained gardens in the real world. 
 
-Visitors can meander around [your thought garden](https://publish.obsidian.md/bram), stopping to marvel at the hydrangeas, or beelining straight for the mini pagoda and water feature in the corner.
+Visitors can meander around [your thought garden](https://www.bramadams.dev), stopping to marvel at the hydrangeas, or beelining straight for the mini pagoda and water feature in the corner.
 
 Later, we'll address how to separate private and public, but for now, assume any note that you do the work to Zettelkasten-ize, will eventually have some sort of public value.
 
@@ -417,7 +417,7 @@ Fortunately for us, we have a whole databank of really good thoughts to pull fro
 
 A **content management system** makes the process of posting easier taking care of boilerplate, formatting, serving to readers, etc. The most popular example is Wordpress, though many tools like Ghost/Substack serve similar roles these days.
 
-Obsidian can also be used as a full e2e CMS. I know because I built one into Obsidian! The plugins required to make a full CMS are outside the scope of BHOV-2023, but if you'd like to see the code that powers my Obsidian backed CMS you can click [here](https://github.com/bramses/kaneki) and [here](https://github.com/bramses/kaneki-obsidian), or if you want a deep dive on the process of building a CMS into Obsidian, click [here](https://www.bramadams.dev/projects/how-to-kaneki).
+Obsidian can also be used as a full e2e CMS. I know because I built one into Obsidian! The plugins required to make a full CMS are outside the scope of BHOV-2023, but if you'd like to see the code that powers my Obsidian backed CMS you can click [here](https://github.com/bramses/kaneki) and [here](https://github.com/bramses/kaneki-obsidian), or if you want a deep dive on the process of building a CMS into Obsidian, click [here](https://www.bramadams.dev/). If you use [Ghost](https://ghost.org) as a CMS, I also wrote a fork of the Obsidian Ghost Publish [here](https://github.com/bramses/obsidian-ghost-publish)
 
 Plugins:
 
@@ -700,7 +700,7 @@ GitHub is a hosting service for code, in BHOV-2023 we use it to store snapshots 
 
 ### Publish
 
-[Publish](https://obsidian.md/publish) is another official Obsidian paid service that allows you to share your vault on a [public URL](https://publish.obsidian.md/bram).
+[Publish](https://obsidian.md/publish) is another official Obsidian paid service that allows you to share your vault on a [public URL](https://www.bramadams.dev).
 
 ### Shortcuts
 
