@@ -20,7 +20,7 @@ Some of these techniques may be familiar to you, others may be novel due to the 
 
 By following this guide and leveraging this template, I can promise that you'll be able to evolve from possibly never having used Obsidian to **being up to date with the way I think about using this phenomenal software**. If you are a current Obsidian user, I promise you'll come away with a few new tricks and theories to integrate into your own vault, or perhaps help you full pivot into this strategy. I hope you enjoy and have fun!!
 
-*NB: This guide is **really** long, so don't be afraid to use the [Table of Contents feature in the top left corner of the README](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/).
+*NB: This guide is **really** long, so don't be afraid to use the [Table of Contents feature in the top right corner of the README](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/).
 
 ## Motivation
 
