@@ -8,6 +8,10 @@ linter-yaml-title-alias: README
 ---
 # README
 
+*Check out my newest work in Personal Library Science, [Your Commonbase](https://github.com/your-commonbase/commonbase/tree/main).*
+
+*My work on YCB is heavily inspired by what I thought about in BHOV-2023!!*
+
 ## Introduction
 
 Welcome to **Bramses' Highly Opinionated Vault 2023**! Thanks for checking it out.
